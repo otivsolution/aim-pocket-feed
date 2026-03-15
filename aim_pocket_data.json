@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T21:51:59",
+  "generated_at": "2026-03-15T22:19:03",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -39,8 +39,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-15T21:26:39",
-        "price_last_updated_at": "2026-03-15 19:48:48"
+        "model_last_computed_at": "2026-03-15T22:13:35",
+        "price_last_updated_at": "2026-03-15 21:51:48"
       }
     },
     {
@@ -228,7 +228,7 @@
         "confidence_label": null,
         "freshness_label": null,
         "model_last_computed_at": null,
-        "price_last_updated_at": "2026-03-15 21:51:48"
+        "price_last_updated_at": "2026-03-15 22:15:28"
       }
     },
     {
@@ -237,38 +237,78 @@
       "price": 22.57999992370605,
       "fair_value": 19.37575400592937,
       "mos": -16.537399869941154,
-      "irr": -8.144280964493634,
-      "terminal_pe_irr": 1.0412909390570269,
-      "verdict": "AVOID",
+      "irr": -4.973465368292073,
+      "terminal_pe_irr": 4.529188094878744,
+      "verdict": "SPECULATIVE",
       "pillar_scores": {
-        "quality": 29.0,
-        "profitability": 31.0,
-        "capital_allocation": 54.83,
+        "quality": 39.36,
+        "profitability": 38.5,
+        "capital_allocation": 60.0,
         "financial_health": 68.75
       },
-      "valuation_state": "Risky",
+      "valuation_state": "Expensive",
       "why": [
-        "Revenue volatility",
-        "Revenue persistence",
         "Gross margin",
-        "CAPEX / Revenue",
-        "FCF / Capital"
+        "ROIC 5Y std",
+        "Revenue volatility",
+        "FCF / Capital",
+        "Net debt / EBITDA"
       ],
       "risks": [
         "Margin compression resistance",
         "ROIC persistence",
         "Operating margin",
         "Operating margin stability 5Y",
-        "Net margin"
+        "ROIC spread"
       ],
       "meta": {
-        "sector_mode": "TECH",
-        "aim_verdict_score": 42.63165244444445,
+        "sector_mode": "CONSUMER",
+        "aim_verdict_score": 64.0799804152415,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-15T21:51:59",
+        "model_last_computed_at": "2026-03-15T21:54:40",
         "price_last_updated_at": "2026-03-15 21:51:48"
+      }
+    },
+    {
+      "ticker": "LYB",
+      "company": "LyondellBasell Industries N.V.",
+      "price": 72.30000305175781,
+      "fair_value": 49.83128251105032,
+      "mos": -45.08958912651897,
+      "irr": -11.667352003269894,
+      "terminal_pe_irr": -2.834087203596869,
+      "verdict": "AVOID",
+      "pillar_scores": {
+        "quality": 19.95,
+        "profitability": 33.83,
+        "capital_allocation": 42.9,
+        "financial_health": 48.08
+      },
+      "valuation_state": "Risky",
+      "why": [
+        "Revenue persistence",
+        "Gross margin",
+        "Operating margin stability 5Y",
+        "Capital turnover",
+        "Working capital"
+      ],
+      "risks": [
+        "Margin compression resistance",
+        "ROIC persistence",
+        "Operating margin",
+        "ROIC spread",
+        "Net margin"
+      ],
+      "meta": {
+        "sector_mode": "INDUSTRIAL",
+        "aim_verdict_score": 31.366862174378895,
+        "confidence_score": 100.0,
+        "confidence_label": "High",
+        "freshness_label": "Fresh",
+        "model_last_computed_at": "2026-03-15T22:19:03",
+        "price_last_updated_at": "2026-03-15 22:15:28"
       }
     },
     {
@@ -416,7 +456,7 @@
         "confidence_label": null,
         "freshness_label": null,
         "model_last_computed_at": null,
-        "price_last_updated_at": "2026-03-15 21:51:48"
+        "price_last_updated_at": "2026-03-15 22:15:28"
       }
     },
     {
