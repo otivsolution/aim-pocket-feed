@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T18:28:36",
+  "generated_at": "2026-03-17T18:49:58",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -368,11 +368,11 @@
       "price": 71.6500015258789,
       "fair_value": 43.050443435179545,
       "mos": -66.43266783944122,
-      "irr": -15.392265504020008,
-      "terminal_pe_irr": -6.931492054422006,
+      "irr": -15.617224032499234,
+      "terminal_pe_irr": -7.178946435749145,
       "verdict": "AVOID",
       "business_score_synt": 42.64083333333333,
-      "investor_score_synt": 42.92953858332031,
+      "investor_score_synt": 42.88215916231107,
       "market_score_synt": 28.900000000000006,
       "verdict_synt": "AVOID",
       "confidence_synt": "High",
@@ -399,11 +399,11 @@
       ],
       "meta": {
         "sector_mode": "INDUSTRIAL",
-        "aim_verdict_score": 33.00814876666146,
+        "aim_verdict_score": 32.98919699825777,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-17T18:28:36",
+        "model_last_computed_at": "2026-03-17T18:29:48",
         "price_last_updated_at": "2026-03-17 18:28:32"
       }
     },
@@ -588,45 +588,48 @@
       }
     },
     {
-      "ticker": "SAP",
+      "ticker": "SAP.DE",
       "company": "SAP SE",
-      "price": 189.94000244140625,
-      "fair_value": 75.54755999999998,
-      "mos": -151.41778561929243,
-      "irr": -26.458130187868424,
-      "terminal_pe_irr": -19.10394320665526,
-      "verdict": "SPECULATIVE",
-      "business_score_synt": 79.94248785389486,
-      "investor_score_synt": 59.03293777445871,
-      "market_score_synt": 28.099999999999994,
-      "verdict_synt": "SPECULATIVE",
+      "price": 166.24000549316406,
+      "fair_value": 173.61728264434674,
+      "mos": 4.249160589786997,
+      "irr": 1.4578846766979403,
+      "terminal_pe_irr": 11.603673144367743,
+      "verdict": "BUY",
+      "business_score_synt": 78.61756357670224,
+      "investor_score_synt": 75.53087003702939,
+      "market_score_synt": 79.3,
+      "verdict_synt": "BUY",
       "confidence_synt": "High",
       "pillar_scores": {
-        "quality": 62.07,
-        "profitability": 89.81,
-        "capital_allocation": 90.0,
-        "financial_health": null
+        "quality": 74.48,
+        "profitability": 79.0,
+        "capital_allocation": 71.62,
+        "financial_health": 96.83
       },
-      "valuation_state": "Near Target",
+      "valuation_state": "Attractive",
       "why": [
         "Revenue persistence",
         "Margin compression resistance",
-        "Operating margin",
-        "ROE",
+        "ROIC 5Y std",
+        "Gross margin",
         "Operating margin trend 3Y"
       ],
       "risks": [
-        "Price / Book",
-        "Market Implied Growth"
+        "Gross margin stability",
+        "ROIC spread",
+        "Growth efficiency",
+        "Reinvestment rate",
+        "PEG Ratio"
       ],
       "meta": {
-        "sector_mode": "FINANCIAL",
-        "aim_verdict_score": 61.21017025134143,
+        "sector_mode": "TECH",
+        "aim_verdict_score": 77.51937344549265,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-16T01:05:55",
-        "price_last_updated_at": "2026-03-15 22:42:44"
+        "model_last_computed_at": "2026-03-17T18:49:58",
+        "price_last_updated_at": "2026-03-17 18:41:32"
       }
     }
   ]
