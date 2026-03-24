@@ -1,5 +1,7 @@
 {
-  "generated_at": "2026-03-25T00:12:48",
+  "schema_version": 2,
+  "feed_tier": "pro",
+  "generated_at": "2026-03-25T00:21:36",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -17,6 +19,9 @@
       "market_score_synt": 65.8,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 50.0,
         "profitability": 49.0,
@@ -44,7 +49,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:46",
+        "model_last_computed_at": "2026-03-25T00:16:21",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -62,6 +67,112 @@
       "market_score_synt": 75.6,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": {
+        "score": 58.9,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 10.45,
+            "unit": "pct",
+            "contribution": 20.9
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 1.24,
+            "unit": "pct",
+            "contribution": 15.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 74.51,
+            "unit": "score",
+            "contribution": 14.9
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 80.91,
+            "unit": "score",
+            "contribution": 8.1
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 75.6,
+        "rating": "OK",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -45.42,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "OK",
+            "value": 0.95,
+            "unit": "ratio",
+            "message": "Current valuation sits within the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "OK",
+            "value": 1.52,
+            "unit": "ratio",
+            "message": "Valuation appears broadly aligned with expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "OK",
+            "value": 2.04,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a modest valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "OK",
+            "value": 10.45,
+            "unit": "pct",
+            "message": "Current price offers attractive IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 39.3,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 50.0
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 1.3
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": null
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
       "pillar_scores": {
         "quality": 71.54938474159147,
         "profitability": 64.20833333333334,
@@ -89,7 +200,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:40",
+        "model_last_computed_at": "2026-03-25T00:21:28",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -107,6 +218,9 @@
       "market_score_synt": 58.5,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 71.54415504511896,
         "profitability": 69.0,
@@ -134,7 +248,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:39",
+        "model_last_computed_at": "2026-03-25T00:16:13",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -152,6 +266,9 @@
       "market_score_synt": 65.3,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 50.0,
         "profitability": 93.82352941176471,
@@ -177,7 +294,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:43",
+        "model_last_computed_at": "2026-03-25T00:16:18",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -195,6 +312,9 @@
       "market_score_synt": 23.0,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 50.0,
         "profitability": 69.0,
@@ -222,7 +342,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:41",
+        "model_last_computed_at": "2026-03-25T00:17:58",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -240,6 +360,9 @@
       "market_score_synt": 56.4,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 30.306150217706822,
         "profitability": 36.70833333333333,
@@ -267,7 +390,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:44",
+        "model_last_computed_at": "2026-03-25T00:16:19",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -285,6 +408,9 @@
       "market_score_synt": 61.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 89.01886792452831,
         "profitability": 94.5,
@@ -311,7 +437,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:42",
+        "model_last_computed_at": "2026-03-25T00:17:48",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -329,6 +455,9 @@
       "market_score_synt": 18.0,
       "verdict_synt": "AVOID",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 20.51826758147513,
         "profitability": 23.125,
@@ -355,7 +484,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:40",
+        "model_last_computed_at": "2026-03-25T00:16:14",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -373,6 +502,9 @@
       "market_score_synt": 62.2,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 36.40458595387841,
         "profitability": 35.875,
@@ -400,7 +532,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:42",
+        "model_last_computed_at": "2026-03-25T00:16:17",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -418,6 +550,9 @@
       "market_score_synt": 67.8,
       "verdict_synt": "AVOID",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 24.62454351795496,
         "profitability": 37.0,
@@ -445,7 +580,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:43",
+        "model_last_computed_at": "2026-03-25T00:16:18",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -463,6 +598,9 @@
       "market_score_synt": 68.0,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 88.03929450369156,
         "profitability": 91.41666666666667,
@@ -490,7 +628,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:41",
+        "model_last_computed_at": "2026-03-25T00:16:15",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -508,6 +646,9 @@
       "market_score_synt": 73.2,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 90.47735849056603,
         "profitability": 98.25,
@@ -535,7 +676,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:37",
+        "model_last_computed_at": "2026-03-25T00:16:11",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -553,6 +694,9 @@
       "market_score_synt": 69.2,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 81.22009844134536,
         "profitability": 94.125,
@@ -580,7 +724,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:38",
+        "model_last_computed_at": "2026-03-25T00:16:12",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -598,6 +742,9 @@
       "market_score_synt": 61.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 54.14232180293501,
         "profitability": 61.08333333333333,
@@ -625,7 +772,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:46",
+        "model_last_computed_at": "2026-03-25T00:16:20",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -643,6 +790,9 @@
       "market_score_synt": 79.3,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 87.44103773584905,
         "profitability": 94.5,
@@ -670,7 +820,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:38",
+        "model_last_computed_at": "2026-03-25T00:16:13",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -688,6 +838,9 @@
       "market_score_synt": 76.1,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 72.61082854799015,
         "profitability": 77.33333333333333,
@@ -715,7 +868,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:45",
+        "model_last_computed_at": "2026-03-25T00:16:19",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -733,6 +886,9 @@
       "market_score_synt": 86.1,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 50.0,
         "profitability": 49.0,
@@ -760,7 +916,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:47",
+        "model_last_computed_at": "2026-03-25T00:16:22",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     },
@@ -778,6 +934,9 @@
       "market_score_synt": 23.0,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
+      "composite": null,
+      "market_valuation": null,
+      "gqs": null,
       "pillar_scores": {
         "quality": 50.0,
         "profitability": 69.0,
@@ -805,7 +964,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T00:12:47",
+        "model_last_computed_at": "2026-03-25T00:16:21",
         "price_last_updated_at": "2026-03-24 23:49:11"
       }
     }
