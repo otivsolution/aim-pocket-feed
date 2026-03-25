@@ -1,7 +1,5 @@
 {
-  "schema_version": 2,
-  "feed_tier": "pro",
-  "generated_at": "2026-03-25T15:27:08",
+  "generated_at": "2026-03-25T15:53:09",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -13,146 +11,42 @@
       "mos": 11.685326993240599,
       "irr": 4.229113724850775,
       "terminal_pe_irr": 14.652025097335875,
-      "verdict": "WATCHLIST",
-      "business_score_synt": 59.96875000000001,
-      "investor_score_synt": 71.98204432056608,
+      "verdict": "AVOID",
+      "business_score_synt": 47.018750000000004,
+      "investor_score_synt": 51.05537765389941,
       "market_score_synt": 62.0,
-      "verdict_synt": "WATCHLIST",
+      "checklist_score": 44.62965106155976,
+      "checklist_final": "AVOID",
+      "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 60.8,
-        "rating": "Selective opportunity",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 14.65,
-            "unit": "pct",
-            "contribution": 29.3
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 13.23,
-            "unit": "pct",
-            "contribution": 24.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 74.58,
-            "unit": "score",
-            "contribution": 7.5
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 62.0,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "OK",
-            "value": -2.1,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 0.88,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "BAD",
-            "value": 4.08,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 3.05,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "OK",
-            "value": 14.65,
-            "unit": "pct",
-            "message": "Current price offers attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 61.3,
-        "rating": "WARNING",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 72.3
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 45.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.7
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 50.0,
-        "profitability": 49.0,
-        "capital_allocation": 79.875,
+        "quality": 49.0,
+        "profitability": 29.0,
+        "capital_allocation": 46.875,
         "financial_health": 78.625
       },
-      "valuation_state": "Watch",
+      "valuation_state": "Risky",
       "why": [
-        "Operating margin stability",
-        "Gross margin stability",
         "Revenue persistence",
-        "Operating margin stability 5Y",
-        "ROIC"
+        "ROIC 5Y avg",
+        "ROIC persistence",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Gross margin",
-        "ROIC 5Y std",
-        "Operating margin",
-        "Net margin",
-        "Growth efficiency"
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin trend 3Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 65.18031772822644,
+        "aim_verdict_score": 44.62965106155976,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:06",
+        "model_last_computed_at": "2026-03-25T15:53:07",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -165,145 +59,41 @@
       "irr": 0.4132122305284369,
       "terminal_pe_irr": 10.454533453581295,
       "verdict": "WATCHLIST",
-      "business_score_synt": 74.02978465955702,
-      "investor_score_synt": 74.44382674902272,
+      "business_score_synt": 75.67879409351929,
+      "investor_score_synt": 71.86369467355102,
       "market_score_synt": 75.6,
+      "checklist_score": 74.13699550682813,
+      "checklist_final": "WATCHLIST",
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
-      "composite": {
-        "score": 44.0,
-        "rating": "Neutral",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 10.45,
-            "unit": "pct",
-            "contribution": 20.9
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 1.24,
-            "unit": "pct",
-            "contribution": 15.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 80.91,
-            "unit": "score",
-            "contribution": 8.1
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 75.6,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -45.42,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 0.95,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "OK",
-            "value": 1.52,
-            "unit": "ratio",
-            "message": "Valuation appears broadly aligned with expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 2.04,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "OK",
-            "value": 10.45,
-            "unit": "pct",
-            "message": "Current price offers attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 39.3,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 50.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 1.3
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.7
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 71.54938474159147,
-        "profitability": 64.20833333333334,
+        "quality": 89.29655455291223,
+        "profitability": 49.0,
         "capital_allocation": 75.875,
         "financial_health": 97.0
       },
       "valuation_state": "Attractive",
       "why": [
         "Revenue CAGR",
-        "Gross margin stability",
         "Revenue persistence",
-        "Operating margin trend 3Y",
-        "ROIC"
+        "Margin compression resistance",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
+        "Operating margin stability",
+        "Gross margin stability",
         "ROIC 5Y std",
-        "Operating margin",
-        "ROE",
-        "ROIC spread",
-        "Growth efficiency"
+        "Operating margin stability 5Y",
+        "ROE"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 74.5094445634319,
+        "aim_verdict_score": 74.13699550682813,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:26:59",
+        "model_last_computed_at": "2026-03-25T15:53:00",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -315,146 +105,42 @@
       "mos": -8.065209524545164,
       "irr": -2.5523508137854978,
       "terminal_pe_irr": 7.192414104835954,
-      "verdict": "WATCHLIST",
-      "business_score_synt": 67.77170426579164,
-      "investor_score_synt": 68.73020433006181,
+      "verdict": "AVOID",
+      "business_score_synt": 46.481249999999996,
+      "investor_score_synt": 43.89147709462292,
       "market_score_synt": 58.5,
-      "verdict_synt": "WATCHLIST",
+      "checklist_score": 40.84909083784917,
+      "checklist_final": "AVOID",
+      "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 26.7,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 7.19,
-            "unit": "pct",
-            "contribution": 14.4
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -7.46,
-            "unit": "pct",
-            "contribution": 6.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 62.7,
-            "unit": "score",
-            "contribution": 6.3
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 58.5,
-        "rating": "WARNING",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -30.45,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "GOOD",
-            "value": 0.63,
-            "unit": "ratio",
-            "message": "Current valuation sits below the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "OK",
-            "value": 1.31,
-            "unit": "ratio",
-            "message": "Valuation appears broadly aligned with expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "BAD",
-            "value": 0.35,
-            "unit": "pct",
-            "message": "Free cash flow yield provides limited valuation support."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": 7.19,
-            "unit": "pct",
-            "message": "Current price offers weak IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 57.2,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 77.9
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 61.7
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 32.0
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 71.54415504511896,
-        "profitability": 69.0,
-        "capital_allocation": 57.625,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 35.625,
         "financial_health": 70.04166666666666
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Risky",
       "why": [
         "Revenue persistence",
         "Margin compression resistance",
-        "Operating margin stability",
-        "Operating margin trend 3Y",
-        "Operating margin stability 5Y"
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Revenue/EBIT divergence",
-        "Operating margin",
-        "NOPAT margin",
+        "ROIC adj",
         "ROIC spread",
-        "Growth efficiency"
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 66.30076343834139,
+        "aim_verdict_score": 40.84909083784917,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:26:58",
+        "model_last_computed_at": "2026-03-25T15:53:00",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -467,144 +153,39 @@
       "irr": -4.915255296616672,
       "terminal_pe_irr": 4.593219173721685,
       "verdict": "WATCHLIST",
-      "business_score_synt": 72.03676470588235,
-      "investor_score_synt": 69.41042707377676,
+      "business_score_synt": 81.33455882352942,
+      "investor_score_synt": 70.65013295612971,
       "market_score_synt": 65.3,
+      "checklist_score": 73.85387671186365,
+      "checklist_final": "WATCHLIST",
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
-      "composite": {
-        "score": 13.4,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 4.59,
-            "unit": "pct",
-            "contribution": 9.2
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -14.03,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 41.67,
-            "unit": "score",
-            "contribution": 4.2
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 65.3,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -0.02,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 0.97,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "N/A",
-            "value": null,
-            "unit": "ratio",
-            "message": "Not applicable for FINANCE sector."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "GOOD",
-            "value": 46.88,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a strong valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": 4.59,
-            "unit": "pct",
-            "message": "Current price offers very low IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 53.0,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 59.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 100.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 0.0
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 38.0,
-        "profitability": 79.70588235294117,
-        "capital_allocation": 57.5,
+        "quality": 50.0,
+        "profitability": 93.82352941176471,
+        "capital_allocation": 71.25,
         "financial_health": 100.0
       },
       "valuation_state": "Expensive",
       "why": [
         "Revenue persistence",
         "Operating margin",
-        "Revenue volatility",
+        "ROA",
         "NIM",
         "Net margin"
       ],
       "risks": [
-        "ROA",
         "ROE spread",
         "Loan growth",
         "Deposit growth"
       ],
       "meta": {
         "sector_mode": "FINANCIAL",
-        "aim_verdict_score": 69.63887671186365,
+        "aim_verdict_score": 73.85387671186365,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:03",
+        "model_last_computed_at": "2026-03-25T15:53:04",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -617,145 +198,41 @@
       "irr": -9.57801712626285,
       "terminal_pe_irr": -0.5358188388891238,
       "verdict": "SPECULATIVE",
-      "business_score_synt": 70.77083333333333,
-      "investor_score_synt": 58.41477777777777,
+      "business_score_synt": 83.26741352201257,
+      "investor_score_synt": 60.08098846960168,
       "market_score_synt": 23.0,
+      "checklist_score": 61.93936079664571,
+      "checklist_final": "SPECULATIVE",
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 4.0,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": -0.54,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -26.07,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 39.84,
-            "unit": "score",
-            "contribution": 4.0
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 23.0,
-        "rating": "BAD",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "BAD",
-            "value": 9.68,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations above analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "WARNING",
-            "value": 1.32,
-            "unit": "ratio",
-            "message": "Current valuation sits above the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "BAD",
-            "value": 4.75,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "WARNING",
-            "value": 1.81,
-            "unit": "pct",
-            "message": "Free cash flow yield provides limited valuation support."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": -0.54,
-            "unit": "pct",
-            "message": "Current price implies negative IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 74.5,
-        "rating": "WARNING",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 72.2
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 51.3
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 100.0
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 50.0,
-        "profitability": 69.0,
+        "quality": 82.48860062893083,
+        "profitability": 80.0,
         "capital_allocation": 80.75,
         "financial_health": 91.66666666666666
       },
       "valuation_state": "Expensive",
       "why": [
-        "Operating margin stability",
-        "Gross margin stability",
         "Margin compression resistance",
-        "ROIC",
-        "Operating margin stability 5Y"
+        "ROIC spread",
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Gross margin",
-        "Operating margin",
-        "Net margin",
-        "Reinvestment rate",
-        "CAPEX / Revenue"
+        "Operating margin stability",
+        "Gross margin stability",
+        "ROIC 5Y std",
+        "Operating margin stability 5Y",
+        "Net margin"
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 56.27424444444444,
+        "aim_verdict_score": 61.93936079664571,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:01",
+        "model_last_computed_at": "2026-03-25T15:53:02",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -768,145 +245,41 @@
       "irr": 3.081699915499736,
       "terminal_pe_irr": 13.389869907049711,
       "verdict": "SPECULATIVE",
-      "business_score_synt": 43.60392839864538,
-      "investor_score_synt": 68.1373295128777,
+      "business_score_synt": 57.848751209482344,
+      "investor_score_synt": 70.03663922098929,
       "market_score_synt": 56.4,
+      "checklist_score": 62.43415617218866,
+      "checklist_final": "SPECULATIVE",
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 55.0,
-        "rating": "Neutral",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 13.39,
-            "unit": "pct",
-            "contribution": 26.8
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 9.53,
-            "unit": "pct",
-            "contribution": 19.5
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 86.78,
-            "unit": "score",
-            "contribution": 8.7
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 56.4,
-        "rating": "WARNING",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -68.31,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "GOOD",
-            "value": 0.73,
-            "unit": "ratio",
-            "message": "Current valuation sits below the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "BAD",
-            "value": 3.19,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "WARNING",
-            "value": 1.57,
-            "unit": "pct",
-            "message": "Free cash flow yield provides limited valuation support."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "OK",
-            "value": 13.39,
-            "unit": "pct",
-            "message": "Current price offers attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 50.4,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 92.6
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 58.7
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 0.0
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 29.506150217706825,
-        "profitability": 36.70833333333333,
-        "capital_allocation": 44.3,
+        "quality": 49.35694847605225,
+        "profitability": 54.16666666666667,
+        "capital_allocation": 60.0,
         "financial_health": 72.5
       },
       "valuation_state": "Near Target",
       "why": [
-        "Operating margin stability",
-        "Gross margin stability",
-        "Revenue persistence",
-        "Operating margin trend 3Y",
-        "Operating margin stability 5Y"
+        "Gross margin",
+        "Operating margin",
+        "ROA",
+        "ROIC",
+        "FCF / Capital"
       ],
       "risks": [
         "ROIC spread",
         "ROIC 5Y avg",
         "ROIC persistence",
-        "Operating margin",
-        "ROIC"
+        "Operating margin stability 5Y",
+        "Net margin"
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 55.976503164609234,
+        "aim_verdict_score": 62.43415617218866,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:04",
+        "model_last_computed_at": "2026-03-25T15:53:05",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -918,145 +291,42 @@
       "mos": -26.538672094766586,
       "irr": -7.546027623349582,
       "terminal_pe_irr": 1.6993696143154713,
-      "verdict": "WATCHLIST",
-      "business_score_synt": 89.55910377358491,
-      "investor_score_synt": 64.20837906696211,
+      "verdict": "AVOID",
+      "business_score_synt": 51.2625,
+      "investor_score_synt": 39.102165230484125,
       "market_score_synt": 61.2,
-      "verdict_synt": "WATCHLIST",
+      "checklist_score": 41.38586609219366,
+      "checklist_final": "AVOID",
+      "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 7.8,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 1.7,
-            "unit": "pct",
-            "contribution": 3.4
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -20.97,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 43.88,
-            "unit": "score",
-            "contribution": 4.4
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 61.2,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "OK",
-            "value": -4.78,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 1.09,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "OK",
-            "value": 1.6,
-            "unit": "ratio",
-            "message": "Valuation appears broadly aligned with expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 2.08,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": 1.7,
-            "unit": "pct",
-            "message": "Current price offers very low IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 78.1,
-        "rating": "OK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 79.6
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 88.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.7
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 89.01886792452831,
-        "profitability": 94.5,
-        "capital_allocation": 80.7,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 42.5,
         "financial_health": 92.75
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Risky",
       "why": [
-        "Operating margin stability",
-        "Gross margin stability",
         "Revenue persistence",
-        "ROIC",
-        "Operating margin trend 3Y"
+        "Margin compression resistance",
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Growth efficiency",
-        "CAPEX / Revenue",
-        "EV / NOPAT",
-        "Price / Sales"
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 73.7469931362188,
+        "aim_verdict_score": 41.38586609219366,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:02",
+        "model_last_computed_at": "2026-03-25T15:53:03",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1069,144 +339,41 @@
       "irr": -11.1638857438218,
       "terminal_pe_irr": -2.2802743182039675,
       "verdict": "AVOID",
-      "business_score_synt": 26.573893653516297,
-      "investor_score_synt": 34.67281545009847,
+      "business_score_synt": 27.472808747855918,
+      "investor_score_synt": 34.79267079601042,
       "market_score_synt": 18.0,
+      "checklist_score": 21.506191817546537,
+      "checklist_final": "AVOID",
       "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 6.0,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": -2.28,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -29.89,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 60.0,
-            "unit": "score",
-            "contribution": 6.0
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 18.0,
-        "rating": "BAD",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "BAD",
-            "value": 787.51,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations above analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "BAD",
-            "value": 623.02,
-            "unit": "ratio",
-            "message": "Current valuation sits well above the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "N/A",
-            "value": null,
-            "unit": "ratio",
-            "message": "PEG signal is not available."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "Earnings yield",
-            "status": "BAD",
-            "value": 0.01,
-            "unit": "pct",
-            "message": "Earnings yield provides limited valuation support."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": -2.28,
-            "unit": "pct",
-            "message": "Current price implies negative IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 18.1,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 50.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 0.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 4.4
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 20.51826758147513,
-        "profitability": 23.125,
+        "quality": 21.693739279588335,
+        "profitability": 24.75,
         "capital_allocation": 28.525,
         "financial_health": 45.0
       },
       "valuation_state": "Risky",
       "why": [
         "Revenue persistence",
+        "Gross margin",
         "Balance sheet flexibility",
         "Net debt / FCF",
         "Debt payback years"
       ],
       "risks": [
         "Margin compression resistance",
+        "ROIC adj",
         "ROIC spread",
         "Operating margin",
-        "ROIC",
-        "Gross margin"
+        "ROIC"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 21.09868364144591,
+        "aim_verdict_score": 21.506191817546537,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:26:59",
+        "model_last_computed_at": "2026-03-25T15:53:01",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1219,145 +386,41 @@
       "irr": -3.137173165105578,
       "terminal_pe_irr": 1.898327294411084,
       "verdict": "SPECULATIVE",
-      "business_score_synt": 48.64012578616352,
-      "investor_score_synt": 64.70457874005393,
+      "business_score_synt": 58.97405660377358,
+      "investor_score_synt": 66.08243618240195,
       "market_score_synt": 62.2,
+      "checklist_score": 62.46259711447021,
+      "checklist_final": "SPECULATIVE",
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 4.6,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 1.9,
-            "unit": "pct",
-            "contribution": 3.8
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -31.79,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 7.89,
-            "unit": "score",
-            "contribution": 0.8
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 62.2,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "N/A",
-            "value": null,
-            "unit": "pct",
-            "message": "Expectations signal is not available."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "N/A",
-            "value": null,
-            "unit": "ratio",
-            "message": "P/E regime signal is not available."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "N/A",
-            "value": null,
-            "unit": "ratio",
-            "message": "PEG signal is not available."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "GOOD",
-            "value": 14.31,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a strong valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": 6.55,
-            "unit": "pct",
-            "message": "Current price offers weak IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 19.1,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 50.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 0.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 7.2
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 36.40458595387841,
-        "profitability": 35.875,
-        "capital_allocation": 60.0,
+        "quality": 48.17046645702306,
+        "profitability": 52.666666666666664,
+        "capital_allocation": 70.425,
         "financial_health": 68.75
       },
       "valuation_state": "Expensive",
       "why": [
-        "Gross margin stability",
-        "ROIC 5Y std",
-        "Revenue volatility",
-        "FCF / Capital",
-        "Net debt / EBITDA"
+        "ROIC adj",
+        "ROIC spread",
+        "ROIC 5Y avg",
+        "Gross margin",
+        "ROIC"
       ],
       "risks": [
         "Margin compression resistance",
         "ROIC persistence",
         "Operating margin",
-        "Operating margin stability 5Y",
-        "ROIC spread"
+        "Net margin",
+        "ROA"
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 57.77788181048699,
+        "aim_verdict_score": 62.46259711447021,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:02",
+        "model_last_computed_at": "2026-03-25T15:53:03",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1370,145 +433,41 @@
       "irr": 195.99525572085673,
       "terminal_pe_irr": 225.59478129294246,
       "verdict": "AVOID",
-      "business_score_synt": 41.14696921282207,
-      "investor_score_synt": 57.713535288982335,
+      "business_score_synt": 35.1450630544643,
+      "investor_score_synt": 56.91328113453463,
       "market_score_synt": 67.8,
+      "checklist_score": 43.38333767559958,
+      "checklist_final": "AVOID",
       "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 78.0,
-        "rating": "Selective opportunity",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 225.59,
-            "unit": "pct",
-            "contribution": 40.0
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 2493.31,
-            "unit": "pct",
-            "contribution": 30.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 80.0,
-            "unit": "score",
-            "contribution": 8.0
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 67.8,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "N/A",
-            "value": null,
-            "unit": "pct",
-            "message": "Expectations signal is not available."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "N/A",
-            "value": null,
-            "unit": "ratio",
-            "message": "P/E regime signal is not available."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "N/A",
-            "value": null,
-            "unit": "ratio",
-            "message": "PEG signal is not available."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "WARNING",
-            "value": 1.57,
-            "unit": "pct",
-            "message": "Free cash flow yield provides limited valuation support."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "GOOD",
-            "value": 225.59,
-            "unit": "pct",
-            "message": "Current price offers very attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 10.1,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 0.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 9.6
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 20.9
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 24.62454351795496,
-        "profitability": 37.0,
-        "capital_allocation": 51.9,
+        "quality": 27.216918884523874,
+        "profitability": 24.75,
+        "capital_allocation": 37.9,
         "financial_health": 48.08333333333333
       },
       "valuation_state": "Risky",
       "why": [
         "Revenue persistence",
-        "Gross margin stability",
-        "Operating margin stability 5Y",
+        "ROIC 5Y avg",
+        "Gross margin",
         "Capital turnover",
         "Working capital"
       ],
       "risks": [
         "Margin compression resistance",
-        "ROIC persistence",
+        "ROIC adj",
+        "ROIC spread",
         "Operating margin",
-        "Net margin",
-        "ROIC spread"
+        "ROIC"
       ],
       "meta": {
         "sector_mode": "INDUSTRIAL",
-        "aim_verdict_score": 46.10420180072177,
+        "aim_verdict_score": 43.38333767559958,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:03",
+        "model_last_computed_at": "2026-03-25T15:53:04",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1520,146 +479,42 @@
       "mos": 5.960855904025477,
       "irr": 2.069764033645516,
       "terminal_pe_irr": 12.27674043701008,
-      "verdict": "BUY",
-      "business_score_synt": 86.68125307629207,
-      "investor_score_synt": 74.4056629584951,
+      "verdict": "AVOID",
+      "business_score_synt": 49.892500000000005,
+      "investor_score_synt": 46.33382921498949,
       "market_score_synt": 68.0,
-      "verdict_synt": "BUY",
+      "checklist_score": 45.090531685995806,
+      "checklist_final": "AVOID",
+      "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 50.0,
-        "rating": "Neutral",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 12.28,
-            "unit": "pct",
-            "contribution": 24.6
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 6.34,
-            "unit": "pct",
-            "contribution": 19.5
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 59.39,
-            "unit": "score",
-            "contribution": 5.9
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 68.0,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "OK",
-            "value": -2.91,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 1.0,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "WARNING",
-            "value": 2.15,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 3.11,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "OK",
-            "value": 12.28,
-            "unit": "pct",
-            "message": "Current price offers attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 69.7,
-        "rating": "WARNING",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 80.9
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 61.5
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.7
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 88.03929450369156,
-        "profitability": 91.41666666666667,
-        "capital_allocation": 75.525,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 38.525,
         "financial_health": 88.91666666666666
       },
-      "valuation_state": "Attractive",
+      "valuation_state": "Risky",
       "why": [
-        "Gross margin stability",
         "Revenue persistence",
         "Margin compression resistance",
+        "ROIC 5Y avg",
         "Gross margin",
         "Operating margin"
       ],
       "risks": [
-        "Growth efficiency",
-        "CAPEX / Revenue",
-        "PEG Ratio",
-        "EV / NOPAT",
-        "Price / Sales"
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 78.03476641391487,
+        "aim_verdict_score": 45.090531685995806,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:00",
+        "model_last_computed_at": "2026-03-25T15:53:01",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1671,146 +526,42 @@
       "mos": 8.927450584880853,
       "irr": 3.16621611742518,
       "terminal_pe_irr": 13.482837729167718,
-      "verdict": "BUY",
-      "business_score_synt": 90.95707547169812,
-      "investor_score_synt": 77.06123030032185,
+      "verdict": "AVOID",
+      "business_score_synt": 51.025,
+      "investor_score_synt": 49.736953570762104,
       "market_score_synt": 73.2,
-      "verdict_synt": "BUY",
+      "checklist_score": 47.94478142830484,
+      "checklist_final": "AVOID",
+      "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 54.0,
-        "rating": "Neutral",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 13.48,
-            "unit": "pct",
-            "contribution": 27.0
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 9.8,
-            "unit": "pct",
-            "contribution": 19.5
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 75.61,
-            "unit": "score",
-            "contribution": 7.6
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 73.2,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -11.77,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "GOOD",
-            "value": 0.77,
-            "unit": "ratio",
-            "message": "Current valuation sits below the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "WARNING",
-            "value": 2.9,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 2.81,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "OK",
-            "value": 13.48,
-            "unit": "pct",
-            "message": "Current price offers attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 81.3,
-        "rating": "OK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 78.5
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 98.7
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.7
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 90.47735849056603,
-        "profitability": 98.25,
-        "capital_allocation": 78.825,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 40.625,
         "financial_health": 93.66666666666667
       },
-      "valuation_state": "Attractive",
+      "valuation_state": "Risky",
       "why": [
-        "Operating margin stability",
-        "Gross margin stability",
         "Revenue persistence",
-        "Operating margin",
-        "ROIC"
+        "Margin compression resistance",
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Growth efficiency",
-        "CAPEX / Revenue",
-        "PEG Ratio",
-        "EV / NOPAT",
-        "Price / Sales"
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 81.84732230880799,
+        "aim_verdict_score": 47.94478142830484,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:26:56",
+        "model_last_computed_at": "2026-03-25T15:52:57",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1822,146 +573,42 @@
       "mos": -6.447313450626449,
       "irr": -2.061127877949198,
       "terminal_pe_irr": 7.732759334255901,
-      "verdict": "BUY",
-      "business_score_synt": 86.24953445447089,
-      "investor_score_synt": 67.00134041639768,
+      "verdict": "AVOID",
+      "business_score_synt": 50.235,
+      "investor_score_synt": 42.19940248913491,
       "market_score_synt": 69.2,
-      "verdict_synt": "BUY",
+      "checklist_score": 43.813760995653965,
+      "checklist_final": "AVOID",
+      "verdict_synt": "AVOID",
       "confidence_synt": "High",
-      "composite": {
-        "score": 28.4,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 7.73,
-            "unit": "pct",
-            "contribution": 15.5
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -6.06,
-            "unit": "pct",
-            "contribution": 6.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 69.39,
-            "unit": "score",
-            "contribution": 6.9
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 69.2,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -14.98,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 0.86,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "OK",
-            "value": 1.91,
-            "unit": "ratio",
-            "message": "Valuation appears broadly aligned with expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 2.48,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": 7.73,
-            "unit": "pct",
-            "message": "Current price offers weak IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 79.4,
-        "rating": "OK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 77.7
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 83.4
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 77.0
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 81.22009844134536,
-        "profitability": 94.125,
-        "capital_allocation": 85.3,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 44.3,
         "financial_health": 83.5
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Risky",
       "why": [
         "Revenue persistence",
         "Margin compression resistance",
-        "ROIC adj",
-        "ROIC",
-        "Operating margin trend 3Y"
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Growth efficiency",
-        "Working capital / Revenue",
-        "PEG Ratio",
-        "EV / NOPAT",
-        "Price / Sales"
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 75.14034994834743,
+        "aim_verdict_score": 43.813760995653965,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:26:57",
+        "model_last_computed_at": "2026-03-25T15:52:58",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -1973,146 +620,42 @@
       "mos": -4.315299976614403,
       "irr": -1.3983922853526676,
       "terminal_pe_irr": 8.461768486112087,
-      "verdict": "WATCHLIST",
-      "business_score_synt": 69.55727987421383,
-      "investor_score_synt": 65.57577557952507,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 54.54375,
+      "investor_score_synt": 63.57397159629656,
       "market_score_synt": 61.2,
-      "verdict_synt": "WATCHLIST",
+      "checklist_score": 59.48708863851863,
+      "checklist_final": "SPECULATIVE",
+      "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 32.6,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 8.46,
-            "unit": "pct",
-            "contribution": 16.9
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -4.14,
-            "unit": "pct",
-            "contribution": 10.5
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 51.32,
-            "unit": "score",
-            "contribution": 5.1
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 61.2,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -1.5,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "OK",
-            "value": 1.0,
-            "unit": "ratio",
-            "message": "Current valuation sits within the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "BAD",
-            "value": 2.9,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 3.08,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "WARNING",
-            "value": 8.46,
-            "unit": "pct",
-            "message": "Current price offers acceptable IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 49.5,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 50.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 32.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.6
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 54.14232180293501,
-        "profitability": 61.08333333333333,
-        "capital_allocation": 84.525,
+        "quality": 50.0,
+        "profitability": 47.0,
+        "capital_allocation": 43.525,
         "financial_health": 84.5625
       },
       "valuation_state": "Near Target",
       "why": [
-        "Operating margin stability",
-        "Gross margin stability",
+        "ROIC 5Y avg",
         "ROIC persistence",
-        "Operating margin stability 5Y",
-        "Gross margin"
+        "Gross margin",
+        "Operating margin",
+        "ROA"
       ],
       "risks": [
-        "Operating margin",
-        "Margin compression resistance",
-        "EBIT CAGR",
-        "Net margin",
-        "NOPAT margin"
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin trend 3Y"
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 66.29322218149557,
+        "aim_verdict_score": 59.48708863851863,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:05",
+        "model_last_computed_at": "2026-03-25T15:53:06",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -2124,125 +667,21 @@
       "mos": 2.020505908356936,
       "irr": 0.6827190792547455,
       "terminal_pe_irr": 10.75099098718022,
-      "verdict": "BUY",
-      "business_score_synt": 91.19686320754718,
-      "investor_score_synt": 78.49791395993026,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 52.892500000000005,
+      "investor_score_synt": 51.39066553225728,
       "market_score_synt": 79.3,
-      "verdict_synt": "BUY",
+      "checklist_score": 50.573266212902915,
+      "checklist_final": "SPECULATIVE",
+      "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 44.7,
-        "rating": "Neutral",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 10.75,
-            "unit": "pct",
-            "contribution": 21.5
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 2.06,
-            "unit": "pct",
-            "contribution": 15.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 81.5,
-            "unit": "score",
-            "contribution": 8.2
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 79.3,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -44.17,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "GOOD",
-            "value": 0.69,
-            "unit": "ratio",
-            "message": "Current valuation sits below the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "GOOD",
-            "value": 0.92,
-            "unit": "ratio",
-            "message": "Valuation appears attractive relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "OK",
-            "value": 2.27,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a modest valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "OK",
-            "value": 10.75,
-            "unit": "pct",
-            "message": "Current price offers attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 61.1,
-        "rating": "WARNING",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 50.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 66.7
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 66.7
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 87.44103773584905,
-        "profitability": 94.5,
-        "capital_allocation": 88.65,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 47.65,
         "financial_health": 96.75
       },
-      "valuation_state": "Attractive",
+      "valuation_state": "Risky",
       "why": [
         "Revenue CAGR",
         "Revenue persistence",
@@ -2251,19 +690,19 @@
         "Operating margin"
       ],
       "risks": [
+        "ROIC adj",
+        "ROIC spread",
         "Revenue volatility",
-        "Operating margin stability",
-        "ROIC 5Y std",
-        "Operating margin stability 5Y",
-        "Growth efficiency"
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 83.73791086699099,
+        "aim_verdict_score": 50.573266212902915,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:26:58",
+        "model_last_computed_at": "2026-03-25T15:52:59",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -2275,146 +714,42 @@
       "mos": 14.190572817152608,
       "irr": 5.233738443183067,
       "terminal_pe_irr": 15.757112287501386,
-      "verdict": "BUY",
-      "business_score_synt": 77.46378999179656,
-      "investor_score_synt": 78.94150705777108,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 52.7,
+      "investor_score_synt": 53.639668392198196,
       "market_score_synt": 76.1,
-      "verdict_synt": "BUY",
+      "checklist_score": 50.75586735687928,
+      "checklist_final": "SPECULATIVE",
+      "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 63.5,
-        "rating": "Selective opportunity",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 15.76,
-            "unit": "pct",
-            "contribution": 31.5
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 16.54,
-            "unit": "pct",
-            "contribution": 24.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 79.99,
-            "unit": "score",
-            "contribution": 8.0
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 76.1,
-        "rating": "OK",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -16.29,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "GOOD",
-            "value": 0.72,
-            "unit": "ratio",
-            "message": "Current valuation sits below the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "WARNING",
-            "value": 2.28,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "GOOD",
-            "value": 4.71,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a strong valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "GOOD",
-            "value": 15.76,
-            "unit": "pct",
-            "message": "Current price offers very attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 59.7,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 70.2
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 63.6
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 45.2
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 72.61082854799015,
-        "profitability": 77.33333333333333,
-        "capital_allocation": 71.625,
+        "quality": 49.0,
+        "profitability": 39.0,
+        "capital_allocation": 46.625,
         "financial_health": 96.83333333333333
       },
-      "valuation_state": "Attractive",
+      "valuation_state": "Risky",
       "why": [
-        "Gross margin stability",
         "Revenue persistence",
         "Margin compression resistance",
+        "ROIC 5Y avg",
         "Gross margin",
-        "Operating margin trend 3Y"
+        "Operating margin"
       ],
       "risks": [
+        "ROIC adj",
         "ROIC spread",
-        "Growth efficiency",
-        "Reinvestment rate",
-        "PEG Ratio",
-        "EV / NOPAT"
+        "Operating margin stability",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 77.78211881982705,
+        "aim_verdict_score": 50.75586735687928,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:05",
+        "model_last_computed_at": "2026-03-25T15:53:06",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -2426,146 +761,42 @@
       "mos": 14.731615588713087,
       "irr": 5.45584481068051,
       "terminal_pe_irr": 16.001429291748572,
-      "verdict": "WATCHLIST",
-      "business_score_synt": 60.655000000000015,
-      "investor_score_synt": 79.20017875184092,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 48.50500000000001,
+      "investor_score_synt": 58.38017875184092,
       "market_score_synt": 86.1,
-      "verdict_synt": "WATCHLIST",
+      "checklist_score": 52.97407150073637,
+      "checklist_final": "SPECULATIVE",
+      "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 64.0,
-        "rating": "Selective opportunity",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": 16.0,
-            "unit": "pct",
-            "contribution": 32.0
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": 17.28,
-            "unit": "pct",
-            "contribution": 24.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 79.84,
-            "unit": "score",
-            "contribution": 8.0
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 86.1,
-        "rating": "GOOD",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "GOOD",
-            "value": -42.12,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations well below analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "GOOD",
-            "value": 0.58,
-            "unit": "ratio",
-            "message": "Current valuation sits below the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "GOOD",
-            "value": 0.86,
-            "unit": "ratio",
-            "message": "Valuation appears attractive relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "GOOD",
-            "value": 11.51,
-            "unit": "pct",
-            "message": "Free cash flow yield provides a strong valuation anchor."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "GOOD",
-            "value": 16.0,
-            "unit": "pct",
-            "message": "Current price offers very attractive IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 60.6,
-        "rating": "WARNING",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 50.0
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 57.3
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 74.6
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 50.0,
-        "profitability": 49.0,
-        "capital_allocation": 73.775,
+        "quality": 49.0,
+        "profitability": 29.0,
+        "capital_allocation": 44.775,
         "financial_health": 91.33333333333334
       },
-      "valuation_state": "Attractive",
+      "valuation_state": "Risky",
       "why": [
         "Revenue CAGR",
-        "Operating margin stability",
-        "Gross margin stability",
-        "Operating margin stability 5Y",
-        "ROIC"
+        "Revenue persistence",
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
-        "Gross margin",
+        "ROIC adj",
+        "ROIC spread",
         "Revenue volatility",
-        "Operating margin",
-        "Net margin",
-        "Growth efficiency"
+        "ROIC",
+        "Operating margin trend 3Y"
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 73.16207150073637,
+        "aim_verdict_score": 52.97407150073637,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:07",
+        "model_last_computed_at": "2026-03-25T15:53:08",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     },
@@ -2578,145 +809,41 @@
       "irr": -11.73691404520868,
       "terminal_pe_irr": -2.910605449729531,
       "verdict": "SPECULATIVE",
-      "business_score_synt": 67.72916666666667,
-      "investor_score_synt": 59.382222222222225,
+      "business_score_synt": 76.79166666666667,
+      "investor_score_synt": 60.590555555555554,
       "market_score_synt": 23.0,
+      "checklist_score": 59.552888888888894,
+      "checklist_final": "SPECULATIVE",
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
-      "composite": {
-        "score": 3.9,
-        "rating": "Weak risk/reward",
-        "components": [
-          {
-            "key": "irr",
-            "label": "IRR",
-            "input": -2.91,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "mos",
-            "label": "MOS",
-            "input": -31.24,
-            "unit": "pct",
-            "contribution": 0.0
-          },
-          {
-            "key": "checklist",
-            "label": "Checklist",
-            "input": null,
-            "unit": "score",
-            "contribution": 0.0
-          },
-          {
-            "key": "quant",
-            "label": "Quant",
-            "input": 39.2,
-            "unit": "score",
-            "contribution": 3.9
-          }
-        ]
-      },
-      "market_valuation": {
-        "score": 23.0,
-        "rating": "BAD",
-        "signals": [
-          {
-            "key": "expectations_gap_pp",
-            "label": "Expectations gap",
-            "status": "BAD",
-            "value": 9.52,
-            "unit": "pct",
-            "message": "Current price reflects growth expectations above analyst forecasts."
-          },
-          {
-            "key": "pe_vs_hist_ratio",
-            "label": "P/E regime",
-            "status": "WARNING",
-            "value": 1.3,
-            "unit": "ratio",
-            "message": "Current valuation sits above the company's historical P/E range."
-          },
-          {
-            "key": "peg_ratio",
-            "label": "PEG sanity",
-            "status": "BAD",
-            "value": 4.17,
-            "unit": "ratio",
-            "message": "Valuation appears stretched relative to expected earnings growth."
-          },
-          {
-            "key": "yield_sanity",
-            "label": "FCF yield",
-            "status": "WARNING",
-            "value": 1.53,
-            "unit": "pct",
-            "message": "Free cash flow yield provides limited valuation support."
-          },
-          {
-            "key": "implied_irr_pct",
-            "label": "Implied IRR",
-            "status": "BAD",
-            "value": -2.91,
-            "unit": "pct",
-            "message": "Current price implies negative IRR."
-          }
-        ]
-      },
-      "gqs": {
-        "score": 56.3,
-        "rating": "WEAK",
-        "pillars": [
-          {
-            "key": "revenue",
-            "label": "Revenue",
-            "score": 64.1
-          },
-          {
-            "key": "margin",
-            "label": "Margin",
-            "score": 49.0
-          },
-          {
-            "key": "buybacks",
-            "label": "Buybacks",
-            "score": null
-          },
-          {
-            "key": "roic",
-            "label": "ROIC",
-            "score": 55.9
-          }
-        ]
-      },
       "pillar_scores": {
-        "quality": 50.0,
-        "profitability": 69.0,
-        "capital_allocation": 83.9,
+        "quality": 60.0,
+        "profitability": 85.25,
+        "capital_allocation": 91.9,
         "financial_health": 72.52083333333333
       },
       "valuation_state": "Expensive",
       "why": [
-        "Operating margin stability",
         "Revenue persistence",
         "Margin compression resistance",
-        "Operating margin stability 5Y",
+        "ROIC spread",
+        "Operating margin",
         "ROIC"
       ],
       "risks": [
-        "Operating margin",
-        "Gross margin",
-        "EBIT CAGR",
-        "NOPAT margin",
-        "Cash ratio"
+        "Operating margin stability",
+        "ROIC 5Y std",
+        "Gross margin stability",
+        "Operating margin stability 5Y",
+        "NOPAT margin"
       ],
       "meta": {
         "sector_mode": "RETAIL",
-        "aim_verdict_score": 55.44455555555556,
+        "aim_verdict_score": 59.552888888888894,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-25T15:27:07",
+        "model_last_computed_at": "2026-03-25T15:53:07",
         "price_last_updated_at": "2026-03-25 12:45:42"
       }
     }
