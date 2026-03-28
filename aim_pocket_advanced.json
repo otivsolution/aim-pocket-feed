@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-29T00:00:19",
+  "generated_at": "2026-03-29T00:03:38",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1204,6 +1204,86 @@
         ]
       },
       "valuation_state": "Near Target"
+    },
+    {
+      "ticker": "NKEG",
+      "company": "NKEG",
+      "price": null,
+      "fair_value": 50.90157776108187,
+      "mos": null,
+      "terminal_pe_irr": -12.171304325863852,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 75.56941411206839,
+      "investor_score_synt": 65.1083533745357,
+      "market_score_synt": 23.5,
+      "dps": 1.57,
+      "net_debt": 502.0,
+      "pe_now": null,
+      "analyst_pe_fwd_3y": 30.76284541026655,
+      "market_cap_m": null,
+      "checklist_score": 60.971106994641644,
+      "checklist_final": "SPECULATIVE",
+      "composite": {
+        "score": 15.6,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": -12.17,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -49.1,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 60.97,
+            "unit": "score",
+            "contribution": 12.2
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 34.08,
+            "unit": "score",
+            "contribution": 3.4
+          }
+        ]
+      },
+      "gqs": {
+        "score": 47.5,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 52.4
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 36.9
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 30.5
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 70.2
+          }
+        ]
+      },
+      "valuation_state": "Watch"
     },
     {
       "ticker": "NVDA",
