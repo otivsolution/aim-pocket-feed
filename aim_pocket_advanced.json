@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-29T01:30:30",
+  "generated_at": "2026-03-29T01:33:52",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1284,6 +1284,86 @@
         ]
       },
       "valuation_state": "Attractive"
+    },
+    {
+      "ticker": "PEP",
+      "company": "PepsiCo, Inc.",
+      "price": 153.0399932861328,
+      "fair_value": 119.94740796393685,
+      "mos": -27.589245890286772,
+      "terminal_pe_irr": 1.4194680454648223,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 77.5707738095238,
+      "investor_score_synt": 65.58762798672713,
+      "market_score_synt": 64.2,
+      "dps": 5.6225,
+      "net_debt": 39652.0,
+      "pe_now": 25.5066655476888,
+      "analyst_pe_fwd_3y": 21.96575111203634,
+      "market_cap_m": 210123.91078186035,
+      "checklist_score": 70.10336071850038,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 20.2,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 1.42,
+            "unit": "pct",
+            "contribution": 2.8
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -21.62,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 70.1,
+            "unit": "score",
+            "contribution": 14.0
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 33.4,
+            "unit": "score",
+            "contribution": 3.3
+          }
+        ]
+      },
+      "gqs": {
+        "score": 57.2,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 60.7
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 50.0
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 47.1
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 71.0
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
     },
     {
       "ticker": "SAP.DE",
