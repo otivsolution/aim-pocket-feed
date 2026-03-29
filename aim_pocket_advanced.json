@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-29T23:47:08",
+  "generated_at": "2026-03-29T23:52:35",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -724,6 +724,86 @@
         ]
       },
       "valuation_state": "Near Target"
+    },
+    {
+      "ticker": "ETN",
+      "company": "Eaton Corporation plc",
+      "price": null,
+      "fair_value": 299.4740796393688,
+      "mos": null,
+      "terminal_pe_irr": 58.55469192339753,
+      "verdict": "BUY",
+      "business_score_synt": 83.1498799923195,
+      "investor_score_synt": 86.83505476781284,
+      "market_score_synt": 80.0,
+      "dps": 4.16,
+      "net_debt": 9729.0,
+      "pe_now": null,
+      "analyst_pe_fwd_3y": 25.47668577183947,
+      "market_cap_m": null,
+      "checklist_score": 83.99397390405294,
+      "checklist_final": "BUY",
+      "composite": {
+        "score": 93.1,
+        "rating": "Strong opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 58.55,
+            "unit": "pct",
+            "contribution": 40.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 199.47,
+            "unit": "pct",
+            "contribution": 30.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 83.99,
+            "unit": "score",
+            "contribution": 16.8
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 63.04,
+            "unit": "score",
+            "contribution": 6.3
+          }
+        ]
+      },
+      "gqs": {
+        "score": 64.2,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 71.9
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 94.6
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 43.1
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 47.2
+          }
+        ]
+      },
+      "valuation_state": "Watch"
     },
     {
       "ticker": "GOOGL",
