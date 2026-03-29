@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-29T01:43:58",
+  "generated_at": "2026-03-29T11:11:20",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -324,6 +324,86 @@
         ]
       },
       "valuation_state": "Near Target"
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
+      "price": 300.67999267578125,
+      "fair_value": 342.9752066115702,
+      "mos": 12.331857557181833,
+      "terminal_pe_irr": 15.229022002548366,
+      "verdict": "BUY",
+      "business_score_synt": 84.70437500000001,
+      "investor_score_synt": 79.13727573907572,
+      "market_score_synt": 71.9,
+      "dps": 2.42,
+      "net_debt": 50283.0,
+      "pe_now": 58.61208434225755,
+      "analyst_pe_fwd_3y": 27.67351620930658,
+      "market_cap_m": 1416804.1254882812,
+      "checklist_score": 79.9166602956303,
+      "checklist_final": "BUY",
+      "composite": {
+        "score": 79.5,
+        "rating": "Selective opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 15.23,
+            "unit": "pct",
+            "contribution": 30.5
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 14.95,
+            "unit": "pct",
+            "contribution": 24.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 79.92,
+            "unit": "score",
+            "contribution": 16.0
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 90.46,
+            "unit": "score",
+            "contribution": 9.0
+          }
+        ]
+      },
+      "gqs": {
+        "score": 69.8,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 75.4
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 66.7
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 85.4
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 52.0
+          }
+        ]
+      },
+      "valuation_state": "Attractive"
     },
     {
       "ticker": "BNP.PA",
