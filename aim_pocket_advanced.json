@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-29T16:58:55",
+  "generated_at": "2026-03-29T17:02:18",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1124,6 +1124,86 @@
         ]
       },
       "valuation_state": "Attractive"
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "price": 357.2200012207031,
+      "fair_value": 347.97145003756566,
+      "mos": -2.657847700476297,
+      "terminal_pe_irr": 9.042374539264042,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 59.26592391304348,
+      "investor_score_synt": 64.9467563988762,
+      "market_score_synt": 58.4,
+      "dps": 0.46,
+      "net_debt": 5710.0,
+      "pe_now": 71.44400024414062,
+      "analyst_pe_fwd_3y": 53.60532407407408,
+      "market_cap_m": 401872.501373291,
+      "checklist_score": 61.36507212476788,
+      "checklist_final": "SPECULATIVE",
+      "composite": {
+        "score": 47.9,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 9.04,
+            "unit": "pct",
+            "contribution": 18.1
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -2.59,
+            "unit": "pct",
+            "contribution": 10.5
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 61.37,
+            "unit": "score",
+            "contribution": 12.3
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 70.08,
+            "unit": "score",
+            "contribution": 7.0
+          }
+        ]
+      },
+      "gqs": {
+        "score": 23.9,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 19.4
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 28.2
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 46.5
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 1.6
+          }
+        ]
+      },
+      "valuation_state": "Near Target"
     },
     {
       "ticker": "NFLX",
