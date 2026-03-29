@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-03-29T01:43:58",
+  "generated_at": "2026-03-29T11:11:20",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -634,6 +634,164 @@
         "freshness_label": "Fresh",
         "model_last_computed_at": "2026-03-29T01:43:46",
         "price_last_updated_at": "2026-03-29 01:33:09"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
+      "price": 300.67999267578125,
+      "fair_value": 342.9752066115702,
+      "mos": 12.331857557181833,
+      "irr": 4.753656365953063,
+      "terminal_pe_irr": 15.229022002548366,
+      "verdict": "BUY",
+      "business_score_synt": 84.70437500000001,
+      "investor_score_synt": 79.13727573907572,
+      "market_score_synt": 71.9,
+      "verdict_synt": "BUY",
+      "confidence_synt": "High",
+      "dps": 2.42,
+      "net_debt": 50283.0,
+      "pe_now": 58.61208434225755,
+      "analyst_pe_fwd_3y": 27.67351620930658,
+      "market_cap_m": 1416804.1254882812,
+      "checklist_score": 79.9166602956303,
+      "checklist_final": "BUY",
+      "composite": {
+        "score": 79.5,
+        "rating": "Selective opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 15.23,
+            "unit": "pct",
+            "contribution": 30.5
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 14.95,
+            "unit": "pct",
+            "contribution": 24.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 79.92,
+            "unit": "score",
+            "contribution": 16.0
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 90.46,
+            "unit": "score",
+            "contribution": 9.0
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 71.9,
+        "rating": "OK",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -42.37,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "BAD",
+            "value": 1.71,
+            "unit": "ratio",
+            "message": "Current valuation sits well above the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "GOOD",
+            "value": 1.05,
+            "unit": "ratio",
+            "message": "Valuation appears attractive relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "WARNING",
+            "value": 1.91,
+            "unit": "pct",
+            "message": "Free cash flow yield provides limited valuation support."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "GOOD",
+            "value": 15.23,
+            "unit": "pct",
+            "message": "Current price offers very attractive IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 69.8,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 75.4
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 66.7
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 85.4
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 52.0
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 91.04285714285713,
+        "profitability": 87.41666666666667,
+        "capital_allocation": 73.525,
+        "financial_health": 79.39583333333333
+      },
+      "valuation_state": "Attractive",
+      "why": [
+        "Revenue CAGR",
+        "Operating margin",
+        "Gross margin",
+        "ROIC",
+        "R&D / Revenue"
+      ],
+      "risks": [
+        "Revenue volatility",
+        "Growth efficiency",
+        "Capital turnover",
+        "Reinvestment rate",
+        "Balance sheet flexibility"
+      ],
+      "meta": {
+        "sector_mode": "TECH",
+        "aim_verdict_score": 79.9166602956303,
+        "confidence_score": 100.0,
+        "confidence_label": "High",
+        "freshness_label": "Fresh",
+        "model_last_computed_at": "2026-03-29T11:11:10",
+        "price_last_updated_at": "2026-03-29 11:11:04"
       }
     },
     {
@@ -2367,7 +2525,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-29T01:43:54",
+        "model_last_computed_at": "2026-03-29T10:45:43",
         "price_last_updated_at": "2026-03-29 01:33:09"
       }
     },
