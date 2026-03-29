@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-30T00:57:11",
+  "generated_at": "2026-03-30T01:02:33",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -2084,6 +2084,86 @@
         ]
       },
       "valuation_state": "Expensive"
+    },
+    {
+      "ticker": "V",
+      "company": "Visa Inc.",
+      "price": null,
+      "fair_value": 285.1615326821938,
+      "mos": null,
+      "terminal_pe_irr": 55.98745242054619,
+      "verdict": "BUY",
+      "business_score_synt": 83.64062500000001,
+      "investor_score_synt": 82.67211538461538,
+      "market_score_synt": 80.0,
+      "dps": 2.44,
+      "net_debt": 7921.0,
+      "pe_now": null,
+      "analyst_pe_fwd_3y": 25.03005596450215,
+      "market_cap_m": null,
+      "checklist_score": 82.52509615384616,
+      "checklist_final": "BUY",
+      "composite": {
+        "score": 92.5,
+        "rating": "Strong opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 55.99,
+            "unit": "pct",
+            "contribution": 40.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 185.16,
+            "unit": "pct",
+            "contribution": 30.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 82.53,
+            "unit": "score",
+            "contribution": 16.5
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 60.0,
+            "unit": "score",
+            "contribution": 6.0
+          }
+        ]
+      },
+      "gqs": {
+        "score": 59.7,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 83.7
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 66.7
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 5.8
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 82.7
+          }
+        ]
+      },
+      "valuation_state": "Watch"
     },
     {
       "ticker": "WMT",
