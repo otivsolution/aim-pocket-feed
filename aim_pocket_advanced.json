@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-29T20:48:16",
+  "generated_at": "2026-03-29T20:53:37",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1444,6 +1444,86 @@
         ]
       },
       "valuation_state": "Attractive"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
+      "price": null,
+      "fair_value": 178.24943651389924,
+      "mos": null,
+      "terminal_pe_irr": 33.373251936484614,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 63.55630434782609,
+      "investor_score_synt": 74.01645821311004,
+      "market_score_synt": 87.9,
+      "dps": 1.7,
+      "net_debt": 114133.0,
+      "pe_now": null,
+      "analyst_pe_fwd_3y": 23.92451631963495,
+      "market_cap_m": null,
+      "checklist_score": 72.60910502437446,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 92.6,
+        "rating": "Strong opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 33.37,
+            "unit": "pct",
+            "contribution": 40.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 78.25,
+            "unit": "pct",
+            "contribution": 30.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 72.61,
+            "unit": "score",
+            "contribution": 14.5
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 80.62,
+            "unit": "score",
+            "contribution": 8.1
+          }
+        ]
+      },
+      "gqs": {
+        "score": 54.9,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 72.8
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 54.1
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 36.8
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 55.7
+          }
+        ]
+      },
+      "valuation_state": "Watch"
     },
     {
       "ticker": "PEP",
