@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-30T00:47:09",
+  "generated_at": "2026-03-30T00:51:48",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -726,54 +726,134 @@
       "valuation_state": "Near Target"
     },
     {
-      "ticker": "ETN",
-      "company": "Eaton Corporation plc",
-      "price": 100.0,
-      "fair_value": 299.4740796393688,
-      "mos": 66.6081284495735,
-      "terminal_pe_irr": 58.55469192339753,
-      "verdict": "STRONG BUY",
-      "business_score_synt": 83.1498799923195,
-      "investor_score_synt": 90.49198399897594,
-      "market_score_synt": 80.0,
-      "dps": 4.16,
-      "net_debt": 9729.0,
-      "pe_now": 9.569377990430622,
-      "analyst_pe_fwd_3y": 25.47668577183947,
-      "market_cap_m": 39100.0,
-      "checklist_score": 85.45674559651818,
-      "checklist_final": "STRONG BUY",
+      "ticker": "CSCO",
+      "company": "Cisco Systems, Inc.",
+      "price": 79.91999816894531,
+      "fair_value": 64.04958677685947,
+      "mos": -24.778319721837264,
+      "terminal_pe_irr": 2.17539079790523,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 67.51622282608697,
+      "investor_score_synt": 58.22160058958633,
+      "market_score_synt": 59.6,
+      "dps": 1.62,
+      "net_debt": 11983.0,
+      "pe_now": 28.748200780196157,
+      "analyst_pe_fwd_3y": 23.8759664240992,
+      "market_cap_m": 317761.91271972656,
+      "checklist_score": 62.21512936626932,
+      "checklist_final": "SPECULATIVE",
       "composite": {
-        "score": 93.4,
-        "rating": "Strong opportunity",
+        "score": 20.6,
+        "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 58.55,
+            "input": 2.18,
             "unit": "pct",
-            "contribution": 40.0
+            "contribution": 4.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 199.47,
+            "input": -19.86,
             "unit": "pct",
-            "contribution": 30.0
+            "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 85.46,
+            "input": 62.22,
             "unit": "score",
-            "contribution": 17.1
+            "contribution": 12.4
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 63.04,
+            "input": 38.27,
             "unit": "score",
-            "contribution": 6.3
+            "contribution": 3.8
+          }
+        ]
+      },
+      "gqs": {
+        "score": 56.4,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 58.2
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 65.5
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 35.1
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
+    },
+    {
+      "ticker": "ETN",
+      "company": "Eaton Corporation plc",
+      "price": 357.3599853515625,
+      "fair_value": 299.4740796393688,
+      "mos": -19.329187281216708,
+      "terminal_pe_irr": 3.7075698226332277,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 83.1498799923195,
+      "investor_score_synt": 62.73066928501146,
+      "market_score_synt": 50.2,
+      "dps": 4.16,
+      "net_debt": 9729.0,
+      "pe_now": 34.19712778483852,
+      "analyst_pe_fwd_3y": 25.47668577183947,
+      "market_cap_m": 139727.75427246094,
+      "checklist_score": 68.3922197109324,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 26.1,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 3.71,
+            "unit": "pct",
+            "contribution": 7.4
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -16.2,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 68.39,
+            "unit": "score",
+            "contribution": 13.7
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 50.46,
+            "unit": "score",
+            "contribution": 5.0
           }
         ]
       },
@@ -803,7 +883,7 @@
           }
         ]
       },
-      "valuation_state": "Attractive"
+      "valuation_state": "Expensive"
     },
     {
       "ticker": "GOOGL",
