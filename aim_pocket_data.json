@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-03-31T00:31:31",
+  "generated_at": "2026-03-31T00:40:26",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1116,8 +1116,8 @@
       "irr": 8.555216950661105,
       "terminal_pe_irr": 19.410738645727243,
       "verdict": "BUY",
-      "business_score_synt": 70.38055555555556,
-      "investor_score_synt": 82.36698074090677,
+      "business_score_synt": 67.51032986111112,
+      "investor_score_synt": 81.98428398164751,
       "market_score_synt": 87.2,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
@@ -1125,11 +1125,11 @@
       "net_debt": -366722.0,
       "pe_now": 7.863945400286231,
       "analyst_pe_fwd_3y": 10.68844092723795,
-      "market_cap_m": 89011.99798583984,
-      "checklist_score": 78.53901451858493,
+      "market_cap_m": 90549.4779510498,
+      "checklist_score": 77.23784553710345,
       "checklist_final": "BUY",
       "composite": {
-        "score": 90.2,
+        "score": 90.0,
         "rating": "Strong opportunity",
         "components": [
           {
@@ -1149,9 +1149,9 @@
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 78.54,
+            "input": 77.24,
             "unit": "score",
-            "contribution": 15.7
+            "contribution": 15.4
           },
           {
             "key": "quant",
@@ -1170,7 +1170,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -1.67,
+            "value": -0.98,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -1178,7 +1178,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.92,
+            "value": 0.94,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -1194,7 +1194,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "GOOD",
-            "value": 49.09,
+            "value": 48.26,
             "unit": "pct",
             "message": "Free cash flow yield provides a strong valuation anchor."
           },
@@ -1209,13 +1209,13 @@
         ]
       },
       "gqs": {
-        "score": 53.0,
+        "score": 48.8,
         "rating": "WEAK",
         "pillars": [
           {
             "key": "revenue",
             "label": "Revenue",
-            "score": 59.0
+            "score": 39.1
           },
           {
             "key": "margin",
@@ -1225,43 +1225,43 @@
           {
             "key": "buybacks",
             "label": "Buybacks",
-            "score": null
+            "score": 22.7
           },
           {
             "key": "roic",
             "label": "ROIC",
-            "score": 0.0
+            "score": 33.3
           }
         ]
       },
       "pillar_scores": {
-        "quality": 65.0,
-        "profitability": 54.35185185185185,
-        "capital_allocation": 60.50000000000001,
-        "financial_health": 95.83333333333334
+        "quality": 59.046875,
+        "profitability": 55.370370370370374,
+        "capital_allocation": 59.5,
+        "financial_health": 90.70833333333334
       },
       "valuation_state": "Attractive",
       "why": [
         "Revenue persistence",
-        "ROIC 5Y std",
-        "ROIC persistence",
-        "NIM",
-        "Cost / Income to NIM"
+        "EBIT persistence",
+        "Operating margin",
+        "CET1 to NPL",
+        "Tier 1 to NPL"
       ],
       "risks": [
+        "NIM",
         "ROA",
-        "NIM to NPL",
-        "CET1 to NPL",
+        "Cost / Income to NIM",
         "Loan growth",
         "Deposit growth"
       ],
       "meta": {
         "sector_mode": "FINANCIAL",
-        "aim_verdict_score": 78.53901451858493,
+        "aim_verdict_score": 77.23784553710345,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-31T00:31:06",
+        "model_last_computed_at": "2026-03-31T00:40:11",
         "price_last_updated_at": "2026-03-31 00:30:54"
       }
     },
