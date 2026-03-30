@@ -1,60 +1,60 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-03-30T16:04:11",
+  "generated_at": "2026-03-30T21:27:04",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
     {
       "ticker": "AAPL",
       "company": "Apple Inc.",
-      "price": 247.91000366210935,
+      "price": 246.1199951171875,
       "fair_value": 204.16979714500368,
-      "mos": -21.42344613588506,
-      "irr": -6.265568764777251,
-      "terminal_pe_irr": 3.107874358745022,
+      "mos": -20.546720699531438,
+      "irr": -6.038876759511302,
+      "terminal_pe_irr": 3.357235564537575,
       "verdict": "WATCHLIST",
       "business_score_synt": 87.53750000000001,
-      "investor_score_synt": 62.72509982899868,
+      "investor_score_synt": 62.791596150543356,
       "market_score_synt": 36.0,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 1.0,
       "net_debt": 43960.0,
-      "pe_now": 31.460660363211847,
+      "pe_now": 31.23350191842481,
       "analyst_pe_fwd_3y": 24.81137035742082,
-      "market_cap_m": 3644277.0538330073,
-      "checklist_score": 67.30503993159948,
+      "market_cap_m": 3617963.9282226562,
+      "checklist_score": 67.33163846021735,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 24.2,
+        "score": 24.7,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 3.11,
+            "input": 3.36,
             "unit": "pct",
-            "contribution": 6.2
+            "contribution": 6.7
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -17.64,
+            "input": -17.04,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 67.31,
+            "input": 67.33,
             "unit": "score",
             "contribution": 13.5
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 44.78,
+            "input": 45.27,
             "unit": "score",
             "contribution": 4.5
           }
@@ -68,7 +68,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "WARNING",
-            "value": 6.47,
+            "value": 6.19,
             "unit": "pct",
             "message": "Current price reflects growth expectations above analyst forecasts."
           },
@@ -76,7 +76,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "WARNING",
-            "value": 1.17,
+            "value": 1.16,
             "unit": "ratio",
             "message": "Current valuation sits above the company's historical P/E range."
           },
@@ -92,7 +92,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.71,
+            "value": 2.73,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -100,7 +100,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 3.11,
+            "value": 3.36,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -155,64 +155,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 67.30503993159948,
+        "aim_verdict_score": 67.33163846021735,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:48",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:48",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "ADBE",
       "company": "Adobe Inc.",
-      "price": 239.7700042724609,
+      "price": 240.26499938964844,
       "fair_value": 235.95041322314043,
-      "mos": -1.6188109175754049,
-      "irr": -0.5338525435179764,
-      "terminal_pe_irr": 9.412762202130232,
+      "mos": -1.8285986905340421,
+      "irr": -0.6022063858255655,
+      "terminal_pe_irr": 9.3375729755919,
       "verdict": "BUY",
       "business_score_synt": 90.36817934782609,
-      "investor_score_synt": 75.09782716694488,
+      "investor_score_synt": 75.07777670653465,
       "market_score_synt": 80.4,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": null,
       "net_debt": 1217.0,
-      "pe_now": 13.980758266615798,
+      "pe_now": 14.009620955664634,
       "analyst_pe_fwd_3y": 13.06906186466494,
-      "market_cap_m": 100367.72378845215,
-      "checklist_score": 82.2664026059084,
+      "market_cap_m": 100574.92874450685,
+      "checklist_score": 82.2583824217443,
       "checklist_final": "BUY",
       "composite": {
-        "score": 51.6,
+        "score": 51.4,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 9.41,
+            "input": 9.34,
             "unit": "pct",
-            "contribution": 18.8
+            "contribution": 18.7
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -1.59,
+            "input": -1.8,
             "unit": "pct",
             "contribution": 10.5
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 82.27,
+            "input": 82.26,
             "unit": "score",
             "contribution": 16.5
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 57.87,
+            "input": 57.72,
             "unit": "score",
             "contribution": 5.8
           }
@@ -226,7 +226,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -39.55,
+            "value": -39.5,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -250,7 +250,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "GOOD",
-            "value": 9.82,
+            "value": 9.8,
             "unit": "pct",
             "message": "Free cash flow yield provides a strong valuation anchor."
           },
@@ -258,7 +258,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "WARNING",
-            "value": 9.41,
+            "value": 9.34,
             "unit": "pct",
             "message": "Current price offers acceptable IRR."
           }
@@ -310,64 +310,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 82.2664026059084,
+        "aim_verdict_score": 82.2583824217443,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:58",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:54",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "AIR.PA",
       "company": "Airbus SE",
-      "price": 158.72000122070312,
+      "price": 159.17999267578125,
       "fair_value": 140.62416313255005,
-      "mos": -12.86822810891769,
-      "irr": -3.954704382520491,
-      "terminal_pe_irr": 13.333448828625816,
+      "mos": -13.195335090272343,
+      "irr": -4.047309488419626,
+      "terminal_pe_irr": 13.224174803664823,
       "verdict": "WATCHLIST",
       "business_score_synt": 79.92933179723502,
-      "investor_score_synt": 69.58349726059822,
+      "investor_score_synt": 69.55435752060862,
       "market_score_synt": 64.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 3.2,
       "net_debt": null,
-      "pe_now": 23.65424757387528,
+      "pe_now": 23.72280069683774,
       "analyst_pe_fwd_3y": 22.1747010981962,
-      "market_cap_m": 124944.3849609375,
-      "checklist_score": 72.6451316231333,
+      "market_cap_m": 125306.490234375,
+      "checklist_score": 72.63347572713747,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 48.4,
+        "score": 48.1,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 13.33,
+            "input": 13.22,
             "unit": "pct",
-            "contribution": 26.7
+            "contribution": 26.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -11.4,
+            "input": -11.66,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 72.65,
+            "input": 72.63,
             "unit": "score",
             "contribution": 14.5
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 71.95,
+            "input": 71.73,
             "unit": "score",
             "contribution": 7.2
           }
@@ -381,7 +381,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "OK",
-            "value": 3.43,
+            "value": 3.54,
             "unit": "pct",
             "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
           },
@@ -405,7 +405,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 3.23,
+            "value": 3.22,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -413,7 +413,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "OK",
-            "value": 13.33,
+            "value": 13.22,
             "unit": "pct",
             "message": "Current price offers attractive IRR."
           }
@@ -467,66 +467,66 @@
       ],
       "meta": {
         "sector_mode": "INDUSTRIAL",
-        "aim_verdict_score": 72.6451316231333,
+        "aim_verdict_score": 72.63347572713747,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:44",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:45",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
-      "price": 202.32000732421875,
+      "price": 193.41000366210935,
       "fair_value": 207.9263711495116,
-      "mos": 2.696321680746081,
-      "irr": 0.9152763904483496,
-      "terminal_pe_irr": 11.006804029493189,
+      "mos": 6.981494173706376,
+      "irr": 2.441724394579703,
+      "terminal_pe_irr": 12.685896834037692,
       "verdict": "BUY",
       "business_score_synt": 75.49420289855074,
-      "investor_score_synt": 75.13301801631451,
+      "investor_score_synt": 76.63475210037899,
       "market_score_synt": 75.6,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": null,
       "net_debt": -6705.0,
-      "pe_now": 76.34717257517688,
+      "pe_now": 72.98490704230542,
       "analyst_pe_fwd_3y": 30.1526142388936,
-      "market_cap_m": 323712.01171875,
-      "checklist_score": 75.3708883659461,
+      "market_cap_m": 309456.00585937494,
+      "checklist_score": 75.9715819995719,
       "checklist_final": "BUY",
       "composite": {
-        "score": 60.3,
+        "score": 68.6,
         "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 11.01,
+            "input": 12.69,
             "unit": "pct",
-            "contribution": 22.0
+            "contribution": 25.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 2.77,
+            "input": 7.51,
             "unit": "pct",
-            "contribution": 15.0
+            "contribution": 19.5
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 75.37,
+            "input": 75.97,
             "unit": "score",
-            "contribution": 15.1
+            "contribution": 15.2
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 82.01,
+            "input": 85.37,
             "unit": "score",
-            "contribution": 8.2
+            "contribution": 8.5
           }
         ]
       },
@@ -538,7 +538,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -45.96,
+            "value": -47.56,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -546,7 +546,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.94,
+            "value": 0.89,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -562,7 +562,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.07,
+            "value": 2.16,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -570,7 +570,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "OK",
-            "value": 11.01,
+            "value": 12.69,
             "unit": "pct",
             "message": "Current price offers attractive IRR."
           }
@@ -625,64 +625,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 75.3708883659461,
+        "aim_verdict_score": 75.9715819995719,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:29",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:34",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
-      "price": 201.6300048828125,
+      "price": 200.1699066162109,
       "fair_value": 208.3600330763899,
-      "mos": 3.2299995801546086,
-      "irr": 1.1004493110219116,
-      "terminal_pe_irr": 8.177480762793454,
+      "mos": 3.9307569399244078,
+      "irr": 1.3456728498535409,
+      "terminal_pe_irr": 8.439869949343294,
       "verdict": "WATCHLIST",
       "business_score_synt": 68.5686775362319,
-      "investor_score_synt": 73.76219479239398,
+      "investor_score_synt": 74.12847701822884,
       "market_score_synt": 63.5,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": null,
       "net_debt": 29958.0,
-      "pe_now": 28.12133959313982,
+      "pe_now": 27.9176996675329,
       "analyst_pe_fwd_3y": 21.83319062296151,
-      "market_cap_m": 2157441.0522460938,
-      "checklist_score": 69.63234893145037,
+      "market_cap_m": 2141818.0007934566,
+      "checklist_score": 69.7788618217843,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 51.7,
+        "score": 52.4,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 8.18,
+            "input": 8.44,
             "unit": "pct",
-            "contribution": 16.4
+            "contribution": 16.9
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 3.34,
+            "input": 4.09,
             "unit": "pct",
             "contribution": 15.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 69.63,
+            "input": 69.78,
             "unit": "score",
-            "contribution": 13.9
+            "contribution": 14.0
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 64.67,
+            "input": 65.2,
             "unit": "score",
             "contribution": 6.5
           }
@@ -696,7 +696,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -33.85,
+            "value": -34.07,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -704,7 +704,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "GOOD",
-            "value": 0.61,
+            "value": 0.6,
             "unit": "ratio",
             "message": "Current valuation sits below the company's historical P/E range."
           },
@@ -728,7 +728,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "WARNING",
-            "value": 8.18,
+            "value": 8.44,
             "unit": "pct",
             "message": "Current price offers acceptable IRR."
           }
@@ -766,7 +766,7 @@
         "capital_allocation": 59.95833333333333,
         "financial_health": 70.04166666666666
       },
-      "valuation_state": "Watch",
+      "valuation_state": "Near Target",
       "why": [
         "Revenue CAGR",
         "Gross margin",
@@ -783,66 +783,66 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 69.63234893145037,
+        "aim_verdict_score": 69.7788618217843,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:27",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:33",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
-      "price": 295.4523010253906,
+      "price": 290.5350036621094,
       "fair_value": 342.9752066115702,
-      "mos": 13.856076086572836,
-      "irr": 5.097354279901034,
-      "terminal_pe_irr": 15.607089707891152,
+      "mos": 15.289794112975319,
+      "irr": 5.686963638809961,
+      "terminal_pe_irr": 16.255660002690963,
       "verdict": "BUY",
       "business_score_synt": 85.57937500000001,
-      "investor_score_synt": 79.59207568679787,
+      "investor_score_synt": 80.1721389894197,
       "market_score_synt": 71.9,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": 2.42,
       "net_debt": 50283.0,
-      "pe_now": 57.593041135553726,
+      "pe_now": 56.63450363783809,
       "analyst_pe_fwd_3y": 27.67351620930658,
-      "market_cap_m": 1392171.2424316406,
-      "checklist_score": 80.44858027471915,
+      "market_cap_m": 1369000.9372558594,
+      "checklist_score": 80.68060559576787,
       "checklist_final": "BUY",
       "composite": {
-        "score": 80.4,
+        "score": 81.9,
         "rating": "Strong opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 15.61,
+            "input": 16.26,
             "unit": "pct",
-            "contribution": 31.2
+            "contribution": 32.5
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 16.08,
+            "input": 18.05,
             "unit": "pct",
             "contribution": 24.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 80.45,
+            "input": 80.68,
             "unit": "score",
             "contribution": 16.1
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 91.21,
+            "input": 92.51,
             "unit": "score",
-            "contribution": 9.1
+            "contribution": 9.3
           }
         ]
       },
@@ -854,7 +854,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -42.8,
+            "value": -43.53,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -862,7 +862,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "BAD",
-            "value": 1.7,
+            "value": 1.67,
             "unit": "ratio",
             "message": "Current valuation sits well above the company's historical P/E range."
           },
@@ -878,7 +878,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "WARNING",
-            "value": 1.93,
+            "value": 1.97,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -886,7 +886,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "GOOD",
-            "value": 15.61,
+            "value": 16.26,
             "unit": "pct",
             "message": "Current price offers very attractive IRR."
           }
@@ -941,64 +941,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 80.44858027471915,
+        "aim_verdict_score": 80.68060559576787,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:51",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:50",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "BNP.PA",
       "company": "BNP Paribas SA",
-      "price": 80.41999816894531,
+      "price": 80.91999816894531,
       "fair_value": 72.83996994740794,
-      "mos": -10.406413164379835,
-      "irr": -3.246080713251842,
-      "terminal_pe_irr": 6.429311215422984,
+      "mos": -11.092849471754771,
+      "irr": -3.445771534118214,
+      "terminal_pe_irr": 6.209651312469977,
       "verdict": "WATCHLIST",
       "business_score_synt": 75.825,
-      "investor_score_synt": 70.40514965744612,
+      "investor_score_synt": 70.34657368332532,
       "market_score_synt": 71.6,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 5.2,
       "net_debt": -366722.0,
-      "pe_now": 7.815354535368836,
+      "pe_now": 7.863945400286231,
       "analyst_pe_fwd_3y": 7.52100982647887,
-      "market_cap_m": 88461.99798583984,
-      "checklist_score": 72.81205986297846,
+      "market_cap_m": 89011.99798583984,
+      "checklist_score": 72.78862947333013,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 38.0,
+        "score": 37.5,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 6.43,
+            "input": 6.21,
             "unit": "pct",
-            "contribution": 12.9
+            "contribution": 12.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -9.43,
+            "input": -9.99,
             "unit": "pct",
             "contribution": 6.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 72.81,
+            "input": 72.79,
             "unit": "score",
             "contribution": 14.6
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 45.34,
+            "input": 44.9,
             "unit": "score",
             "contribution": 4.5
           }
@@ -1012,7 +1012,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -1.9,
+            "value": -1.67,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -1036,7 +1036,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "GOOD",
-            "value": 49.4,
+            "value": 49.09,
             "unit": "pct",
             "message": "Free cash flow yield provides a strong valuation anchor."
           },
@@ -1044,7 +1044,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 6.43,
+            "value": 6.21,
             "unit": "pct",
             "message": "Current price offers weak IRR."
           }
@@ -1098,22 +1098,22 @@
       ],
       "meta": {
         "sector_mode": "FINANCIAL",
-        "aim_verdict_score": 72.81205986297846,
+        "aim_verdict_score": 72.78862947333013,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:38",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:41",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "CAT",
       "company": "Caterpillar Inc.",
-      "price": 678.0250244140625,
+      "price": 665.6099853515625,
       "fair_value": 487.0773854244928,
-      "mos": -39.202731373610575,
-      "irr": -10.439313397090789,
-      "terminal_pe_irr": -1.4832447367998602,
+      "mos": -36.65384706199751,
+      "irr": -9.885907694599794,
+      "terminal_pe_irr": -0.8744984640597586,
       "verdict": "SPECULATIVE",
       "business_score_synt": 81.0105001920123,
       "investor_score_synt": 60.75706669226831,
@@ -1122,9 +1122,9 @@
       "confidence_synt": "High",
       "dps": 5.94,
       "net_debt": 33350.0,
-      "pe_now": 36.04598747549508,
+      "pe_now": 35.38596413352273,
       "analyst_pe_fwd_3y": 19.79658796578305,
-      "market_cap_m": 320027.8115234375,
+      "market_cap_m": 314167.9130859375,
       "checklist_score": 62.02702675371224,
       "checklist_final": "SPECULATIVE",
       "composite": {
@@ -1134,14 +1134,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -1.48,
+            "input": -0.87,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -28.16,
+            "input": -26.82,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -1169,7 +1169,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "BAD",
-            "value": 21.38,
+            "value": 20.52,
             "unit": "pct",
             "message": "Current price reflects growth expectations above analyst forecasts."
           },
@@ -1177,7 +1177,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "BAD",
-            "value": 2.06,
+            "value": 2.02,
             "unit": "ratio",
             "message": "Current valuation sits well above the company's historical P/E range."
           },
@@ -1193,7 +1193,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "WARNING",
-            "value": 2.33,
+            "value": 2.37,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -1201,7 +1201,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -1.48,
+            "value": -0.87,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -1260,30 +1260,30 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:08",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:27:01",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "COST",
       "company": "Costco Wholesale Corporation",
-      "price": 993.27001953125,
+      "price": 993.7000122070312,
       "fair_value": 776.2584522915098,
-      "mos": -27.956097173450868,
-      "irr": -7.888680216986732,
-      "terminal_pe_irr": 1.3224517613146025,
+      "mos": -28.011490151718853,
+      "irr": -7.901968233717483,
+      "terminal_pe_irr": 1.3078349429107794,
       "verdict": "SPECULATIVE",
       "business_score_synt": 76.47083333333333,
-      "investor_score_synt": 59.52743158079501,
+      "investor_score_synt": 59.52353376255398,
       "market_score_synt": 23.0,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
       "dps": 4.9,
       "net_debt": -7111.0,
-      "pe_now": 51.57165210442627,
+      "pe_now": 51.59397778852706,
       "analyst_pe_fwd_3y": 37.77714916695164,
-      "market_cap_m": 440713.9076660156,
-      "checklist_score": 58.99930596565134,
+      "market_cap_m": 440904.69541625975,
+      "checklist_score": 58.997746838354935,
       "checklist_final": "SPECULATIVE",
       "composite": {
         "score": 18.7,
@@ -1292,14 +1292,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": 1.32,
+            "input": 1.31,
             "unit": "pct",
             "contribution": 2.6
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -21.85,
+            "input": -21.88,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -1313,7 +1313,7 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 42.48,
+            "input": 42.46,
             "unit": "score",
             "contribution": 4.2
           }
@@ -1327,7 +1327,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "BAD",
-            "value": 10.48,
+            "value": 10.5,
             "unit": "pct",
             "message": "Current price reflects growth expectations above analyst forecasts."
           },
@@ -1359,7 +1359,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 1.32,
+            "value": 1.31,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -1414,66 +1414,66 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 58.99930596565134,
+        "aim_verdict_score": 58.997746838354935,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:33",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:37",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "CPNG",
       "company": "Coupang, Inc.",
-      "price": 18.024999618530277,
+      "price": 18.28499984741211,
       "fair_value": 20.285499624342595,
-      "mos": 11.143427806430356,
-      "irr": 4.016798227451401,
-      "terminal_pe_irr": 14.418478050196558,
+      "mos": 9.861722974423989,
+      "irr": 3.521426827424623,
+      "terminal_pe_irr": 13.873569510167073,
       "verdict": "SPECULATIVE",
       "business_score_synt": 45.27208333333333,
-      "investor_score_synt": 70.44637546249902,
+      "investor_score_synt": 69.95902436132981,
       "market_score_synt": 56.4,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
       "dps": 0.0,
       "net_debt": -1683.0,
-      "pe_now": 163.86363289572978,
+      "pe_now": 166.2272713401101,
       "analyst_pe_fwd_3y": 31.28797656629165,
-      "market_cap_m": 32444.9993133545,
-      "checklist_score": 57.567383518332946,
+      "market_cap_m": 32912.9997253418,
+      "checklist_score": 57.372443077865256,
       "checklist_final": "SPECULATIVE",
       "composite": {
-        "score": 73.2,
+        "score": 72.0,
         "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 14.42,
+            "input": 13.87,
             "unit": "pct",
-            "contribution": 28.8
+            "contribution": 27.7
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 12.54,
+            "input": 10.94,
             "unit": "pct",
             "contribution": 24.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 57.57,
+            "input": 57.37,
             "unit": "score",
             "contribution": 11.5
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 88.84,
+            "input": 87.75,
             "unit": "score",
-            "contribution": 8.9
+            "contribution": 8.8
           }
         ]
       },
@@ -1485,7 +1485,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -69.2,
+            "value": -68.73,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -1493,7 +1493,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "GOOD",
-            "value": 0.71,
+            "value": 0.72,
             "unit": "ratio",
             "message": "Current valuation sits below the company's historical P/E range."
           },
@@ -1509,7 +1509,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "WARNING",
-            "value": 1.61,
+            "value": 1.59,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -1517,7 +1517,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "OK",
-            "value": 14.42,
+            "value": 13.87,
             "unit": "pct",
             "message": "Current price offers attractive IRR."
           }
@@ -1572,66 +1572,66 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 57.567383518332946,
+        "aim_verdict_score": 57.372443077865256,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:40",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:42",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "CSCO",
       "company": "Cisco Systems, Inc.",
-      "price": 78.91999816894531,
+      "price": 76.67500305175781,
       "fair_value": 64.04958677685947,
-      "mos": -23.217029399256617,
-      "irr": -6.722602197250859,
-      "terminal_pe_irr": 2.605137583024053,
+      "mos": -19.71194024855097,
+      "irr": -5.820977882590395,
+      "terminal_pe_irr": 3.596924329150597,
       "verdict": "SPECULATIVE",
       "business_score_synt": 65.91622282608697,
-      "investor_score_synt": 58.122866398951345,
+      "investor_score_synt": 58.38734286458509,
       "market_score_synt": 59.6,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
       "dps": 1.62,
       "net_debt": 11983.0,
-      "pe_now": 28.38848854998033,
+      "pe_now": 27.580936349553173,
       "analyst_pe_fwd_3y": 23.8759664240992,
-      "market_cap_m": 313785.91271972656,
-      "checklist_score": 61.535635690015326,
+      "market_cap_m": 304859.81213378906,
+      "checklist_score": 61.641426276268824,
       "checklist_final": "SPECULATIVE",
       "composite": {
-        "score": 21.4,
+        "score": 23.6,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 2.61,
+            "input": 3.6,
             "unit": "pct",
-            "contribution": 5.2
+            "contribution": 7.2
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -18.84,
+            "input": -16.47,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 61.54,
+            "input": 61.64,
             "unit": "score",
             "contribution": 12.3
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 39.13,
+            "input": 41.11,
             "unit": "score",
-            "contribution": 3.9
+            "contribution": 4.1
           }
         ]
       },
@@ -1643,7 +1643,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "OK",
-            "value": 2.9,
+            "value": 1.66,
             "unit": "pct",
             "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
           },
@@ -1651,7 +1651,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "BAD",
-            "value": 1.64,
+            "value": 1.59,
             "unit": "ratio",
             "message": "Current valuation sits well above the company's historical P/E range."
           },
@@ -1667,7 +1667,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "GOOD",
-            "value": 4.23,
+            "value": 4.36,
             "unit": "pct",
             "message": "Free cash flow yield provides a strong valuation anchor."
           },
@@ -1675,7 +1675,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 2.61,
+            "value": 3.6,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -1730,66 +1730,66 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 61.535635690015326,
+        "aim_verdict_score": 61.641426276268824,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:01",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:57",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "ETN",
       "company": "Eaton Corporation plc",
-      "price": 348.7699890136719,
+      "price": 343.1099853515625,
       "fair_value": 299.4740796393688,
-      "mos": -16.46082673788193,
-      "irr": -4.95264324464495,
-      "terminal_pe_irr": 4.552092430890564,
+      "mos": -14.570845585280932,
+      "irr": -4.4328516475054975,
+      "terminal_pe_irr": 5.12386318774396,
       "verdict": "WATCHLIST",
       "business_score_synt": 83.1498799923195,
-      "investor_score_synt": 62.955875313880085,
+      "investor_score_synt": 63.108347515707656,
       "market_score_synt": 50.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 4.16,
       "net_debt": 9729.0,
-      "pe_now": 33.375118565901616,
+      "pe_now": 32.833491421202154,
       "analyst_pe_fwd_3y": 25.47668577183947,
-      "market_cap_m": 136369.0657043457,
-      "checklist_score": 68.48230212247984,
+      "market_cap_m": 134156.00427246094,
+      "checklist_score": 68.54329100321087,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 28.0,
+        "score": 29.3,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 4.55,
+            "input": 5.12,
             "unit": "pct",
-            "contribution": 9.1
+            "contribution": 10.2
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -14.13,
+            "input": -12.72,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 68.48,
+            "input": 68.54,
             "unit": "score",
             "contribution": 13.7
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 52.14,
+            "input": 53.29,
             "unit": "score",
-            "contribution": 5.2
+            "contribution": 5.3
           }
         ]
       },
@@ -1801,7 +1801,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -2.78,
+            "value": -3.4,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -1809,7 +1809,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 1.09,
+            "value": 1.08,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -1825,7 +1825,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "WARNING",
-            "value": 2.61,
+            "value": 2.65,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -1833,7 +1833,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 4.55,
+            "value": 5.12,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -1888,64 +1888,64 @@
       ],
       "meta": {
         "sector_mode": "INDUSTRIAL",
-        "aim_verdict_score": 68.48230212247984,
+        "aim_verdict_score": 68.54329100321087,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:59",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:55",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
-      "price": 274.5899963378906,
+      "price": 272.510009765625,
       "fair_value": 229.52667167543188,
-      "mos": -19.633153887310183,
-      "irr": -5.800308043298019,
-      "terminal_pe_irr": 3.6196611523722,
+      "mos": -18.7269469715375,
+      "irr": -5.561249307095517,
+      "terminal_pe_irr": 3.8826257621949356,
       "verdict": "WATCHLIST",
       "business_score_synt": 90.19083333333334,
-      "investor_score_synt": 64.80468741841037,
+      "investor_score_synt": 64.8748113143631,
       "market_score_synt": 64.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 0.8,
       "net_debt": -67552.0,
-      "pe_now": 25.424999660915798,
+      "pe_now": 25.232408311631943,
       "analyst_pe_fwd_3y": 19.70879898979172,
-      "market_cap_m": 3322538.9556884766,
-      "checklist_score": 74.83820830069749,
+      "market_cap_m": 3297371.1181640625,
+      "checklist_score": 74.86625785907859,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 27.0,
+        "score": 27.6,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 3.62,
+            "input": 3.88,
             "unit": "pct",
-            "contribution": 7.2
+            "contribution": 7.8
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -16.41,
+            "input": -15.77,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 74.84,
+            "input": 74.87,
             "unit": "score",
             "contribution": 15.0
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 47.72,
+            "input": 48.25,
             "unit": "score",
             "contribution": 4.8
           }
@@ -1959,7 +1959,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -6.88,
+            "value": -7.16,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -1983,7 +1983,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.21,
+            "value": 2.22,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -1991,7 +1991,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 3.62,
+            "value": 3.88,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -2045,64 +2045,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 74.83820830069749,
+        "aim_verdict_score": 74.86625785907859,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:35",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:38",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
-      "price": 326.7051086425781,
+      "price": 322.7799072265625,
       "fair_value": 292.5244177310292,
-      "mos": -11.684730859964466,
-      "irr": -3.616639127533894,
-      "terminal_pe_irr": 6.02169695971273,
+      "mos": -10.342893673701003,
+      "irr": -3.2275186335182893,
+      "terminal_pe_irr": 6.449729503129897,
       "verdict": "WATCHLIST",
       "business_score_synt": 72.39017731917451,
-      "investor_score_synt": 63.59080949848,
+      "investor_score_synt": 64.53828484339124,
       "market_score_synt": 53.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 9.2,
       "net_debt": 54383.0,
-      "pe_now": 22.958897304467893,
+      "pe_now": 22.683057429835735,
       "analyst_pe_fwd_3y": 22.58726592179884,
-      "market_cap_m": 325071.58309936523,
-      "checklist_score": 65.03239472706181,
+      "market_cap_m": 321166.0076904297,
+      "checklist_score": 65.4113848650263,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 29.3,
+        "score": 36.3,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 6.02,
+            "input": 6.45,
             "unit": "pct",
-            "contribution": 12.0
+            "contribution": 12.9
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -10.46,
+            "input": -9.37,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 6.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 65.03,
+            "input": 65.41,
             "unit": "score",
-            "contribution": 13.0
+            "contribution": 13.1
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 42.6,
+            "input": 43.46,
             "unit": "score",
             "contribution": 4.3
           }
@@ -2116,7 +2116,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "OK",
-            "value": 2.95,
+            "value": 2.52,
             "unit": "pct",
             "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
           },
@@ -2124,7 +2124,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.97,
+            "value": 0.96,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -2140,7 +2140,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 3.89,
+            "value": 3.94,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -2148,7 +2148,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 6.02,
+            "value": 6.45,
             "unit": "pct",
             "message": "Current price offers weak IRR."
           }
@@ -2203,66 +2203,66 @@
       ],
       "meta": {
         "sector_mode": "RETAIL",
-        "aim_verdict_score": 65.03239472706181,
+        "aim_verdict_score": 65.4113848650263,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:09",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:27:02",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "INTC",
       "company": "Intel Corporation",
-      "price": 42.595001220703125,
+      "price": 40.74599838256836,
       "fair_value": 31.123215627347847,
-      "mos": -36.85925558178849,
-      "irr": -9.931013572308744,
-      "terminal_pe_irr": -0.92411492953961,
+      "mos": -30.91834362630901,
+      "irr": -8.588711073272481,
+      "terminal_pe_irr": 0.5524178194002749,
       "verdict": "AVOID",
       "business_score_synt": 26.72666666666667,
-      "investor_score_synt": 34.693185185185186,
+      "investor_score_synt": 35.581237344432665,
       "market_score_synt": 18.0,
       "verdict_synt": "AVOID",
       "confidence_synt": "High",
       "dps": 0.0,
       "net_debt": 9169.0,
-      "pe_now": 101.41666957310268,
+      "pe_now": 97.014281863258,
       "analyst_pe_fwd_3y": 50.37804356285957,
-      "market_cap_m": 212975.00610351562,
-      "checklist_score": 21.167940740740747,
+      "market_cap_m": 203729.9919128418,
+      "checklist_score": 21.523161604439736,
       "checklist_final": "AVOID",
       "composite": {
-        "score": 10.2,
+        "score": 11.5,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": -0.92,
+            "input": 0.55,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 1.1
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -26.93,
+            "input": -23.62,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 21.17,
+            "input": 21.52,
             "unit": "score",
-            "contribution": 4.2
+            "contribution": 4.3
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 60.0,
+            "input": 61.1,
             "unit": "score",
-            "contribution": 6.0
+            "contribution": 6.1
           }
         ]
       },
@@ -2274,7 +2274,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "BAD",
-            "value": 776.98,
+            "value": 763.34,
             "unit": "pct",
             "message": "Current price reflects growth expectations above analyst forecasts."
           },
@@ -2282,7 +2282,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "BAD",
-            "value": 602.3,
+            "value": 576.16,
             "unit": "ratio",
             "message": "Current valuation sits well above the company's historical P/E range."
           },
@@ -2306,9 +2306,9 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -0.92,
+            "value": 0.55,
             "unit": "pct",
-            "message": "Current price implies negative IRR."
+            "message": "Current price offers very low IRR."
           }
         ]
       },
@@ -2349,7 +2349,8 @@
         "Revenue persistence",
         "Balance sheet flexibility",
         "Net debt / FCF",
-        "Debt payback years"
+        "Debt payback years",
+        "Price / Sales"
       ],
       "risks": [
         "ROIC spread",
@@ -2360,34 +2361,34 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 21.167940740740747,
+        "aim_verdict_score": 21.523161604439736,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:30",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:35",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "KHC",
       "company": "The Kraft Heinz Company",
-      "price": 22.23500061035156,
+      "price": 22.229999542236328,
       "fair_value": 30.433121475281734,
-      "mos": 26.938153128948073,
-      "irr": 11.029005874394793,
-      "terminal_pe_irr": 22.131906461834294,
+      "mos": 26.954586106811657,
+      "irr": 11.037331290479457,
+      "terminal_pe_irr": 22.14106441952741,
       "verdict": "SPECULATIVE",
       "business_score_synt": 50.11642857142857,
-      "investor_score_synt": 83.70636203818613,
+      "investor_score_synt": 83.71329988492334,
       "market_score_synt": 49.0,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
       "dps": 1.6,
       "net_debt": 17544.0,
-      "pe_now": 8.551923311673676,
+      "pe_now": 8.54999982393705,
       "analyst_pe_fwd_3y": 18.0,
-      "market_cap_m": 26682.00073242187,
-      "checklist_score": 63.329116243845874,
+      "market_cap_m": 26675.999450683594,
+      "checklist_score": 63.33189138254076,
       "checklist_final": "SPECULATIVE",
       "composite": {
         "score": 86.7,
@@ -2396,14 +2397,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": 22.13,
+            "input": 22.14,
             "unit": "pct",
             "contribution": 40.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 36.87,
+            "input": 36.9,
             "unit": "pct",
             "contribution": 30.0
           },
@@ -2463,7 +2464,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "GOOD",
-            "value": 22.13,
+            "value": 22.14,
             "unit": "pct",
             "message": "Current price offers very attractive IRR."
           }
@@ -2518,50 +2519,50 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 63.329116243845874,
+        "aim_verdict_score": 63.33189138254076,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:36",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:39",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "KO",
       "company": "The Coca-Cola Company",
-      "price": 76.24500274658203,
+      "price": 76.41999816894531,
       "fair_value": 59.99248685199096,
-      "mos": -27.090918792361578,
-      "irr": -7.680135115056618,
-      "terminal_pe_irr": 1.5518513734377182,
+      "mos": -27.382614355499374,
+      "irr": -7.7506572361026205,
+      "terminal_pe_irr": 1.4742770402871308,
       "verdict": "WATCHLIST",
       "business_score_synt": 81.25315476190477,
-      "investor_score_synt": 62.4085810011707,
+      "investor_score_synt": 62.38789451233053,
       "market_score_synt": 44.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 2.04,
       "net_debt": 31408.0,
-      "pe_now": 25.08059300874409,
+      "pe_now": 25.13815729241622,
       "analyst_pe_fwd_3y": 21.32146200515329,
-      "market_cap_m": 328082.2468185425,
-      "checklist_score": 66.3046943052302,
+      "market_cap_m": 328835.2521209717,
+      "checklist_score": 66.29641970969412,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 19.8,
+        "score": 19.7,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 1.55,
+            "input": 1.47,
             "unit": "pct",
-            "contribution": 3.1
+            "contribution": 2.9
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -21.32,
+            "input": -21.5,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -2575,9 +2576,9 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 34.62,
+            "input": 34.47,
             "unit": "score",
-            "contribution": 3.5
+            "contribution": 3.4
           }
         ]
       },
@@ -2589,7 +2590,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -0.15,
+            "value": -0.07,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -2621,7 +2622,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 1.55,
+            "value": 1.47,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -2674,22 +2675,22 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 66.3046943052302,
+        "aim_verdict_score": 66.29641970969412,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:06",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:27:00",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "LYB",
       "company": "LyondellBasell Industries N.V.",
-      "price": 83.41000366210938,
+      "price": 81.70500183105469,
       "fair_value": 43.050338091660386,
-      "mos": -93.74993869854734,
-      "irr": -19.785513302045544,
-      "terminal_pe_irr": -11.764064632250093,
+      "mos": -89.78945451506777,
+      "irr": -19.231384062993982,
+      "terminal_pe_irr": -11.15452246929337,
       "verdict": "AVOID",
       "business_score_synt": 42.0678782642089,
       "investor_score_synt": 50.00632316250058,
@@ -2698,9 +2699,9 @@
       "confidence_synt": "High",
       "dps": 5.5,
       "net_debt": 10822.0,
-      "pe_now": 49.06470803653493,
+      "pe_now": 48.061765782973346,
       "analyst_pe_fwd_3y": 10.91997327899233,
-      "market_cap_m": 26866.362179565433,
+      "market_cap_m": 26317.181089782716,
       "checklist_score": 32.94968057068379,
       "checklist_final": "AVOID",
       "composite": {
@@ -2710,14 +2711,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -11.76,
+            "input": -11.15,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -48.39,
+            "input": -47.31,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -2769,7 +2770,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "BAD",
-            "value": 1.43,
+            "value": 1.46,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -2777,7 +2778,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -11.76,
+            "value": -11.15,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -2836,60 +2837,60 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:37",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:40",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "META",
       "company": "Meta Platforms, Inc.",
-      "price": 531.989990234375,
+      "price": 535.4299926757812,
       "fair_value": 630.5033809166039,
-      "mos": 15.624561844381157,
-      "irr": 5.826553614003127,
-      "terminal_pe_irr": 16.409208975403455,
+      "mos": 15.078965651636672,
+      "irr": 5.599430222901769,
+      "terminal_pe_irr": 16.159373245191965,
       "verdict": "BUY",
       "business_score_synt": 89.33003623188408,
-      "investor_score_synt": 79.14735274935629,
+      "investor_score_synt": 78.96396834849924,
       "market_score_synt": 74.8,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": 2.1,
       "net_debt": 2305.0,
-      "pe_now": 22.647509162808642,
+      "pe_now": 22.79395456261308,
       "analyst_pe_fwd_3y": 26.47863690911866,
-      "market_cap_m": 1329974.9755859375,
-      "checklist_score": 82.35095559249615,
+      "market_cap_m": 1338574.9816894531,
+      "checklist_score": 82.27760183215332,
       "checklist_final": "BUY",
       "composite": {
-        "score": 79.6,
+        "score": 79.0,
         "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 16.41,
+            "input": 16.16,
             "unit": "pct",
-            "contribution": 32.8
+            "contribution": 32.3
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 18.52,
+            "input": 17.76,
             "unit": "pct",
             "contribution": 24.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 82.35,
+            "input": 82.28,
             "unit": "score",
             "contribution": 16.5
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 62.85,
+            "input": 62.65,
             "unit": "score",
             "contribution": 6.3
           }
@@ -2903,7 +2904,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -6.82,
+            "value": -6.59,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -2911,7 +2912,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.9,
+            "value": 0.91,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -2927,7 +2928,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 3.47,
+            "value": 3.44,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -2935,7 +2936,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "GOOD",
-            "value": 16.41,
+            "value": 16.16,
             "unit": "pct",
             "message": "Current price offers very attractive IRR."
           }
@@ -2990,78 +2991,78 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 82.35095559249615,
+        "aim_verdict_score": 82.27760183215332,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:32",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:36",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
-      "price": 360.5700073242188,
+      "price": 357.2850036621094,
       "fair_value": 409.2411720510892,
-      "mos": 11.893027400672764,
-      "irr": 4.310951517781292,
-      "terminal_pe_irr": 14.74204666955945,
+      "mos": 12.695733454329394,
+      "irr": 4.6296672036178155,
+      "terminal_pe_irr": 15.092633923979616,
       "verdict": "BUY",
       "business_score_synt": 91.26333333333335,
-      "investor_score_synt": 79.39493293765216,
-      "market_score_synt": 73.2,
+      "investor_score_synt": 79.7084884647656,
+      "market_score_synt": 77.0,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": 3.2,
       "net_debt": -31855.0,
-      "pe_now": 22.465421017085283,
+      "pe_now": 22.26074789172021,
       "analyst_pe_fwd_3y": 20.70813193332986,
-      "market_cap_m": 2668218.054199219,
-      "checklist_score": 82.90330650839421,
+      "market_cap_m": 2643909.0270996094,
+      "checklist_score": 83.78872871923959,
       "checklist_final": "BUY",
       "composite": {
-        "score": 77.9,
+        "score": 78.8,
         "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 14.74,
+            "input": 15.09,
             "unit": "pct",
-            "contribution": 29.5
+            "contribution": 30.2
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 13.5,
+            "input": 14.54,
             "unit": "pct",
             "contribution": 24.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 82.9,
+            "input": 83.79,
             "unit": "score",
-            "contribution": 16.6
+            "contribution": 16.8
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 78.12,
+            "input": 78.83,
             "unit": "score",
-            "contribution": 7.8
+            "contribution": 7.9
           }
         ]
       },
       "market_valuation": {
-        "score": 73.2,
+        "score": 77.0,
         "rating": "OK",
         "signals": [
           {
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -12.88,
+            "value": -13.18,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -3085,17 +3086,17 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.9,
+            "value": 2.93,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
           {
             "key": "implied_irr_pct",
             "label": "Implied IRR",
-            "status": "OK",
-            "value": 14.74,
+            "status": "GOOD",
+            "value": 15.09,
             "unit": "pct",
-            "message": "Current price offers attractive IRR."
+            "message": "Current price offers very attractive IRR."
           }
         ]
       },
@@ -3148,66 +3149,66 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 82.90330650839421,
+        "aim_verdict_score": 83.78872871923959,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:23",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:30",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "MU",
       "company": "Micron Technology, Inc.",
-      "price": 344.6047058105469,
+      "price": 319.8699951171875,
       "fair_value": 347.97145003756566,
-      "mos": 0.9675346143068129,
-      "irr": 0.3246075938546422,
-      "terminal_pe_irr": 10.357068353240129,
+      "mos": 8.075793263310665,
+      "irr": 2.8466230774265133,
+      "terminal_pe_irr": 13.131285385169189,
       "verdict": "SPECULATIVE",
       "business_score_synt": 57.66592391304348,
-      "investor_score_synt": 68.6414752307409,
+      "investor_score_synt": 71.45599141600732,
       "market_score_synt": 62.1,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
       "dps": 0.46,
       "net_debt": 5710.0,
-      "pe_now": 68.92094116210937,
+      "pe_now": 63.9739990234375,
       "analyst_pe_fwd_3y": 53.60532407407408,
-      "market_cap_m": 387680.29403686523,
-      "checklist_score": 62.942959657513754,
+      "market_cap_m": 359853.74450683594,
+      "checklist_score": 64.06876613162032,
       "checklist_final": "SPECULATIVE",
       "composite": {
-        "score": 55.6,
-        "rating": "Neutral",
+        "score": 66.4,
+        "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 10.36,
+            "input": 13.13,
             "unit": "pct",
-            "contribution": 20.7
+            "contribution": 26.3
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 0.98,
+            "input": 8.79,
             "unit": "pct",
-            "contribution": 15.0
+            "contribution": 19.5
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 62.94,
+            "input": 64.07,
             "unit": "score",
-            "contribution": 12.6
+            "contribution": 12.8
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 72.71,
+            "input": 78.26,
             "unit": "score",
-            "contribution": 7.3
+            "contribution": 7.8
           }
         ]
       },
@@ -3219,7 +3220,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -21.69,
+            "value": -25.57,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -3227,7 +3228,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "BAD",
-            "value": 2.98,
+            "value": 2.77,
             "unit": "ratio",
             "message": "Current valuation sits well above the company's historical P/E range."
           },
@@ -3243,7 +3244,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "BAD",
-            "value": 0.43,
+            "value": 0.46,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -3251,7 +3252,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "OK",
-            "value": 10.36,
+            "value": 13.13,
             "unit": "pct",
             "message": "Current price offers attractive IRR."
           }
@@ -3289,7 +3290,7 @@
         "capital_allocation": 50.75,
         "financial_health": 80.45833333333333
       },
-      "valuation_state": "Near Target",
+      "valuation_state": "Watch",
       "why": [
         "Operating margin",
         "Revenue persistence",
@@ -3306,66 +3307,66 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 62.942959657513754,
+        "aim_verdict_score": 64.06876613162032,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:53",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:51",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
-      "price": 93.46499633789062,
+      "price": 92.53500366210938,
       "fair_value": 80.50338091660403,
-      "mos": -16.100709403390074,
-      "irr": -4.854473094211653,
-      "terminal_pe_irr": 4.660079596367206,
+      "mos": -14.945487516815323,
+      "irr": -4.536792018127311,
+      "terminal_pe_irr": 5.00952878005998,
       "verdict": "WATCHLIST",
       "business_score_synt": 87.28496376811596,
-      "investor_score_synt": 66.32001639478005,
+      "investor_score_synt": 66.4132028437648,
       "market_score_synt": 64.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 0.0,
       "net_debt": 5400.0,
-      "pe_now": 36.22674276662427,
+      "pe_now": 35.86628048918968,
       "analyst_pe_fwd_3y": 23.32730726709354,
-      "market_cap_m": 392552.9846191406,
-      "checklist_score": 74.2819920651584,
+      "market_cap_m": 388647.0153808594,
+      "checklist_score": 74.3192666447523,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 30.5,
+        "score": 31.3,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 4.66,
+            "input": 5.01,
             "unit": "pct",
-            "contribution": 9.3
+            "contribution": 10.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -13.87,
+            "input": -13.0,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 74.28,
+            "input": 74.32,
             "unit": "score",
             "contribution": 14.9
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 63.24,
+            "input": 63.94,
             "unit": "score",
-            "contribution": 6.3
+            "contribution": 6.4
           }
         ]
       },
@@ -3377,7 +3378,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -14.01,
+            "value": -14.36,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -3385,7 +3386,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.88,
+            "value": 0.87,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -3401,7 +3402,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.41,
+            "value": 2.43,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -3409,7 +3410,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 4.66,
+            "value": 5.01,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -3464,66 +3465,66 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 74.2819920651584,
+        "aim_verdict_score": 74.3192666447523,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:24",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:31",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "NKE",
       "company": "NIKE, Inc.",
-      "price": 51.70000076293945,
+      "price": 51.11410140991211,
       "fair_value": 50.90157776108187,
-      "mos": -1.5685623844611765,
-      "irr": -0.5174524426191041,
-      "terminal_pe_irr": 9.430802313118992,
+      "mos": -0.4175187846391915,
+      "irr": -0.13878679974529406,
+      "terminal_pe_irr": 9.847334520280192,
       "verdict": "WATCHLIST",
       "business_score_synt": 74.21941411206839,
-      "investor_score_synt": 67.2364985783615,
+      "investor_score_synt": 67.28537058306918,
       "market_score_synt": 63.5,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 1.5,
       "net_debt": 1867.0,
-      "pe_now": 30.233918574818393,
+      "pe_now": 29.891287374217608,
       "analyst_pe_fwd_3y": 30.76284541026655,
-      "market_cap_m": 76908.92113494873,
-      "checklist_score": 69.28236507617196,
+      "market_cap_m": 76037.33725738525,
+      "checklist_score": 69.30191387805503,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 48.4,
+        "score": 49.3,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 9.43,
+            "input": 9.85,
             "unit": "pct",
-            "contribution": 18.9
+            "contribution": 19.7
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -1.54,
+            "input": -0.42,
             "unit": "pct",
             "contribution": 10.5
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 69.28,
+            "input": 69.3,
             "unit": "score",
             "contribution": 13.9
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 52.24,
+            "input": 52.61,
             "unit": "score",
-            "contribution": 5.2
+            "contribution": 5.3
           }
         ]
       },
@@ -3535,7 +3536,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -11.49,
+            "value": -11.87,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -3559,7 +3560,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 4.25,
+            "value": 4.3,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -3567,7 +3568,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "WARNING",
-            "value": 9.43,
+            "value": 9.85,
             "unit": "pct",
             "message": "Current price offers acceptable IRR."
           }
@@ -3622,66 +3623,66 @@
       ],
       "meta": {
         "sector_mode": "RETAIL",
-        "aim_verdict_score": 69.28236507617196,
+        "aim_verdict_score": 69.30191387805503,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:43",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:43",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
-      "price": 166.5,
+      "price": 164.64500427246094,
       "fair_value": 178.8129226145754,
-      "mos": 6.885924369747842,
-      "irr": 2.406664579059181,
-      "terminal_pe_irr": 12.647331036965138,
+      "mos": 7.923319039224521,
+      "irr": 2.7898221489067065,
+      "terminal_pe_irr": 13.068804363797382,
       "verdict": "BUY",
       "business_score_synt": 91.83416666666668,
-      "investor_score_synt": 80.27892175571569,
+      "investor_score_synt": 80.6558758220514,
       "market_score_synt": 79.3,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": null,
       "net_debt": -51516.0,
-      "pe_now": 33.97959183673469,
+      "pe_now": 33.601021280094066,
       "analyst_pe_fwd_3y": 18.00790418353664,
-      "market_cap_m": 4045950.0,
-      "checklist_score": 84.70523536895296,
+      "market_cap_m": 4000873.603820801,
+      "checklist_score": 84.85601699548722,
       "checklist_final": "BUY",
       "composite": {
-        "score": 70.3,
+        "score": 71.2,
         "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 12.65,
+            "input": 13.07,
             "unit": "pct",
-            "contribution": 25.3
+            "contribution": 26.1
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 7.4,
+            "input": 8.61,
             "unit": "pct",
             "contribution": 19.5
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 84.71,
+            "input": 84.86,
             "unit": "score",
-            "contribution": 16.9
+            "contribution": 17.0
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 85.29,
+            "input": 86.14,
             "unit": "score",
-            "contribution": 8.5
+            "contribution": 8.6
           }
         ]
       },
@@ -3693,7 +3694,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -45.81,
+            "value": -46.16,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -3701,7 +3702,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "GOOD",
-            "value": 0.66,
+            "value": 0.65,
             "unit": "ratio",
             "message": "Current valuation sits below the company's historical P/E range."
           },
@@ -3717,7 +3718,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.39,
+            "value": 2.42,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -3725,7 +3726,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "OK",
-            "value": 12.65,
+            "value": 13.07,
             "unit": "pct",
             "message": "Current price offers attractive IRR."
           }
@@ -3780,66 +3781,66 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 84.70523536895296,
+        "aim_verdict_score": 84.85601699548722,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:26",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:32",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "ORCL",
       "company": "Oracle Corporation",
-      "price": 138.56500244140625,
+      "price": 137.52999877929688,
       "fair_value": 178.24943651389924,
-      "mos": 22.263427502840123,
-      "irr": 8.757246576637435,
-      "terminal_pe_irr": 19.632971234301188,
+      "mos": 22.84407655416471,
+      "irr": 9.029388293834707,
+      "terminal_pe_irr": 19.932327123218172,
       "verdict": "WATCHLIST",
       "business_score_synt": 63.022971014492754,
-      "investor_score_synt": 77.24939318419663,
+      "investor_score_synt": 77.61648212272718,
       "market_score_synt": 83.4,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 1.7,
       "net_debt": 114133.0,
-      "pe_now": 24.87702018696701,
+      "pe_now": 24.691202653374663,
       "analyst_pe_fwd_3y": 23.92451631963495,
-      "market_cap_m": 397127.2969970703,
-      "checklist_score": 72.78894567947576,
+      "market_cap_m": 394160.97650146484,
+      "checklist_score": 72.93578125488798,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 93.1,
+        "score": 93.8,
         "rating": "Strong opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 19.63,
+            "input": 19.93,
             "unit": "pct",
-            "contribution": 39.3
+            "contribution": 39.9
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 28.64,
+            "input": 29.61,
             "unit": "pct",
             "contribution": 30.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 72.79,
+            "input": 72.94,
             "unit": "score",
             "contribution": 14.6
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 93.19,
+            "input": 93.78,
             "unit": "score",
-            "contribution": 9.3
+            "contribution": 9.4
           }
         ]
       },
@@ -3851,7 +3852,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -26.16,
+            "value": -26.43,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -3859,7 +3860,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 1.04,
+            "value": 1.03,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -3875,7 +3876,7 @@
             "key": "yield_sanity",
             "label": "Earnings yield",
             "status": "OK",
-            "value": 3.13,
+            "value": 3.16,
             "unit": "pct",
             "message": "Earnings yield provides a modest valuation anchor."
           },
@@ -3883,7 +3884,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "GOOD",
-            "value": 19.63,
+            "value": 19.93,
             "unit": "pct",
             "message": "Current price offers very attractive IRR."
           }
@@ -3938,64 +3939,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 72.78894567947576,
+        "aim_verdict_score": 72.93578125488798,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:56",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:53",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "PEP",
       "company": "PepsiCo, Inc.",
-      "price": 155.6300048828125,
+      "price": 156.82000732421875,
       "fair_value": 119.94740796393685,
-      "mos": -29.748535232711244,
-      "irr": -8.314812225343005,
-      "terminal_pe_irr": 0.8537065521227127,
+      "mos": -30.740638740078435,
+      "irr": -8.547313900478049,
+      "terminal_pe_irr": 0.5979547094741688,
       "verdict": "WATCHLIST",
       "business_score_synt": 77.5707738095238,
-      "investor_score_synt": 65.43675825516922,
+      "investor_score_synt": 65.36855776379629,
       "market_score_synt": 64.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 5.6225,
       "net_debt": 39652.0,
-      "pe_now": 25.938334147135418,
+      "pe_now": 26.136667887369793,
       "analyst_pe_fwd_3y": 21.96575111203634,
-      "market_cap_m": 213679.99670410156,
-      "checklist_score": 70.04301282587721,
+      "market_cap_m": 215313.87005615234,
+      "checklist_score": 70.01573262932804,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 18.9,
+        "score": 18.4,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 0.85,
+            "input": 0.6,
             "unit": "pct",
-            "contribution": 1.7
+            "contribution": 1.2
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -22.93,
+            "input": -23.51,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 70.04,
+            "input": 70.02,
             "unit": "score",
             "contribution": 14.0
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 32.27,
+            "input": 31.76,
             "unit": "score",
             "contribution": 3.2
           }
@@ -4009,7 +4010,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -6.02,
+            "value": -5.74,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -4017,7 +4018,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 1.0,
+            "value": 1.01,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -4033,7 +4034,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 3.59,
+            "value": 3.56,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -4041,7 +4042,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 0.85,
+            "value": 0.6,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -4094,66 +4095,66 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 70.04301282587721,
+        "aim_verdict_score": 70.01573262932804,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:50",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:49",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "PG",
       "company": "The Procter & Gamble Company",
-      "price": 143.72000122070312,
+      "price": 144.6999969482422,
       "fair_value": 122.99023290758821,
-      "mos": -16.854808567352457,
-      "irr": -5.059582490307135,
-      "terminal_pe_irr": 4.434459260662171,
+      "mos": -17.651616333604437,
+      "irr": -5.274399452104539,
+      "terminal_pe_irr": 4.198160602685008,
       "verdict": "WATCHLIST",
       "business_score_synt": 86.62571428571428,
-      "investor_score_synt": 66.29100151820039,
+      "investor_score_synt": 66.23327139881124,
       "market_score_synt": 48.2,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 4.076,
       "net_debt": 25908.0,
-      "pe_now": 20.82898568415987,
+      "pe_now": 20.971014050469883,
       "analyst_pe_fwd_3y": 20.849617534188,
-      "market_cap_m": 352688.88299560547,
-      "checklist_score": 70.80668632156588,
+      "market_cap_m": 355093.7925109863,
+      "checklist_score": 70.78359427381021,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 26.6,
+        "score": 26.1,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 4.43,
+            "input": 4.2,
             "unit": "pct",
-            "contribution": 8.9
+            "contribution": 8.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -14.42,
+            "input": -15.0,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 70.81,
+            "input": 70.78,
             "unit": "score",
             "contribution": 14.2
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 35.87,
+            "input": 35.44,
             "unit": "score",
-            "contribution": 3.6
+            "contribution": 3.5
           }
         ]
       },
@@ -4165,7 +4166,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "OK",
-            "value": 1.8,
+            "value": 2.04,
             "unit": "pct",
             "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
           },
@@ -4173,7 +4174,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.89,
+            "value": 0.9,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -4189,7 +4190,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 3.98,
+            "value": 3.96,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -4197,7 +4198,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 4.43,
+            "value": 4.2,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -4250,66 +4251,66 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 70.80668632156588,
+        "aim_verdict_score": 70.78359427381021,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:05",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:59",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "PLTR",
       "company": "Palantir Technologies Inc.",
-      "price": 140.6199951171875,
+      "price": 137.0800018310547,
       "fair_value": 117.58076634109689,
-      "mos": -19.59438562362723,
-      "irr": -5.790130408462357,
-      "terminal_pe_irr": 3.630856550691419,
+      "mos": -16.58369484800884,
+      "irr": -4.986045268594507,
+      "terminal_pe_irr": 4.515350204546054,
       "verdict": "SPECULATIVE",
       "business_score_synt": 73.54500000000002,
-      "investor_score_synt": 60.55756174685105,
+      "investor_score_synt": 62.043426721212285,
       "market_score_synt": 38.4,
       "verdict_synt": "SPECULATIVE",
       "confidence_synt": "High",
       "dps": 0.0,
       "net_debt": -6947.66,
-      "pe_now": 223.20634145585316,
+      "pe_now": 217.5873044937376,
       "analyst_pe_fwd_3y": 70.31922609474,
-      "market_cap_m": 360690.28747558594,
-      "checklist_score": 61.32102469874042,
+      "market_cap_m": 351610.2046966553,
+      "checklist_score": 61.91537068848492,
       "checklist_final": "SPECULATIVE",
       "composite": {
-        "score": 26.3,
+        "score": 28.3,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 3.63,
+            "input": 4.52,
             "unit": "pct",
-            "contribution": 7.3
+            "contribution": 9.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -16.38,
+            "input": -14.22,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 61.32,
+            "input": 61.92,
             "unit": "score",
-            "contribution": 12.3
+            "contribution": 12.4
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 67.26,
+            "input": 69.03,
             "unit": "score",
-            "contribution": 6.7
+            "contribution": 6.9
           }
         ]
       },
@@ -4321,7 +4322,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -78.45,
+            "value": -79.31,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -4329,7 +4330,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "GOOD",
-            "value": 0.79,
+            "value": 0.77,
             "unit": "ratio",
             "message": "Current valuation sits below the company's historical P/E range."
           },
@@ -4345,7 +4346,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "BAD",
-            "value": 0.58,
+            "value": 0.6,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -4353,7 +4354,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 3.63,
+            "value": 4.52,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -4408,64 +4409,64 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 61.32102469874042,
+        "aim_verdict_score": 61.91537068848492,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:04",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:59",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "PM",
       "company": "Philip Morris International Inc.",
-      "price": 164.19000244140625,
+      "price": 164.50999450683594,
       "fair_value": 141.24718256949654,
-      "mos": -16.24302832420842,
-      "irr": -4.893318545426995,
-      "terminal_pe_irr": 4.617349600030329,
+      "mos": -16.469575898190826,
+      "irr": -4.9550232807429095,
+      "terminal_pe_irr": 4.549474391182806,
       "verdict": "WATCHLIST",
       "business_score_synt": 85.96190476190478,
-      "investor_score_synt": 67.92788052826205,
+      "investor_score_synt": 67.90978047256938,
       "market_score_synt": 42.0,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 5.64,
       "net_debt": 43963.0,
-      "pe_now": 22.615702815620697,
+      "pe_now": 22.659778857690902,
       "analyst_pe_fwd_3y": 19.72326777638316,
-      "market_cap_m": 255808.02380371094,
-      "checklist_score": 69.95591411606674,
+      "market_cap_m": 256306.5714416504,
+      "checklist_score": 69.94867409378966,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 27.7,
+        "score": 27.5,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 4.62,
+            "input": 4.55,
             "unit": "pct",
-            "contribution": 9.2
+            "contribution": 9.1
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -13.97,
+            "input": -14.14,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 69.96,
+            "input": 69.95,
             "unit": "score",
             "contribution": 14.0
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 44.43,
+            "input": 44.3,
             "unit": "score",
             "contribution": 4.4
           }
@@ -4479,7 +4480,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "WARNING",
-            "value": 5.38,
+            "value": 5.46,
             "unit": "pct",
             "message": "Current price reflects growth expectations above analyst forecasts."
           },
@@ -4487,7 +4488,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "WARNING",
-            "value": 1.2,
+            "value": 1.21,
             "unit": "ratio",
             "message": "Current valuation sits above the company's historical P/E range."
           },
@@ -4503,7 +4504,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 4.17,
+            "value": 4.16,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -4511,7 +4512,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 4.62,
+            "value": 4.55,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -4565,64 +4566,64 @@
       ],
       "meta": {
         "sector_mode": "CONSUMER",
-        "aim_verdict_score": 69.95591411606674,
+        "aim_verdict_score": 69.94867409378966,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:11",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:27:03",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
       "ticker": "SAP.DE",
       "company": "SAP SE",
-      "price": 146.1999969482422,
+      "price": 147.02000427246094,
       "fair_value": 173.5912847483095,
-      "mos": 15.779183753252374,
-      "irr": 5.891276726909256,
-      "terminal_pe_irr": 16.48040439960021,
+      "mos": 15.306805588986993,
+      "irr": 5.694039260008732,
+      "terminal_pe_irr": 16.26344318600963,
       "verdict": "BUY",
       "business_score_synt": 77.29750000000001,
-      "investor_score_synt": 79.56622748466407,
+      "investor_score_synt": 79.37218338627525,
       "market_score_synt": 76.1,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": 2.4,
       "net_debt": -149.0,
-      "pe_now": 23.280254291121366,
+      "pe_now": 23.41082870580588,
       "analyst_pe_fwd_3y": 22.50662929501669,
-      "market_cap_m": 175439.99633789062,
-      "checklist_score": 77.96549099386564,
+      "market_cap_m": 176424.00512695312,
+      "checklist_score": 77.8878733545101,
       "checklist_final": "BUY",
       "composite": {
-        "score": 80.7,
+        "score": 80.2,
         "rating": "Strong opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 16.48,
+            "input": 16.26,
             "unit": "pct",
-            "contribution": 33.0
+            "contribution": 32.5
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 18.74,
+            "input": 18.07,
             "unit": "pct",
             "contribution": 24.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 77.97,
+            "input": 77.89,
             "unit": "score",
             "contribution": 15.6
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 81.44,
+            "input": 81.01,
             "unit": "score",
             "contribution": 8.1
           }
@@ -4636,7 +4637,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -16.9,
+            "value": -16.72,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -4660,7 +4661,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "GOOD",
-            "value": 4.8,
+            "value": 4.77,
             "unit": "pct",
             "message": "Free cash flow yield provides a strong valuation anchor."
           },
@@ -4668,7 +4669,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "GOOD",
-            "value": 16.48,
+            "value": 16.26,
             "unit": "pct",
             "message": "Current price offers very attractive IRR."
           }
@@ -4723,12 +4724,12 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 77.96549099386564,
+        "aim_verdict_score": 77.8878733545101,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:41",
-        "price_last_updated_at": "2026-03-30 16:03:22"
+        "model_last_computed_at": "2026-03-30T21:26:43",
+        "price_last_updated_at": "2026-03-30 21:26:29"
       }
     },
     {
@@ -4885,7 +4886,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:47",
+        "model_last_computed_at": "2026-03-30T21:26:47",
         "price_last_updated_at": "2026-03-30 15:29:27"
       }
     },
@@ -5043,7 +5044,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:55",
+        "model_last_computed_at": "2026-03-30T21:26:52",
         "price_last_updated_at": "2026-03-30 15:29:27"
       }
     },
@@ -5201,7 +5202,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:04:02",
+        "model_last_computed_at": "2026-03-30T21:26:58",
         "price_last_updated_at": "2026-03-30 15:29:27"
       }
     },
@@ -5359,7 +5360,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T16:03:46",
+        "model_last_computed_at": "2026-03-30T21:26:46",
         "price_last_updated_at": "2026-03-30 15:29:27"
       }
     }
