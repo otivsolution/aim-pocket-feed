@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-03-30T13:01:07",
+  "generated_at": "2026-03-30T13:15:49",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -159,8 +159,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T13:00:57",
-        "price_last_updated_at": "2026-03-30 13:00:55"
+        "model_last_computed_at": "2026-03-30T13:06:34",
+        "price_last_updated_at": "2026-03-30 13:02:21"
       }
     },
     {
@@ -2212,6 +2212,162 @@
       }
     },
     {
+      "ticker": "KO",
+      "company": "The Coca-Cola Company",
+      "price": 75.70999908447266,
+      "fair_value": 59.99248685199096,
+      "mos": -26.19913435370463,
+      "irr": -7.50389263909832,
+      "terminal_pe_irr": 1.7457180969918662,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 81.25315476190477,
+      "investor_score_synt": 62.460278794118466,
+      "market_score_synt": 44.2,
+      "verdict_synt": "WATCHLIST",
+      "confidence_synt": "High",
+      "dps": 2.04,
+      "net_debt": 31408.0,
+      "pe_now": 24.904604961997585,
+      "analyst_pe_fwd_3y": 21.32146200515329,
+      "market_cap_m": 325780.12606048584,
+      "checklist_score": 66.3253734224093,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 20.3,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 1.75,
+            "unit": "pct",
+            "contribution": 3.5
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -20.86,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 66.33,
+            "unit": "score",
+            "contribution": 13.3
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 35.01,
+            "unit": "score",
+            "contribution": 3.5
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 44.2,
+        "rating": "WARNING",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -0.36,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "OK",
+            "value": 0.98,
+            "unit": "ratio",
+            "message": "Current valuation sits within the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "BAD",
+            "value": 2.36,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "WARNING",
+            "value": 1.62,
+            "unit": "pct",
+            "message": "Free cash flow yield provides limited valuation support."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": 1.75,
+            "unit": "pct",
+            "message": "Current price offers very low IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 67.2,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 63.8
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 90.1
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 49.3
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 65.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 85.00357142857143,
+        "profitability": 93.33333333333333,
+        "capital_allocation": 76.125,
+        "financial_health": 66.9375
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Gross margin",
+        "Operating margin",
+        "ROIC adj",
+        "Operating margin trend 3Y",
+        "ROIC spread"
+      ],
+      "risks": [
+        "Reinvestment rate",
+        "Balance sheet flexibility",
+        "FCF Yield"
+      ],
+      "meta": {
+        "sector_mode": "CONSUMER",
+        "aim_verdict_score": 66.3253734224093,
+        "confidence_score": 100.0,
+        "confidence_label": "High",
+        "freshness_label": "Fresh",
+        "model_last_computed_at": "2026-03-30T13:15:46",
+        "price_last_updated_at": "2026-03-30 13:15:38"
+      }
+    },
+    {
       "ticker": "LYB",
       "company": "LyondellBasell Industries N.V.",
       "price": 80.44999694824219,
@@ -2523,8 +2679,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T13:00:45",
-        "price_last_updated_at": "2026-03-30 13:00:38"
+        "model_last_computed_at": "2026-03-30T13:06:17",
+        "price_last_updated_at": "2026-03-30 13:02:21"
       }
     },
     {
@@ -3471,8 +3627,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-03-30T13:01:01",
-        "price_last_updated_at": "2026-03-30 13:00:55"
+        "model_last_computed_at": "2026-03-30T13:07:06",
+        "price_last_updated_at": "2026-03-30 13:02:21"
       }
     },
     {
@@ -3629,6 +3785,162 @@
         "freshness_label": "Fresh",
         "model_last_computed_at": "2026-03-30T13:00:57",
         "price_last_updated_at": "2026-03-30 13:00:55"
+      }
+    },
+    {
+      "ticker": "PG",
+      "company": "The Procter & Gamble Company",
+      "price": 142.7100067138672,
+      "fair_value": 122.99023290758821,
+      "mos": -16.033609612802284,
+      "irr": -4.836136410778602,
+      "terminal_pe_irr": 4.6802499481435555,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 86.62571428571428,
+      "investor_score_synt": 67.31876297591923,
+      "market_score_synt": 48.2,
+      "verdict_synt": "WATCHLIST",
+      "confidence_synt": "High",
+      "dps": 4.076,
+      "net_debt": 25908.0,
+      "pe_now": 20.682609668676402,
+      "analyst_pe_fwd_3y": 20.849617534188,
+      "market_cap_m": 350210.3564758301,
+      "checklist_score": 71.21779090465341,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 27.2,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 4.68,
+            "unit": "pct",
+            "contribution": 9.4
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -13.82,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 71.22,
+            "unit": "score",
+            "contribution": 14.2
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 36.08,
+            "unit": "score",
+            "contribution": 3.6
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 48.2,
+        "rating": "WARNING",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "OK",
+            "value": 1.55,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "OK",
+            "value": 0.89,
+            "unit": "ratio",
+            "message": "Current valuation sits within the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "BAD",
+            "value": 5.98,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "OK",
+            "value": 4.01,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a modest valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": 4.68,
+            "unit": "pct",
+            "message": "Current price offers very low IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 64.2,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 56.5
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 80.4
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 35.6
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 84.6
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 85.96071428571429,
+        "profitability": 93.33333333333333,
+        "capital_allocation": 93.5,
+        "financial_health": 70.64583333333334
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Operating margin",
+        "ROIC adj",
+        "ROIC spread",
+        "Operating margin stability 5Y",
+        "Gross margin"
+      ],
+      "risks": [
+        "Balance sheet flexibility",
+        "Cash ratio",
+        "Working capital"
+      ],
+      "meta": {
+        "sector_mode": "CONSUMER",
+        "aim_verdict_score": 71.21779090465341,
+        "confidence_score": 100.0,
+        "confidence_label": "High",
+        "freshness_label": "Fresh",
+        "model_last_computed_at": "2026-03-30T13:02:32",
+        "price_last_updated_at": "2026-03-30 13:02:21"
       }
     },
     {
