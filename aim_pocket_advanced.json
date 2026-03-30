@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-30T23:45:43",
+  "generated_at": "2026-03-30T23:51:30",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -2804,6 +2804,86 @@
         ]
       },
       "valuation_state": "Near Target"
+    },
+    {
+      "ticker": "WFC",
+      "company": "Wells Fargo & Company",
+      "price": 76.71,
+      "fair_value": 73.02779864763332,
+      "mos": -5.04219135802474,
+      "terminal_pe_irr": 8.211004219025764,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 72.13911458333332,
+      "investor_score_synt": 66.70248306951798,
+      "market_score_synt": 77.8,
+      "dps": 1.7,
+      "net_debt": 502.0,
+      "pe_now": 12.253993610223642,
+      "analyst_pe_fwd_3y": 10.99292742946795,
+      "market_cap_m": 248693.81999999998,
+      "checklist_score": 71.09663906114052,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 46.7,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 8.21,
+            "unit": "pct",
+            "contribution": 16.4
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -4.8,
+            "unit": "pct",
+            "contribution": 10.5
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 71.1,
+            "unit": "score",
+            "contribution": 14.2
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 55.94,
+            "unit": "score",
+            "contribution": 5.6
+          }
+        ]
+      },
+      "gqs": {
+        "score": 46.5,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 41.6
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 81.6
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 0.0
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 62.8
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
     },
     {
       "ticker": "WMT",
