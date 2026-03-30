@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-03-30T12:43:51",
+  "generated_at": "2026-03-30T12:44:38",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1840,6 +1840,86 @@
             "key": "roic",
             "label": "ROIC",
             "score": 71.0
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
+    },
+    {
+      "ticker": "PLTR",
+      "company": "Palantir Technologies Inc.",
+      "price": 143.05999755859375,
+      "fair_value": 117.58076634109689,
+      "mos": -21.669557029066024,
+      "terminal_pe_irr": 3.141747809458706,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 72.14500000000001,
+      "investor_score_synt": 60.24046608252233,
+      "market_score_synt": 38.4,
+      "dps": 0.0,
+      "net_debt": -6947.66,
+      "pe_now": 227.07936120411705,
+      "analyst_pe_fwd_3y": 70.31922609474,
+      "market_cap_m": 366948.89373779297,
+      "checklist_score": 60.63418643300894,
+      "checklist_final": "SPECULATIVE",
+      "composite": {
+        "score": 25.0,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 3.14,
+            "unit": "pct",
+            "contribution": 6.3
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -17.56,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 60.63,
+            "unit": "score",
+            "contribution": 12.1
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 66.28,
+            "unit": "score",
+            "contribution": 6.6
+          }
+        ]
+      },
+      "gqs": {
+        "score": 65.9,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 63.7
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 33.3
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 100.0
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
           }
         ]
       },
