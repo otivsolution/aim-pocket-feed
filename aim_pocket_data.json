@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-03-30T12:43:51",
+  "generated_at": "2026-03-30T12:44:38",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -3629,6 +3629,164 @@
         "freshness_label": "Fresh",
         "model_last_computed_at": "2026-03-30T12:43:42",
         "price_last_updated_at": "2026-03-30 12:43:23"
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "company": "Palantir Technologies Inc.",
+      "price": 143.05999755859375,
+      "fair_value": 117.58076634109689,
+      "mos": -21.669557029066024,
+      "irr": -6.234774718673908,
+      "terminal_pe_irr": 3.141747809458706,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 72.14500000000001,
+      "investor_score_synt": 60.24046608252233,
+      "market_score_synt": 38.4,
+      "verdict_synt": "SPECULATIVE",
+      "confidence_synt": "High",
+      "dps": 0.0,
+      "net_debt": -6947.66,
+      "pe_now": 227.07936120411705,
+      "analyst_pe_fwd_3y": 70.31922609474,
+      "market_cap_m": 366948.89373779297,
+      "checklist_score": 60.63418643300894,
+      "checklist_final": "SPECULATIVE",
+      "composite": {
+        "score": 25.0,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 3.14,
+            "unit": "pct",
+            "contribution": 6.3
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -17.56,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 60.63,
+            "unit": "score",
+            "contribution": 12.1
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 66.28,
+            "unit": "score",
+            "contribution": 6.6
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 38.4,
+        "rating": "BAD",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -77.97,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "GOOD",
+            "value": 0.8,
+            "unit": "ratio",
+            "message": "Current valuation sits below the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "BAD",
+            "value": 3.53,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "BAD",
+            "value": 0.57,
+            "unit": "pct",
+            "message": "Free cash flow yield provides limited valuation support."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": 3.14,
+            "unit": "pct",
+            "message": "Current price offers very low IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 65.9,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 63.7
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 33.3
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 100.0
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 75.86428571428571,
+        "profitability": 49.0,
+        "capital_allocation": 81.9,
+        "financial_health": 96.75
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Revenue CAGR",
+        "ROIC adj",
+        "ROIC spread",
+        "Gross margin",
+        "ROIC"
+      ],
+      "risks": [
+        "Revenue volatility",
+        "Operating margin stability",
+        "Revenue/EBIT divergence",
+        "Operating margin stability 5Y",
+        "Growth efficiency"
+      ],
+      "meta": {
+        "sector_mode": "TECH",
+        "aim_verdict_score": 60.63418643300894,
+        "confidence_score": 100.0,
+        "confidence_label": "High",
+        "freshness_label": "Fresh",
+        "model_last_computed_at": "2026-03-30T12:44:26",
+        "price_last_updated_at": "2026-03-30 12:44:18"
       }
     },
     {
