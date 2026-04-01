@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-01T12:58:58",
+  "generated_at": "2026-04-01T13:01:26",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -404,6 +404,86 @@
         ]
       },
       "valuation_state": "Watch"
+    },
+    {
+      "ticker": "ASML.AS",
+      "company": "ASML Holding N.V.",
+      "price": 1153.0,
+      "fair_value": 967.317806160781,
+      "mos": -19.19557281553403,
+      "terminal_pe_irr": 285.40670174895985,
+      "verdict": "STRONG BUY",
+      "business_score_synt": 93.21336956521739,
+      "investor_score_synt": 92.70711594202898,
+      "market_score_synt": 87.0,
+      "dps": 7.5,
+      "net_debt": -10612.9,
+      "pe_now": 45.501183898973956,
+      "analyst_pe_fwd_3y": 27.70743823192818,
+      "market_cap_m": 448517.0,
+      "checklist_score": 91.76819420289856,
+      "checklist_final": "STRONG BUY",
+      "composite": {
+        "score": 95.9,
+        "rating": "Strong opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 285.41,
+            "unit": "pct",
+            "contribution": 40.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 4201.1,
+            "unit": "pct",
+            "contribution": 30.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 91.77,
+            "unit": "score",
+            "contribution": 18.4
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 75.84,
+            "unit": "score",
+            "contribution": 7.6
+          }
+        ]
+      },
+      "gqs": {
+        "score": 65.6,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 81.1
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 77.8
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 36.9
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
     },
     {
       "ticker": "AVGO",
