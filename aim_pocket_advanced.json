@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-01T13:01:26",
+  "generated_at": "2026-04-01T13:57:01",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -411,49 +411,49 @@
       "price": 1153.0,
       "fair_value": 967.317806160781,
       "mos": -19.19557281553403,
-      "terminal_pe_irr": 285.40670174895985,
-      "verdict": "STRONG BUY",
+      "terminal_pe_irr": 3.746306320234205,
+      "verdict": "BUY",
       "business_score_synt": 93.21336956521739,
-      "investor_score_synt": 92.70711594202898,
-      "market_score_synt": 87.0,
+      "investor_score_synt": 67.4561309607581,
+      "market_score_synt": 56.0,
       "dps": 7.5,
       "net_debt": -10612.9,
       "pe_now": 45.501183898973956,
       "analyst_pe_fwd_3y": 27.70743823192818,
       "market_cap_m": 448517.0,
-      "checklist_score": 91.76819420289856,
-      "checklist_final": "STRONG BUY",
+      "checklist_score": 75.4678002103902,
+      "checklist_final": "BUY",
       "composite": {
-        "score": 95.9,
-        "rating": "Strong opportunity",
+        "score": 28.9,
+        "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 285.41,
+            "input": 3.75,
             "unit": "pct",
-            "contribution": 40.0
+            "contribution": 7.5
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 4201.1,
+            "input": -16.1,
             "unit": "pct",
-            "contribution": 30.0
+            "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 91.77,
+            "input": 75.47,
             "unit": "score",
-            "contribution": 18.4
+            "contribution": 15.1
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 75.84,
+            "input": 63.33,
             "unit": "score",
-            "contribution": 7.6
+            "contribution": 6.3
           }
         ]
       },
@@ -973,18 +973,18 @@
       "mos": 6.9285967297024,
       "terminal_pe_irr": 12.664544319213999,
       "verdict": "SPECULATIVE",
-      "business_score_synt": 45.27208333333333,
-      "investor_score_synt": 67.71103906067653,
-      "market_score_synt": 56.4,
+      "business_score_synt": 50.722222222222214,
+      "investor_score_synt": 64.96272424586172,
+      "market_score_synt": 60.4,
       "dps": 0.0,
       "net_debt": -1683.0,
       "pe_now": 171.6363560069691,
       "analyst_pe_fwd_3y": 31.28797656629165,
       "market_cap_m": 33983.99848937988,
-      "checklist_score": 56.47324895760394,
+      "checklist_score": 51.35397858723358,
       "checklist_final": "SPECULATIVE",
       "composite": {
-        "score": 64.7,
+        "score": 63.6,
         "rating": "Selective opportunity",
         "components": [
           {
@@ -1004,9 +1004,9 @@
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 56.47,
+            "input": 51.35,
             "unit": "score",
-            "contribution": 11.3
+            "contribution": 10.3
           },
           {
             "key": "quant",
@@ -2724,6 +2724,86 @@
         ]
       },
       "valuation_state": "Attractive"
+    },
+    {
+      "ticker": "SHEL",
+      "company": "Shell plc",
+      "price": 93.0,
+      "fair_value": 195.73147034112745,
+      "mos": 52.48592378225309,
+      "terminal_pe_irr": 8.594520040811293,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 66.07374391961085,
+      "investor_score_synt": 69.36837120016446,
+      "market_score_synt": 43.6,
+      "dps": 1.446,
+      "net_debt": 16494.0,
+      "pe_now": 18.6,
+      "analyst_pe_fwd_3y": 30.1526142388936,
+      "market_cap_m": 276582.0,
+      "checklist_score": 62.896846047910124,
+      "checklist_final": "SPECULATIVE",
+      "composite": {
+        "score": 47.2,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 8.59,
+            "unit": "pct",
+            "contribution": 17.2
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -3.78,
+            "unit": "pct",
+            "contribution": 10.5
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 62.9,
+            "unit": "score",
+            "contribution": 12.6
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 69.19,
+            "unit": "score",
+            "contribution": 6.9
+          }
+        ]
+      },
+      "gqs": {
+        "score": 21.6,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 1.3
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 55.9
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 0.0
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 29.2
+          }
+        ]
+      },
+      "valuation_state": "Watch"
     },
     {
       "ticker": "SMCI",
