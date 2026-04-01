@@ -1,13 +1,15 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-01T22:32:08",
+  "generated_at": "2026-04-02T01:21:56",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
     {
       "ticker": "AAPL",
       "company": "Apple Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 255.6300048828125,
       "fair_value": 204.16979714500368,
       "mos": -25.204613247110785,
@@ -17,6 +19,8 @@
     {
       "ticker": "ADBE",
       "company": "Adobe Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 241.3699951171875,
       "fair_value": 235.95041322314043,
       "mos": -2.2969156188430673,
@@ -26,6 +30,8 @@
     {
       "ticker": "AIR.PA",
       "company": "Airbus SE",
+      "currency": "EUR",
+      "sector": "INDUSTRIAL",
       "price": 167.89999389648438,
       "fair_value": 140.62416313255005,
       "mos": -19.3962617492874,
@@ -35,6 +41,8 @@
     {
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 210.2100067138672,
       "fair_value": 207.9263711495116,
       "mos": -1.0982904918364205,
@@ -44,6 +52,8 @@
     {
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 210.57000732421875,
       "fair_value": 208.3600330763899,
       "mos": -1.0606517071431942,
@@ -53,6 +63,8 @@
     {
       "ticker": "ASML.AS",
       "company": "ASML Holding N.V.",
+      "currency": "EUR",
+      "sector": "TECH",
       "price": 1187.5999755859375,
       "fair_value": 967.317806160781,
       "mos": -22.77247126251522,
@@ -62,6 +74,8 @@
     {
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 313.489990234375,
       "fair_value": 342.9752066115702,
       "mos": 8.596894413591848,
@@ -71,6 +85,8 @@
     {
       "ticker": "BAC",
       "company": "Bank of America Corporation",
+      "currency": "USD",
+      "sector": "FINANCIAL",
       "price": 49.27000045776367,
       "fair_value": 44.8534936138242,
       "mos": -9.846516933473096,
@@ -80,6 +96,8 @@
     {
       "ticker": "BNP.PA",
       "company": "BNP Paribas SA",
+      "currency": "EUR",
+      "sector": "FINANCIAL",
       "price": 85.37999725341797,
       "fair_value": 72.83996994740794,
       "mos": -17.21586007663678,
@@ -89,15 +107,19 @@
     {
       "ticker": "C",
       "company": "Citigroup Inc.",
+      "currency": "USD",
+      "sector": "FINANCIAL",
       "price": 115.3000030517578,
       "fair_value": 94.4402704733283,
       "mos": -22.08775183921215,
-      "terminal_pe_irr": 2.9205234379343636,
+      "terminal_pe_irr": 2.920523437934386,
       "verdict": "SPECULATIVE"
     },
     {
       "ticker": "CAT",
       "company": "Caterpillar Inc.",
+      "currency": "USD",
+      "sector": "INDUSTRIAL",
       "price": 730.3200073242188,
       "fair_value": 487.0773854244928,
       "mos": -49.93921483087079,
@@ -107,6 +129,8 @@
     {
       "ticker": "COST",
       "company": "Costco Wholesale Corporation",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 996.5599975585938,
       "fair_value": 776.2584522915098,
       "mos": -28.37992225614488,
@@ -116,6 +140,8 @@
     {
       "ticker": "CPNG",
       "company": "Coupang, Inc.",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 18.920000076293945,
       "fair_value": 20.285499624342595,
       "mos": 6.731407031306494,
@@ -125,6 +151,8 @@
     {
       "ticker": "CSCO",
       "company": "Cisco Systems, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 77.93000030517578,
       "fair_value": 64.04958677685947,
       "mos": -21.671355315177735,
@@ -134,6 +162,8 @@
     {
       "ticker": "CVX",
       "company": "Chevron Corporation",
+      "currency": "USD",
+      "sector": "ENERGY",
       "price": 197.41000366210935,
       "fair_value": 145.79263711495116,
       "mos": -35.404645645074744,
@@ -143,6 +173,8 @@
     {
       "ticker": "ETN",
       "company": "Eaton Corporation plc",
+      "currency": "USD",
+      "sector": "INDUSTRIAL",
       "price": 365.55999755859375,
       "fair_value": 299.4740796393688,
       "mos": -22.067324824507878,
@@ -152,6 +184,8 @@
     {
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 297.3900146484375,
       "fair_value": 229.52667167543188,
       "mos": -29.566647953214577,
@@ -161,6 +195,8 @@
     {
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
+      "currency": "USD",
+      "sector": "RETAIL",
       "price": 329.5599975585937,
       "fair_value": 292.5244177310292,
       "mos": -12.660679786949627,
@@ -170,6 +206,8 @@
     {
       "ticker": "INTC",
       "company": "Intel Corporation",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 48.02999877929688,
       "fair_value": 31.123215627347847,
       "mos": -54.32209625888756,
@@ -179,6 +217,8 @@
     {
       "ticker": "KHC",
       "company": "The Kraft Heinz Company",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 22.270000457763672,
       "fair_value": 30.433121475281734,
       "mos": 26.823147353281783,
@@ -188,6 +228,8 @@
     {
       "ticker": "KO",
       "company": "The Coca-Cola Company",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 76.08000183105469,
       "fair_value": 59.99248685199096,
       "mos": -26.81588282671738,
@@ -197,6 +239,8 @@
     {
       "ticker": "LYB",
       "company": "LyondellBasell Industries N.V.",
+      "currency": "USD",
+      "sector": "INDUSTRIAL",
       "price": 76.70999908447266,
       "fair_value": 43.050338091660386,
       "mos": -78.18675180005785,
@@ -206,6 +250,8 @@
     {
       "ticker": "META",
       "company": "Meta Platforms, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 579.22998046875,
       "fair_value": 630.5033809166039,
       "mos": 8.1321372731284,
@@ -215,6 +261,8 @@
     {
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 369.3699951171875,
       "fair_value": 409.2411720510892,
       "mos": 9.742709105750546,
@@ -224,6 +272,8 @@
     {
       "ticker": "MU",
       "company": "Micron Technology, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 367.8500061035156,
       "fair_value": 347.97145003756566,
       "mos": -5.712697424976662,
@@ -233,6 +283,8 @@
     {
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 95.5500030517578,
       "fair_value": 80.50338091660403,
       "mos": -18.690671079691715,
@@ -242,6 +294,8 @@
     {
       "ticker": "NKE",
       "company": "NIKE, Inc.",
+      "currency": "USD",
+      "sector": "RETAIL",
       "price": 44.630001068115234,
       "fair_value": 50.90157776108187,
       "mos": 12.320986831496079,
@@ -251,6 +305,8 @@
     {
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 175.75,
       "fair_value": 178.8129226145754,
       "mos": 1.7129201680671675,
@@ -260,6 +316,8 @@
     {
       "ticker": "ORCL",
       "company": "Oracle Corporation",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 145.22999572753906,
       "fair_value": 178.24943651389924,
       "mos": 18.524289014392167,
@@ -269,6 +327,8 @@
     {
       "ticker": "PEP",
       "company": "PepsiCo, Inc.",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 154.64999389648438,
       "fair_value": 119.94740796393685,
       "mos": -28.93150133180129,
@@ -278,6 +338,8 @@
     {
       "ticker": "PG",
       "company": "The Procter & Gamble Company",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 144.08999633789062,
       "fair_value": 122.99023290758821,
       "mos": -17.155641494033315,
@@ -287,6 +349,8 @@
     {
       "ticker": "PLTR",
       "company": "Palantir Technologies Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 146.49000549316406,
       "fair_value": 117.58076634109689,
       "mos": -24.586707547221355,
@@ -296,6 +360,8 @@
     {
       "ticker": "PM",
       "company": "Philip Morris International Inc.",
+      "currency": "USD",
+      "sector": "CONSUMER",
       "price": 157.3300018310547,
       "fair_value": 141.24718256949654,
       "mos": -11.386293849539308,
@@ -305,6 +371,8 @@
     {
       "ticker": "RACE.VI",
       "company": "Ferrari N.V.",
+      "currency": "EUR",
+      "sector": "INDUSTRIAL",
       "price": 297.3999938964844,
       "fair_value": 269.3463561232155,
       "mos": -10.415451011498151,
@@ -314,6 +382,8 @@
     {
       "ticker": "SAP.DE",
       "company": "SAP SE",
+      "currency": "EUR",
+      "sector": "TECH",
       "price": 148.86000061035156,
       "fair_value": 173.5912847483095,
       "mos": 14.246846651210573,
@@ -323,15 +393,19 @@
     {
       "ticker": "SHEL",
       "company": "Shell plc",
+      "currency": "USD",
+      "sector": "ENERGY",
       "price": 92.02999877929688,
       "fair_value": 66.37866265965438,
       "mos": -38.64394835907659,
       "terminal_pe_irr": -1.3510699607284904,
-      "verdict": "SPECULATIVE"
+      "verdict": "WATCHLIST"
     },
     {
       "ticker": "SMCI",
       "company": "Super Micro Computer, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 22.51000022888184,
       "fair_value": 26.070623591284743,
       "mos": 13.657607191234195,
@@ -341,6 +415,8 @@
     {
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
+      "currency": "USD",
+      "sector": "INDUSTRIAL",
       "price": 381.260009765625,
       "fair_value": 257.0623591284748,
       "mos": -48.3142110179883,
@@ -350,6 +426,8 @@
     {
       "ticker": "TSM",
       "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 341.489990234375,
       "fair_value": 305.7851239669421,
       "mos": -11.676456265836173,
@@ -359,6 +437,8 @@
     {
       "ticker": "USB",
       "company": "U.S. Bancorp",
+      "currency": "USD",
+      "sector": "FINANCIAL",
       "price": 52.75,
       "fair_value": 48.234410217881305,
       "mos": -9.361760124610564,
@@ -368,6 +448,8 @@
     {
       "ticker": "V",
       "company": "Visa Inc.",
+      "currency": "USD",
+      "sector": "TECH",
       "price": 298.510009765625,
       "fair_value": 285.1615326821938,
       "mos": -4.681023053101546,
@@ -377,6 +459,8 @@
     {
       "ticker": "WFC",
       "company": "Wells Fargo & Company",
+      "currency": "USD",
+      "sector": "FINANCIAL",
       "price": 80.56999969482422,
       "fair_value": 73.02779864763332,
       "mos": -10.327849376348862,
@@ -386,6 +470,8 @@
     {
       "ticker": "WMT",
       "company": "Walmart Inc.",
+      "currency": "USD",
+      "sector": "RETAIL",
       "price": 124.73999786376952,
       "fair_value": 170.69695757655902,
       "mos": 26.92312760886638,
@@ -395,6 +481,8 @@
     {
       "ticker": "XOM",
       "company": "Exxon Mobil Corporation",
+      "currency": "USD",
+      "sector": "ENERGY",
       "price": 160.77999877929688,
       "fair_value": 110.33057851239664,
       "mos": -45.72569177749012,
