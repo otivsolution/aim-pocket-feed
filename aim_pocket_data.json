@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-04-02T23:04:47",
+  "generated_at": "2026-04-02T23:06:25",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -11,60 +11,60 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 255.9199981689453,
-      "fair_value": 204.16979714500368,
-      "mos": -25.346648597190924,
-      "irr": -7.253878365168309,
-      "terminal_pe_irr": 2.0207337983148665,
-      "verdict": "WATCHLIST",
+      "fair_value": 362.07073390016535,
+      "mos": 29.317679058945767,
+      "irr": 12.261213581617492,
+      "terminal_pe_irr": 23.487334939779238,
+      "verdict": "BUY",
       "business_score_synt": 87.53750000000001,
-      "investor_score_synt": 61.93519567955063,
-      "market_score_synt": 36.0,
-      "verdict_synt": "WATCHLIST",
+      "investor_score_synt": 80.38841993569281,
+      "market_score_synt": 53.5,
+      "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": 1.0,
       "net_debt": 43960.0,
       "pe_now": 32.47715712803875,
-      "analyst_pe_fwd_3y": 24.81137035742082,
+      "analyst_pe_fwd_3y": 44.0,
       "market_cap_m": 3762023.973083496,
-      "checklist_score": 66.98907827182026,
-      "checklist_final": "WATCHLIST",
+      "checklist_score": 77.87036797427713,
+      "checklist_final": "BUY",
       "composite": {
-        "score": 21.7,
-        "rating": "Weak risk/reward",
+        "score": 92.0,
+        "rating": "Strong opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 2.02,
+            "input": 23.49,
             "unit": "pct",
-            "contribution": 4.0
+            "contribution": 40.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -20.22,
+            "input": 41.48,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 30.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 66.99,
+            "input": 77.87,
             "unit": "score",
-            "contribution": 13.4
+            "contribution": 15.6
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 42.6,
+            "input": 64.37,
             "unit": "score",
-            "contribution": 4.3
+            "contribution": 6.4
           }
         ]
       },
       "market_valuation": {
-        "score": 36.0,
-        "rating": "BAD",
+        "score": 53.5,
+        "rating": "WARNING",
         "signals": [
           {
             "key": "expectations_gap_pp",
@@ -101,10 +101,10 @@
           {
             "key": "implied_irr_pct",
             "label": "Implied IRR",
-            "status": "BAD",
-            "value": 2.02,
+            "status": "GOOD",
+            "value": 23.49,
             "unit": "pct",
-            "message": "Current price offers very low IRR."
+            "message": "Current price offers very attractive IRR."
           }
         ]
       },
@@ -140,7 +140,7 @@
         "capital_allocation": 89.9,
         "financial_health": 78.33333333333334
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Attractive",
       "why": [
         "ROIC adj",
         "ROIC spread",
@@ -157,12 +157,12 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 66.98907827182026,
+        "aim_verdict_score": 77.87036797427713,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-02T23:04:45",
-        "price_last_updated_at": "2026-04-02 23:04:44"
+        "model_last_computed_at": "2026-04-02T23:06:24",
+        "price_last_updated_at": "2026-04-02 23:06:23"
       }
     },
     {
@@ -318,8 +318,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-02T23:04:47",
-        "price_last_updated_at": "2026-04-02 23:04:44"
+        "model_last_computed_at": "2026-04-02T23:06:25",
+        "price_last_updated_at": "2026-04-02 23:06:23"
       }
     },
     {
