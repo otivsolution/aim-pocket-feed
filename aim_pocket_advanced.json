@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-03T01:47:53",
+  "generated_at": "2026-04-03T01:59:55",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1968,6 +1968,88 @@
             "key": "roic",
             "label": "ROIC",
             "score": 65.7
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
+    },
+    {
+      "ticker": "LIN",
+      "company": "Linde plc",
+      "currency": "USD",
+      "sector": "INDUSTRIAL",
+      "price": 502.6000061035156,
+      "fair_value": 361.6453794139744,
+      "mos": -38.97592357406864,
+      "terminal_pe_irr": -1.4296809644429809,
+      "verdict": "SPECULATIVE",
+      "business_score_synt": 73.55950364823349,
+      "investor_score_synt": 60.437100486431135,
+      "market_score_synt": 39.9,
+      "dps": 6.0,
+      "net_debt": 21933.0,
+      "pe_now": 34.40109555807773,
+      "analyst_pe_fwd_3y": 23.76764532620682,
+      "market_cap_m": 237227.20288085938,
+      "checklist_score": 61.57864165386586,
+      "checklist_final": "SPECULATIVE",
+      "composite": {
+        "score": 16.2,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": -1.43,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -28.05,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 61.58,
+            "unit": "score",
+            "contribution": 12.3
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 38.4,
+            "unit": "score",
+            "contribution": 3.8
+          }
+        ]
+      },
+      "gqs": {
+        "score": 50.8,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 56.2
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 81.3
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 25.1
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 40.3
           }
         ]
       },
