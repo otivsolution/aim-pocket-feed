@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-03T21:47:20",
+  "generated_at": "2026-04-03T21:54:00",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -98,17 +98,17 @@
       "terminal_pe_irr": 3.2457792381086037,
       "verdict": "BUY",
       "business_score_synt": 90.36817934782609,
-      "investor_score_synt": 71.70329837653911,
+      "investor_score_synt": 72.20329837653911,
       "market_score_synt": 70.4,
       "dps": null,
       "net_debt": 1217.0,
       "pe_now": 14.164431380113431,
       "analyst_pe_fwd_3y": 11.12566053022822,
       "market_cap_m": 101686.31123352051,
-      "checklist_score": 78.90859108974608,
+      "checklist_score": 79.10859108974608,
       "checklist_final": "BUY",
       "composite": {
-        "score": 26.8,
+        "score": 26.9,
         "rating": "Weak risk/reward",
         "components": [
           {
@@ -128,7 +128,7 @@
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 78.91,
+            "input": 79.11,
             "unit": "score",
             "contribution": 15.8
           },
@@ -2050,6 +2050,88 @@
             "key": "roic",
             "label": "ROIC",
             "score": 40.3
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
+    },
+    {
+      "ticker": "LRCX",
+      "company": "Lam Research Corporation",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 242.9199981689453,
+      "fair_value": 199.7942184412032,
+      "mos": -21.585098940404745,
+      "terminal_pe_irr": 3.0621585885538316,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 88.09744565217392,
+      "investor_score_synt": 67.24890171057088,
+      "market_score_synt": 36.6,
+      "dps": 0.92,
+      "net_debt": -1921.636,
+      "pe_now": 49.88090311477316,
+      "analyst_pe_fwd_3y": 28.16,
+      "market_cap_m": 308265.4776763916,
+      "checklist_score": 69.45853894509793,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 26.6,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 3.06,
+            "unit": "pct",
+            "contribution": 6.1
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -17.75,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 69.46,
+            "unit": "score",
+            "contribution": 13.9
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 65.64,
+            "unit": "score",
+            "contribution": 6.6
+          }
+        ]
+      },
+      "gqs": {
+        "score": 51.2,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 28.8
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 87.9
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 21.4
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
           }
         ]
       },
