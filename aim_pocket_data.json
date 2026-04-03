@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-04-03T23:35:48",
+  "generated_at": "2026-04-03T23:42:19",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -956,7 +956,7 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-03T23:35:46",
+        "model_last_computed_at": "2026-04-03T23:42:16",
         "price_last_updated_at": "2026-04-03 22:16:49"
       }
     },
@@ -1286,60 +1286,60 @@
       "currency": "USD",
       "sector": "FINANCIAL",
       "price": 49.380001068115234,
-      "fair_value": 54.553832588790385,
-      "mos": 9.483901084775956,
-      "irr": 3.3771902110363072,
-      "terminal_pe_irr": 13.71490923213996,
+      "fair_value": 44.8534936138242,
+      "mos": -10.091761175312174,
+      "irr": -3.1539913050137813,
+      "terminal_pe_irr": 6.530609564484857,
       "verdict": "WATCHLIST",
       "business_score_synt": 72.18252351097179,
-      "investor_score_synt": 75.29031425279427,
-      "market_score_synt": 66.2,
+      "investor_score_synt": 66.5588323519922,
+      "market_score_synt": 55.3,
       "verdict_synt": "WATCHLIST",
       "confidence_synt": "High",
       "dps": 1.08,
       "net_debt": 78497.0,
       "pe_now": 12.960630201605047,
-      "analyst_pe_fwd_3y": 13.0,
+      "analyst_pe_fwd_3y": 10.68844092723795,
       "market_cap_m": 379287.7882041931,
-      "checklist_score": 72.22913510550643,
+      "checklist_score": 66.55654234518559,
       "checklist_final": "WATCHLIST",
       "composite": {
-        "score": 72.8,
-        "rating": "Selective opportunity",
+        "score": 37.9,
+        "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 13.71,
+            "input": 6.53,
             "unit": "pct",
-            "contribution": 27.4
+            "contribution": 13.1
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": 10.48,
+            "input": -9.17,
             "unit": "pct",
-            "contribution": 24.0
+            "contribution": 6.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 72.23,
+            "input": 66.56,
             "unit": "score",
-            "contribution": 14.4
+            "contribution": 13.3
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 69.07,
+            "input": 54.82,
             "unit": "score",
-            "contribution": 6.9
+            "contribution": 5.5
           }
         ]
       },
       "market_valuation": {
-        "score": 66.2,
-        "rating": "OK",
+        "score": 55.3,
+        "rating": "WARNING",
         "signals": [
           {
             "key": "expectations_gap_pp",
@@ -1376,10 +1376,10 @@
           {
             "key": "implied_irr_pct",
             "label": "Implied IRR",
-            "status": "OK",
-            "value": 13.71,
+            "status": "BAD",
+            "value": 6.53,
             "unit": "pct",
-            "message": "Current price offers attractive IRR."
+            "message": "Current price offers weak IRR."
           }
         ]
       },
@@ -1415,7 +1415,7 @@
         "capital_allocation": 67.24999999999999,
         "financial_health": 74.54166666666667
       },
-      "valuation_state": "Attractive",
+      "valuation_state": "Expensive",
       "why": [
         "NPL Ratio",
         "Capital Buffer",
@@ -1432,11 +1432,11 @@
       ],
       "meta": {
         "sector_mode": "FINANCIAL",
-        "aim_verdict_score": 72.22913510550643,
+        "aim_verdict_score": 66.55654234518559,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-03T23:35:47",
+        "model_last_computed_at": "2026-04-03T23:42:18",
         "price_last_updated_at": "2026-04-03 22:16:49"
       }
     },
