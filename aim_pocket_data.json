@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-04-04T00:35:23",
+  "generated_at": "2026-04-04T21:48:54",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -3357,6 +3357,166 @@
         "freshness_label": "Fresh",
         "model_last_computed_at": "2026-04-04T00:35:02",
         "price_last_updated_at": "2026-04-03 22:16:49"
+      }
+    },
+    {
+      "ticker": "IBM",
+      "company": "International Business Machines Corporation",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 248.16000366210935,
+      "fair_value": 229.00075131480088,
+      "mos": -8.366458292082536,
+      "irr": -2.642733111897577,
+      "terminal_pe_irr": 7.092993576912687,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 73.35798007246379,
+      "investor_score_synt": 66.22961033276854,
+      "market_score_synt": 63.6,
+      "verdict_synt": "WATCHLIST",
+      "confidence_synt": "High",
+      "dps": 6.67,
+      "net_debt": 46843.0,
+      "pe_now": 22.236559467930945,
+      "analyst_pe_fwd_3y": 22.73793258358934,
+      "market_cap_m": 232513.51543121337,
+      "checklist_score": 68.55503616209293,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 38.2,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 7.09,
+            "unit": "pct",
+            "contribution": 14.2
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -7.72,
+            "unit": "pct",
+            "contribution": 6.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 68.56,
+            "unit": "score",
+            "contribution": 13.7
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 43.36,
+            "unit": "score",
+            "contribution": 4.3
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 63.6,
+        "rating": "OK",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -8.5,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "GOOD",
+            "value": 0.83,
+            "unit": "ratio",
+            "message": "Current valuation sits below the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "WARNING",
+            "value": 2.25,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "GOOD",
+            "value": 5.2,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a strong valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": 7.09,
+            "unit": "pct",
+            "message": "Current price offers weak IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 55.5,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 60.4
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 52.5
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 60.4
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 48.6
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 65.68291925465839,
+        "profitability": 84.16666666666667,
+        "capital_allocation": 78.64166666666668,
+        "financial_health": 62.60416666666667
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Gross margin",
+        "Operating margin",
+        "Revenue volatility",
+        "Operating margin trend 3Y",
+        "Incremental ROIC"
+      ],
+      "risks": [
+        "ROIC persistence",
+        "Growth efficiency",
+        "Balance sheet flexibility",
+        "Cash ratio",
+        "Working capital / Revenue"
+      ],
+      "meta": {
+        "sector_mode": "TECH",
+        "aim_verdict_score": 68.55503616209293,
+        "confidence_score": 100.0,
+        "confidence_label": "High",
+        "freshness_label": "Fresh",
+        "model_last_computed_at": "2026-04-04T21:48:32",
+        "price_last_updated_at": "2026-04-04 21:45:35"
       }
     },
     {
