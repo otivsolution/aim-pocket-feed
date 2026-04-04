@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-04T00:35:23",
+  "generated_at": "2026-04-04T21:48:54",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -1722,6 +1722,88 @@
             "key": "roic",
             "label": "ROIC",
             "score": 66.7
+          }
+        ]
+      },
+      "valuation_state": "Expensive"
+    },
+    {
+      "ticker": "IBM",
+      "company": "International Business Machines Corporation",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 248.16000366210935,
+      "fair_value": 229.00075131480088,
+      "mos": -8.366458292082536,
+      "terminal_pe_irr": 7.092993576912687,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 73.35798007246379,
+      "investor_score_synt": 66.22961033276854,
+      "market_score_synt": 63.6,
+      "dps": 6.67,
+      "net_debt": 46843.0,
+      "pe_now": 22.236559467930945,
+      "analyst_pe_fwd_3y": 22.73793258358934,
+      "market_cap_m": 232513.51543121337,
+      "checklist_score": 68.55503616209293,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 38.2,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 7.09,
+            "unit": "pct",
+            "contribution": 14.2
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -7.72,
+            "unit": "pct",
+            "contribution": 6.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 68.56,
+            "unit": "score",
+            "contribution": 13.7
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 43.36,
+            "unit": "score",
+            "contribution": 4.3
+          }
+        ]
+      },
+      "gqs": {
+        "score": 55.5,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 60.4
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 52.5
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 60.4
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 48.6
           }
         ]
       },
