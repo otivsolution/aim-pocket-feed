@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-04T22:25:22",
+  "generated_at": "2026-04-04T22:27:31",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -3530,6 +3530,88 @@
         ]
       },
       "valuation_state": "Attractive"
+    },
+    {
+      "ticker": "TMUS",
+      "company": "T-Mobile US, Inc.",
+      "currency": "USD",
+      "sector": "CONSUMER",
+      "price": 201.44,
+      "fair_value": 193.65138993238156,
+      "mos": -4.021974781765332,
+      "terminal_pe_irr": 8.563621042476344,
+      "verdict": "WATCHLIST",
+      "business_score_synt": 62.37589285714286,
+      "investor_score_synt": 69.24408465894606,
+      "market_score_synt": 74.8,
+      "dps": 3.66,
+      "net_debt": 84216.0,
+      "pe_now": 20.724279835390945,
+      "analyst_pe_fwd_3y": 15.19332921009728,
+      "market_cap_m": 222994.08,
+      "checklist_score": 67.60799100643558,
+      "checklist_final": "WATCHLIST",
+      "composite": {
+        "score": 48.1,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 8.56,
+            "unit": "pct",
+            "contribution": 17.1
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -3.87,
+            "unit": "pct",
+            "contribution": 10.5
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 67.61,
+            "unit": "score",
+            "contribution": 13.5
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 69.77,
+            "unit": "score",
+            "contribution": 7.0
+          }
+        ]
+      },
+      "gqs": {
+        "score": 40.8,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 56.2
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 53.3
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 20.3
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 33.3
+          }
+        ]
+      },
+      "valuation_state": "Near Target"
     },
     {
       "ticker": "TSLA",
