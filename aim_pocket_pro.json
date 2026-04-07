@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "pro",
-  "generated_at": "2026-04-07T08:28:01",
+  "generated_at": "2026-04-07T08:57:44",
   "model_version": "AIM 2.0",
   "source": "aim_pocket_export",
   "tickers": [
@@ -487,60 +487,60 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 220.17999267578125,
-      "fair_value": 207.9263711495116,
-      "mos": -5.893250316699156,
-      "irr": -1.8906103980809719,
-      "terminal_pe_irr": 7.920328562110934,
-      "verdict": "WATCHLIST",
+      "fair_value": 255.14456794954904,
+      "mos": 13.703828991837092,
+      "irr": 5.035512270662124,
+      "terminal_pe_irr": 15.539063497728334,
+      "verdict": "BUY",
       "business_score_synt": 75.49420289855074,
-      "investor_score_synt": 66.09464800303635,
-      "market_score_synt": 59.8,
-      "verdict_synt": "WATCHLIST",
+      "investor_score_synt": 76.1032119822772,
+      "market_score_synt": 72.3,
+      "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": null,
       "net_debt": -6705.0,
       "pe_now": 83.08678968897406,
-      "analyst_pe_fwd_3y": 30.1526142388936,
+      "analyst_pe_fwd_3y": 37.0,
       "market_cap_m": 352287.98828125,
-      "checklist_score": 68.59554036063484,
-      "checklist_final": "WATCHLIST",
+      "checklist_score": 75.09896595233118,
+      "checklist_final": "BUY",
       "composite": {
-        "score": 43.1,
-        "rating": "Neutral",
+        "score": 79.2,
+        "rating": "Selective opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 7.92,
+            "input": 15.54,
             "unit": "pct",
-            "contribution": 15.8
+            "contribution": 31.1
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -5.57,
+            "input": 15.88,
             "unit": "pct",
-            "contribution": 6.0
+            "contribution": 24.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 68.6,
+            "input": 75.1,
             "unit": "score",
-            "contribution": 13.7
+            "contribution": 15.0
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 75.84,
+            "input": 91.08,
             "unit": "score",
-            "contribution": 7.6
+            "contribution": 9.1
           }
         ]
       },
       "market_valuation": {
-        "score": 59.8,
-        "rating": "WARNING",
+        "score": 72.3,
+        "rating": "OK",
         "signals": [
           {
             "key": "expectations_gap_pp",
@@ -577,10 +577,10 @@
           {
             "key": "implied_irr_pct",
             "label": "Implied IRR",
-            "status": "BAD",
-            "value": 7.92,
+            "status": "GOOD",
+            "value": 15.54,
             "unit": "pct",
-            "message": "Current price offers weak IRR."
+            "message": "Current price offers very attractive IRR."
           }
         ]
       },
@@ -616,7 +616,7 @@
         "capital_allocation": 78.54166666666667,
         "financial_health": 97.0
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Attractive",
       "why": [
         "Revenue CAGR",
         "ROIC 5Y avg",
@@ -633,11 +633,11 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 68.59554036063484,
+        "aim_verdict_score": 75.09896595233118,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-07T08:27:01",
+        "model_last_computed_at": "2026-04-07T08:57:22",
         "price_last_updated_at": "2026-04-06 23:02:32"
       }
     },
