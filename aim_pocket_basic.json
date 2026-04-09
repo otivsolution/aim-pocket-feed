@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-09T22:13:13",
+  "generated_at": "2026-04-09T22:20:30",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -10,26 +10,26 @@
       "company": "NVIDIA Corporation",
       "currency": "USD",
       "sector": "TECH",
-      "price": 183.93699645996094,
+      "price": 183.91000366210938,
       "fair_value": 178.8129226145754,
-      "mos": -2.8656060034488053,
-      "irr": -0.9373510238044447,
-      "terminal_pe_irr": 8.96891387381511,
+      "mos": -2.8505104513729944,
+      "irr": -0.9325047272565445,
+      "terminal_pe_irr": 8.974244800017805,
       "verdict": "BUY",
       "business_score_synt": 91.83416666666668,
-      "investor_score_synt": 74.30293258857293,
+      "investor_score_synt": 74.30435416889364,
       "market_score_synt": 75.6,
       "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": null,
       "net_debt": -51516.0,
-      "pe_now": 37.53816254284917,
+      "pe_now": 37.53265380859375,
       "analyst_pe_fwd_3y": 18.00790418353664,
-      "market_cap_m": 4469669.013977051,
-      "checklist_score": 81.57483970209586,
+      "market_cap_m": 4469013.088989258,
+      "checklist_score": 81.57540833422414,
       "checklist_final": "BUY",
       "composite": {
-        "score": 52.5,
+        "score": 52.6,
         "rating": "Neutral",
         "components": [
           {
@@ -42,21 +42,21 @@
           {
             "key": "mos",
             "label": "MOS",
-            "input": -2.79,
+            "input": -2.77,
             "unit": "pct",
             "contribution": 10.5
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 81.57,
+            "input": 81.58,
             "unit": "score",
             "contribution": 16.3
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 77.94,
+            "input": 77.95,
             "unit": "score",
             "contribution": 7.8
           }
@@ -70,7 +70,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -42.58,
+            "value": -42.59,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -157,12 +157,12 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 81.57483970209586,
+        "aim_verdict_score": 81.57540833422414,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-09T22:12:11",
-        "price_last_updated_at": "2026-04-09 22:12:08"
+        "model_last_computed_at": "2026-04-09T22:19:26",
+        "price_last_updated_at": "2026-04-09 22:19:23"
       }
     },
     {
@@ -321,8 +321,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-09T22:12:08",
-        "price_last_updated_at": "2026-04-09 22:12:08"
+        "model_last_computed_at": "2026-04-09T22:19:24",
+        "price_last_updated_at": "2026-04-09 22:19:23"
       }
     },
     {
@@ -481,8 +481,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-09T22:12:17",
-        "price_last_updated_at": "2026-04-09 22:12:08"
+        "model_last_computed_at": "2026-04-09T22:19:32",
+        "price_last_updated_at": "2026-04-09 22:19:23"
       }
     },
     {
@@ -490,11 +490,11 @@
       "company": "Tesla, Inc.",
       "currency": "USD",
       "sector": "INDUSTRIAL",
-      "price": 345.57501220703125,
+      "price": 345.6199951171875,
       "fair_value": 257.0623591284748,
-      "mos": -34.43236628600283,
-      "irr": -9.3922417369525,
-      "terminal_pe_irr": -0.33146591064774356,
+      "mos": -34.449865117923906,
+      "irr": -9.396172814960558,
+      "terminal_pe_irr": -0.33579009645660074,
       "verdict": "AVOID",
       "business_score_synt": 62.90723886328725,
       "investor_score_synt": 52.912631848438295,
@@ -503,9 +503,9 @@
       "confidence_synt": "High",
       "dps": null,
       "net_debt": -35882.0,
-      "pe_now": 319.97686315465853,
+      "pe_now": 320.0185139973958,
       "analyst_pe_fwd_3y": 128.4774007640817,
-      "market_cap_m": 1219188.6430664062,
+      "market_cap_m": 1219347.3427734375,
       "checklist_score": 45.80794828469023,
       "checklist_final": "AVOID",
       "composite": {
@@ -515,14 +515,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -0.33,
+            "input": -0.34,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -25.61,
+            "input": -25.62,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -582,7 +582,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -0.33,
+            "value": -0.34,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -641,8 +641,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-09T22:12:37",
-        "price_last_updated_at": "2026-04-09 22:12:08"
+        "model_last_computed_at": "2026-04-09T22:19:53",
+        "price_last_updated_at": "2026-04-09 22:19:23"
       }
     },
     {
@@ -801,8 +801,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-09T22:12:14",
-        "price_last_updated_at": "2026-04-09 22:12:08"
+        "model_last_computed_at": "2026-04-09T22:19:29",
+        "price_last_updated_at": "2026-04-09 22:19:23"
       }
     },
     {
@@ -961,8 +961,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-09T22:12:32",
-        "price_last_updated_at": "2026-04-09 22:12:08"
+        "model_last_computed_at": "2026-04-09T22:19:47",
+        "price_last_updated_at": "2026-04-09 22:19:23"
       }
     }
   ]
