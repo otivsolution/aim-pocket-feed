@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "advanced",
-  "generated_at": "2026-04-11T01:07:44",
+  "generated_at": "2026-04-11T01:16:51",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -162,8 +162,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:39",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:48",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -323,8 +323,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:36",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:45",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -484,8 +484,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:45",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:53",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -645,8 +645,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:05",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:14",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -806,8 +806,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:42",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:51",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -816,61 +816,61 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 260.4800109863281,
-      "fair_value": 204.16979714500368,
-      "p3_price_3y": 271.75,
-      "mos": -27.58009001759075,
-      "irr": -7.798278060606645,
-      "terminal_pe_irr": 1.4218941333326907,
-      "verdict": "WATCHLIST",
+      "fair_value": 362.07073390016535,
+      "p3_price_3y": 481.9161468211202,
+      "mos": 28.05825309864704,
+      "irr": 11.602264512846737,
+      "terminal_pe_irr": 22.76249096413141,
+      "verdict": "BUY",
       "business_score_synt": 87.53750000000001,
-      "investor_score_synt": 61.775505102222056,
-      "market_score_synt": 36.0,
-      "verdict_synt": "WATCHLIST",
+      "investor_score_synt": 79.96578829436027,
+      "market_score_synt": 53.5,
+      "verdict_synt": "BUY",
       "confidence_synt": "High",
       "dps": 1.0,
       "net_debt": 43960.0,
       "pe_now": 33.05583895765585,
-      "analyst_pe_fwd_3y": 24.81137035742082,
+      "analyst_pe_fwd_3y": 44.0,
       "market_cap_m": 3841559.202026367,
-      "checklist_score": 66.92520204088883,
-      "checklist_final": "WATCHLIST",
+      "checklist_score": 77.70131531774412,
+      "checklist_final": "BUY",
       "composite": {
-        "score": 20.4,
-        "rating": "Weak risk/reward",
+        "score": 92.1,
+        "rating": "Strong opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 1.42,
+            "input": 22.76,
             "unit": "pct",
-            "contribution": 2.8
+            "contribution": 40.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -21.62,
+            "input": 39.0,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 30.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 66.93,
+            "input": 77.7,
             "unit": "score",
-            "contribution": 13.4
+            "contribution": 15.5
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 41.4,
+            "input": 65.32,
             "unit": "score",
-            "contribution": 4.1
+            "contribution": 6.5
           }
         ]
       },
       "market_valuation": {
-        "score": 36.0,
-        "rating": "BAD",
+        "score": 53.5,
+        "rating": "WARNING",
         "signals": [
           {
             "key": "expectations_gap_pp",
@@ -907,10 +907,10 @@
           {
             "key": "implied_irr_pct",
             "label": "Implied IRR",
-            "status": "BAD",
-            "value": 1.42,
+            "status": "GOOD",
+            "value": 22.76,
             "unit": "pct",
-            "message": "Current price offers very low IRR."
+            "message": "Current price offers very attractive IRR."
           }
         ]
       },
@@ -946,7 +946,7 @@
         "capital_allocation": 89.9,
         "financial_health": 78.33333333333334
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Attractive",
       "why": [
         "ROIC adj",
         "ROIC spread",
@@ -963,12 +963,12 @@
       ],
       "meta": {
         "sector_mode": "TECH",
-        "aim_verdict_score": 66.92520204088883,
+        "aim_verdict_score": 77.70131531774412,
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:00",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:09",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -1128,8 +1128,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:40",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:49",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -1289,8 +1289,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:03",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:11",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -1450,8 +1450,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:28",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:36",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -1611,8 +1611,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:23",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:31",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -1772,8 +1772,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:46",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:54",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -1933,8 +1933,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:32",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:39",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -2094,8 +2094,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:47",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:56",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -2254,8 +2254,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:43",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:52",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -2413,8 +2413,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:16",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:25",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -2574,8 +2574,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:38",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:15:47",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -2735,8 +2735,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:14",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:22",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -2896,8 +2896,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:06:57",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:06",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -3057,8 +3057,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:07",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:15",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     },
     {
@@ -3218,8 +3218,8 @@
         "confidence_score": 100.0,
         "confidence_label": "High",
         "freshness_label": "Fresh",
-        "model_last_computed_at": "2026-04-11T01:07:26",
-        "price_last_updated_at": "2026-04-11 01:06:35"
+        "model_last_computed_at": "2026-04-11T01:16:34",
+        "price_last_updated_at": "2026-04-11 01:15:44"
       }
     }
   ]
