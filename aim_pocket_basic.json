@@ -1,0 +1,873 @@
+{
+  "schema_version": 2,
+  "feed_tier": "basic",
+  "generated_at": "2026-04-11T21:56:51",
+  "model_version": "AIM 2.0",
+  "source": "aim_batch_export",
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 188.6300048828125,
+      "fair_value": 178.8129226145754,
+      "p3_price_3y": 237.99999999999994,
+      "business_score_synt": 91.83416666666668,
+      "investor_score_synt": 74.0599206129861,
+      "market_score_synt": 75.6,
+      "verdict_synt": "BUY",
+      "net_debt": -51516.0,
+      "pe_now": 38.495919363839285,
+      "analyst_pe_fwd_3y": 18.00790418353664,
+      "market_cap_m": 4678778.641113281,
+      "composite": {
+        "score": 46.0,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 8.06,
+            "unit": "pct",
+            "contribution": 16.1
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -5.2,
+            "unit": "pct",
+            "contribution": 6.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 81.48,
+            "unit": "score",
+            "contribution": 16.3
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 76.12,
+            "unit": "score",
+            "contribution": 7.6
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 75.6,
+        "rating": "OK",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -41.06,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "GOOD",
+            "value": 0.76,
+            "unit": "ratio",
+            "message": "Current valuation sits below the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "GOOD",
+            "value": 0.92,
+            "unit": "ratio",
+            "message": "Valuation appears attractive relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "OK",
+            "value": 2.07,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a modest valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "WARNING",
+            "value": 8.06,
+            "unit": "pct",
+            "message": "Current price offers acceptable IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 57.9,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 50.0
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 66.7
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 28.7
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 84.69047619047619,
+        "profitability": 94.5,
+        "capital_allocation": 96.65,
+        "financial_health": 96.75
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Revenue CAGR",
+        "ROIC adj",
+        "ROIC spread",
+        "Gross margin",
+        "Operating margin"
+      ],
+      "risks": [
+        "Revenue volatility",
+        "ROIC 5Y std",
+        "Operating margin stability",
+        "Operating margin stability 5Y",
+        "EV / NOPAT"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 370.8699951171875,
+      "fair_value": 409.2411720510892,
+      "p3_price_3y": 544.6999999999999,
+      "business_score_synt": 91.26333333333335,
+      "investor_score_synt": 78.43597558628474,
+      "market_score_synt": 73.2,
+      "verdict_synt": "BUY",
+      "net_debt": -31855.0,
+      "pe_now": 23.107164804809187,
+      "analyst_pe_fwd_3y": 20.70813193332986,
+      "market_cap_m": 2755934.9337158203,
+      "composite": {
+        "score": 75.4,
+        "rating": "Selective opportunity",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 13.67,
+            "unit": "pct",
+            "contribution": 27.3
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 10.35,
+            "unit": "pct",
+            "contribution": 24.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 82.52,
+            "unit": "score",
+            "contribution": 16.5
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 75.98,
+            "unit": "score",
+            "contribution": 7.6
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 73.2,
+        "rating": "OK",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -11.8,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "GOOD",
+            "value": 0.77,
+            "unit": "ratio",
+            "message": "Current valuation sits below the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "WARNING",
+            "value": 2.9,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "OK",
+            "value": 2.81,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a modest valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "OK",
+            "value": 13.67,
+            "unit": "pct",
+            "message": "Current price offers attractive IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 75.4,
+        "rating": "OK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 78.5
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 98.7
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 22.9
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 93.1857142857143,
+        "profitability": 97.0,
+        "capital_allocation": 77.49166666666667,
+        "financial_health": 93.66666666666667
+      },
+      "valuation_state": "Attractive",
+      "why": [
+        "ROIC spread",
+        "ROIC 5Y avg",
+        "Operating margin",
+        "ROIC",
+        "Operating margin stability 5Y"
+      ],
+      "risks": [
+        "Growth efficiency",
+        "CAPEX / Revenue",
+        "PEG Ratio",
+        "EV / NOPAT",
+        "Price / Sales"
+      ]
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 629.8599853515625,
+      "fair_value": 630.5033809166039,
+      "p3_price_3y": 839.2,
+      "business_score_synt": 89.33003623188408,
+      "investor_score_synt": 73.01749181185085,
+      "market_score_synt": 68.0,
+      "verdict_synt": "BUY",
+      "net_debt": 2305.0,
+      "pe_now": 26.813962765072905,
+      "analyst_pe_fwd_3y": 26.47863690911866,
+      "market_cap_m": 1590396.4630126953,
+      "composite": {
+        "score": 56.5,
+        "rating": "Neutral",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 10.04,
+            "unit": "pct",
+            "contribution": 20.1
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": 0.1,
+            "unit": "pct",
+            "contribution": 15.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 78.54,
+            "unit": "score",
+            "contribution": 15.7
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 56.87,
+            "unit": "score",
+            "contribution": 5.7
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 68.0,
+        "rating": "OK",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "OK",
+            "value": -0.29,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "OK",
+            "value": 1.08,
+            "unit": "ratio",
+            "message": "Current valuation sits within the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "WARNING",
+            "value": 2.15,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "OK",
+            "value": 2.9,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a modest valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "OK",
+            "value": 10.04,
+            "unit": "pct",
+            "message": "Current price offers attractive IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 69.9,
+        "rating": "WARNING",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 80.9
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 61.5
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 72.3
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 92.70248447204969,
+        "profitability": 93.91666666666667,
+        "capital_allocation": 76.85833333333335,
+        "financial_health": 88.91666666666666
+      },
+      "valuation_state": "Attractive",
+      "why": [
+        "ROIC 5Y avg",
+        "Gross margin",
+        "Operating margin",
+        "Operating margin trend 3Y",
+        "Incremental ROIC"
+      ],
+      "risks": [
+        "Growth efficiency",
+        "CAPEX / Revenue",
+        "PEG Ratio",
+        "EV / NOPAT",
+        "Price / Sales"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla, Inc.",
+      "currency": "USD",
+      "sector": "INDUSTRIAL",
+      "price": 348.95001220703125,
+      "fair_value": 257.0623591284748,
+      "p3_price_3y": 342.15000000000003,
+      "business_score_synt": 62.90723886328725,
+      "investor_score_synt": 52.912631848438295,
+      "market_score_synt": 32.400000000000006,
+      "verdict_synt": "AVOID",
+      "net_debt": -35882.0,
+      "pe_now": 323.10186315465853,
+      "analyst_pe_fwd_3y": 128.4774007640817,
+      "market_cap_m": 1231095.6430664062,
+      "composite": {
+        "score": 15.2,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": -0.65,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -26.33,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 45.81,
+            "unit": "score",
+            "contribution": 9.2
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 60.0,
+            "unit": "score",
+            "contribution": 6.0
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 32.4,
+        "rating": "BAD",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -21.03,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "BAD",
+            "value": 1.64,
+            "unit": "ratio",
+            "message": "Current valuation sits well above the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "BAD",
+            "value": 8.21,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "BAD",
+            "value": 0.51,
+            "unit": "pct",
+            "message": "Free cash flow yield provides limited valuation support."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": -0.65,
+            "unit": "pct",
+            "message": "Current price implies negative IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 40.4,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 38.0
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 27.9
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 6.7
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 56.51228878648233,
+        "profitability": 39.0,
+        "capital_allocation": 60.0,
+        "financial_health": 91.91666666666667
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Revenue CAGR",
+        "ROIC 5Y avg",
+        "Revenue persistence",
+        "Operating margin stability 5Y",
+        "CAPEX / Revenue"
+      ],
+      "risks": [
+        "EBIT CAGR",
+        "ROIC spread",
+        "Revenue/EBIT divergence",
+        "Operating margin",
+        "Net margin"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices, Inc.",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 245.0399932861328,
+      "fair_value": 207.9263711495116,
+      "p3_price_3y": 276.75,
+      "business_score_synt": 75.49420289855074,
+      "investor_score_synt": 64.58651642761004,
+      "market_score_synt": 53.0,
+      "verdict_synt": "WATCHLIST",
+      "net_debt": -6705.0,
+      "pe_now": 92.4679219947671,
+      "analyst_pe_fwd_3y": 30.1526142388936,
+      "market_cap_m": 399415.1890563965,
+      "composite": {
+        "score": 28.4,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 4.14,
+            "unit": "pct",
+            "contribution": 8.3
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -15.15,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 66.63,
+            "unit": "score",
+            "contribution": 13.3
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 68.28,
+            "unit": "score",
+            "contribution": 6.8
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 53.0,
+        "rating": "WARNING",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "GOOD",
+            "value": -38.16,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations well below analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "WARNING",
+            "value": 1.15,
+            "unit": "ratio",
+            "message": "Current valuation sits above the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "OK",
+            "value": 1.52,
+            "unit": "ratio",
+            "message": "Valuation appears broadly aligned with expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "WARNING",
+            "value": 1.68,
+            "unit": "pct",
+            "message": "Free cash flow yield provides limited valuation support."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": 4.14,
+            "unit": "pct",
+            "message": "Current price offers very low IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 35.4,
+        "rating": "WEAK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 50.0
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 1.3
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 0.0
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 66.7
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 70.1024844720497,
+        "profitability": 69.0,
+        "capital_allocation": 78.54166666666667,
+        "financial_health": 97.0
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "Revenue CAGR",
+        "ROIC 5Y avg",
+        "Gross margin stability",
+        "Operating margin trend 3Y",
+        "Incremental ROIC"
+      ],
+      "risks": [
+        "ROIC 5Y std",
+        "Operating margin",
+        "ROE",
+        "ROIC spread",
+        "Growth efficiency"
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "currency": "USD",
+      "sector": "TECH",
+      "price": 260.4800109863281,
+      "fair_value": 204.16979714500368,
+      "p3_price_3y": 271.75,
+      "business_score_synt": 87.53750000000001,
+      "investor_score_synt": 61.775505102222056,
+      "market_score_synt": 36.0,
+      "verdict_synt": "WATCHLIST",
+      "net_debt": 43960.0,
+      "pe_now": 33.05583895765585,
+      "analyst_pe_fwd_3y": 24.81137035742082,
+      "market_cap_m": 3841559.202026367,
+      "composite": {
+        "score": 20.4,
+        "rating": "Weak risk/reward",
+        "components": [
+          {
+            "key": "irr",
+            "label": "IRR",
+            "input": 1.42,
+            "unit": "pct",
+            "contribution": 2.8
+          },
+          {
+            "key": "mos",
+            "label": "MOS",
+            "input": -21.62,
+            "unit": "pct",
+            "contribution": 0.0
+          },
+          {
+            "key": "checklist",
+            "label": "Checklist",
+            "input": 66.93,
+            "unit": "score",
+            "contribution": 13.4
+          },
+          {
+            "key": "quant",
+            "label": "Quant",
+            "input": 41.4,
+            "unit": "score",
+            "contribution": 4.1
+          }
+        ]
+      },
+      "market_valuation": {
+        "score": 36.0,
+        "rating": "BAD",
+        "signals": [
+          {
+            "key": "expectations_gap_pp",
+            "label": "Expectations gap",
+            "status": "WARNING",
+            "value": 8.53,
+            "unit": "pct",
+            "message": "Current price reflects growth expectations above analyst forecasts."
+          },
+          {
+            "key": "pe_vs_hist_ratio",
+            "label": "P/E regime",
+            "status": "WARNING",
+            "value": 1.23,
+            "unit": "ratio",
+            "message": "Current valuation sits above the company's historical P/E range."
+          },
+          {
+            "key": "peg_ratio",
+            "label": "PEG sanity",
+            "status": "BAD",
+            "value": 3.67,
+            "unit": "ratio",
+            "message": "Valuation appears stretched relative to expected earnings growth."
+          },
+          {
+            "key": "yield_sanity",
+            "label": "FCF yield",
+            "status": "OK",
+            "value": 2.57,
+            "unit": "pct",
+            "message": "Free cash flow yield provides a modest valuation anchor."
+          },
+          {
+            "key": "implied_irr_pct",
+            "label": "Implied IRR",
+            "status": "BAD",
+            "value": 1.42,
+            "unit": "pct",
+            "message": "Current price offers very low IRR."
+          }
+        ]
+      },
+      "gqs": {
+        "score": 83.0,
+        "rating": "OK",
+        "pillars": [
+          {
+            "key": "revenue",
+            "label": "Revenue",
+            "score": 58.2
+          },
+          {
+            "key": "margin",
+            "label": "Margin",
+            "score": 90.7
+          },
+          {
+            "key": "buybacks",
+            "label": "Buybacks",
+            "score": 83.2
+          },
+          {
+            "key": "roic",
+            "label": "ROIC",
+            "score": 100.0
+          }
+        ]
+      },
+      "pillar_scores": {
+        "quality": 84.69999999999999,
+        "profitability": 93.875,
+        "capital_allocation": 89.9,
+        "financial_health": 78.33333333333334
+      },
+      "valuation_state": "Expensive",
+      "why": [
+        "ROIC adj",
+        "ROIC spread",
+        "ROIC 5Y avg",
+        "ROIC",
+        "Operating margin stability 5Y"
+      ],
+      "risks": [
+        "Growth efficiency",
+        "Working capital / Revenue",
+        "Working capital",
+        "PEG Ratio",
+        "EV / NOPAT"
+      ]
+    }
+  ]
+}
