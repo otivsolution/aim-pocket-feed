@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-12T13:03:43",
+  "generated_at": "2026-04-12T13:22:04",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -731,53 +731,53 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 260.4800109863281,
-      "fair_value": 204.16979714500368,
-      "p3_price_3y": 271.75,
+      "fair_value": 452.5884173752067,
+      "p3_price_3y": 602.3951835264003,
       "business_score_synt": 87.53750000000001,
-      "investor_score_synt": 61.775505102222056,
-      "market_score_synt": 36.0,
-      "verdict_synt": "WATCHLIST",
+      "investor_score_synt": 80.22966666666667,
+      "market_score_synt": 53.5,
+      "verdict_synt": "BUY",
       "net_debt": 43960.0,
       "pe_now": 33.05583895765585,
-      "analyst_pe_fwd_3y": 24.81137035742082,
+      "analyst_pe_fwd_3y": 55.0,
       "market_cap_m": 3841559.202026367,
       "composite": {
-        "score": 20.4,
-        "rating": "Weak risk/reward",
+        "score": 91.4,
+        "rating": "Strong opportunity",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 1.42,
+            "input": 32.24,
             "unit": "pct",
-            "contribution": 2.8
+            "contribution": 40.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -21.62,
+            "input": 73.75,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 30.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 66.93,
+            "input": 77.81,
             "unit": "score",
-            "contribution": 13.4
+            "contribution": 15.6
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 41.4,
+            "input": 58.56,
             "unit": "score",
-            "contribution": 4.1
+            "contribution": 5.9
           }
         ]
       },
       "market_valuation": {
-        "score": 36.0,
-        "rating": "BAD",
+        "score": 53.5,
+        "rating": "WARNING",
         "signals": [
           {
             "key": "expectations_gap_pp",
@@ -814,10 +814,10 @@
           {
             "key": "implied_irr_pct",
             "label": "Implied IRR",
-            "status": "BAD",
-            "value": 1.42,
+            "status": "GOOD",
+            "value": 32.24,
             "unit": "pct",
-            "message": "Current price offers very low IRR."
+            "message": "Current price offers very attractive IRR."
           }
         ]
       },
@@ -853,7 +853,7 @@
         "capital_allocation": 89.9,
         "financial_health": 78.33333333333334
       },
-      "valuation_state": "Expensive",
+      "valuation_state": "Attractive",
       "why": [
         "ROIC adj",
         "ROIC spread",
