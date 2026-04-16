@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-16T21:07:37",
+  "generated_at": "2026-04-16T21:25:30",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -614,15 +614,15 @@
       "company": "Advanced Micro Devices, Inc.",
       "currency": "USD",
       "sector": "TECH",
-      "price": 273.8800048828125,
+      "price": 274.7099914550781,
       "fair_value": 207.68138241923356,
       "p3_price_3y": 276.42391999999995,
       "business_score_synt": 70.1658695652174,
-      "investor_score_synt": 62.35442544141424,
+      "investor_score_synt": 62.32745920016717,
       "market_score_synt": 53.0,
       "verdict_synt": "RISK",
       "net_debt": -6705.0,
-      "pe_now": 103.35094523879717,
+      "pe_now": 103.66414771889741,
       "analyst_pe_fwd_3y": 30.11708699607149,
       "analyst_rec": {
         "SB": 4,
@@ -631,38 +631,38 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 446424.4079589844,
+      "market_cap_m": 447777.28607177734,
       "composite": {
-        "score": 19.4,
+        "score": 19.2,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 0.31,
+            "input": 0.21,
             "unit": "pct",
-            "contribution": 0.6
+            "contribution": 0.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -24.17,
+            "input": -24.4,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 63.61,
+            "input": 63.6,
             "unit": "score",
             "contribution": 12.7
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 60.62,
+            "input": 60.42,
             "unit": "score",
-            "contribution": 6.1
+            "contribution": 6.0
           }
         ]
       },
@@ -674,7 +674,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -33.8,
+            "value": -33.68,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -706,7 +706,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 0.31,
+            "value": 0.21,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
