@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-23T01:14:23",
+  "generated_at": "2026-04-23T11:23:50",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -315,8 +315,8 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 674.72,
-      "fair_value": 597.32,
-      "p3_price_3y": 795.03,
+      "fair_value": 597.07,
+      "p3_price_3y": 794.71,
       "business_score_synt": 88,
       "investor_score_synt": 72,
       "market_score_synt": 49,
@@ -341,14 +341,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": 5.62,
+            "input": 5.61,
             "unit": "pct",
             "contribution": 11.2
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -11.47,
+            "input": -11.51,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -362,7 +362,7 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 48.04,
+            "input": 48.01,
             "unit": "score",
             "contribution": 4.8
           }
@@ -408,7 +408,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 5.62,
+            "value": 5.61,
             "unit": "pct",
             "message": "Current price offers very low IRR."
           }
@@ -467,8 +467,8 @@
       "currency": "USD",
       "sector": "INDUSTRIAL",
       "price": 387.51,
-      "fair_value": 256.23,
-      "p3_price_3y": 341.04,
+      "fair_value": 256.69,
+      "p3_price_3y": 341.65,
       "business_score_synt": 62,
       "investor_score_synt": 65,
       "market_score_synt": 32,
@@ -493,14 +493,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -4.17,
+            "input": -4.11,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -33.88,
+            "input": -33.76,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -560,7 +560,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -4.17,
+            "value": -4.11,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -619,8 +619,8 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 303.46,
-      "fair_value": 208.5,
-      "p3_price_3y": 277.51,
+      "fair_value": 208.82,
+      "p3_price_3y": 277.95,
       "business_score_synt": 70,
       "investor_score_synt": 90,
       "market_score_synt": 53,
@@ -631,7 +631,7 @@
       "net_debt": -6705.0,
       "pe_now": 114.51,
       "analyst_rec": {
-        "SB": 3,
+        "SB": 4,
         "B": 32,
         "H": 13,
         "S": 0,
@@ -645,14 +645,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -2.94,
+            "input": -2.89,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -31.29,
+            "input": -31.19,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -712,7 +712,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -2.94,
+            "value": -2.89,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -771,8 +771,8 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 273.17,
-      "fair_value": 205.09,
-      "p3_price_3y": 272.98,
+      "fair_value": 207.82,
+      "p3_price_3y": 276.6,
       "business_score_synt": 88,
       "investor_score_synt": 74,
       "market_score_synt": 36,
@@ -791,20 +791,20 @@
       },
       "market_cap_m": 4028711,
       "composite": {
-        "score": 15.2,
+        "score": 16.1,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": -0.02,
+            "input": 0.42,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 0.8
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -24.92,
+            "input": -23.92,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -818,7 +818,7 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 38.56,
+            "input": 39.39,
             "unit": "score",
             "contribution": 3.9
           }
@@ -864,9 +864,9 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -0.02,
+            "value": 0.42,
             "unit": "pct",
-            "message": "Current price implies negative IRR."
+            "message": "Current price offers very low IRR."
           }
         ]
       },
