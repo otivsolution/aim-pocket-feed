@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-24T23:35:59",
+  "generated_at": "2026-04-24T23:37:10",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -771,8 +771,8 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 271.06,
-      "fair_value": 49.37,
-      "p3_price_3y": 65.72,
+      "fair_value": 207.82,
+      "p3_price_3y": 276.6,
       "business_score_synt": 88,
       "investor_score_synt": 74,
       "market_score_synt": 36,
@@ -791,36 +791,36 @@
       },
       "market_cap_m": 3997593,
       "composite": {
-        "score": 14.2,
+        "score": 16.7,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": -37.65,
+            "input": 0.68,
             "unit": "pct",
-            "contribution": 0.0
+            "contribution": 1.4
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -81.79,
+            "input": -23.33,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 51.73,
+            "input": 56.73,
             "unit": "score",
-            "contribution": 10.3
+            "contribution": 11.3
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 38.56,
+            "input": 39.91,
             "unit": "score",
-            "contribution": 3.9
+            "contribution": 4.0
           }
         ]
       },
@@ -864,9 +864,9 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -37.65,
+            "value": 0.68,
             "unit": "pct",
-            "message": "Current price implies negative IRR."
+            "message": "Current price offers very low IRR."
           }
         ]
       },
