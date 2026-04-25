@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-25T21:38:18",
+  "generated_at": "2026-04-26T00:08:11",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -163,8 +163,8 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 424.62,
-      "fair_value": 402.48,
-      "p3_price_3y": 535.7,
+      "fair_value": 401.89,
+      "p3_price_3y": 534.91,
       "business_score_synt": 91,
       "investor_score_synt": 73,
       "market_score_synt": 67,
@@ -183,20 +183,20 @@
       },
       "market_cap_m": 3155351,
       "composite": {
-        "score": 43.5,
+        "score": 43.4,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 8.05,
+            "input": 8.0,
             "unit": "pct",
-            "contribution": 16.1
+            "contribution": 16.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -5.21,
+            "input": -5.35,
             "unit": "pct",
             "contribution": 6.0
           },
@@ -210,7 +210,7 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 64.75,
+            "input": 64.64,
             "unit": "score",
             "contribution": 6.5
           }
@@ -256,7 +256,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "WARNING",
-            "value": 8.05,
+            "value": 8.0,
             "unit": "pct",
             "message": "Current price offers acceptable IRR."
           }
@@ -467,8 +467,8 @@
       "currency": "USD",
       "sector": "INDUSTRIAL",
       "price": 376.3,
-      "fair_value": 257.36,
-      "p3_price_3y": 342.55,
+      "fair_value": 257.13,
+      "p3_price_3y": 342.24,
       "business_score_synt": 62,
       "investor_score_synt": 65,
       "market_score_synt": 32,
@@ -493,14 +493,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -3.08,
+            "input": -3.11,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -31.61,
+            "input": -31.67,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -560,7 +560,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -3.08,
+            "value": -3.11,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
