@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-04-29T00:52:40",
+  "generated_at": "2026-04-29T00:55:05",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -162,8 +162,8 @@
       "company": "Microsoft Corporation",
       "currency": "USD",
       "sector": "TECH",
-      "price": 427.96,
-      "fair_value": 400.48,
+      "price": 429.25,
+      "fair_value": 435.11,
       "p3_price_3y": 533.03,
       "business_score_synt": 89,
       "investor_score_synt": 73,
@@ -173,7 +173,7 @@
       "risk_score_synt": 88,
       "verdict_synt": "WATCH",
       "net_debt": -31855.0,
-      "pe_now": 26.66,
+      "pe_now": 26.74,
       "analyst_rec": {
         "SB": 10,
         "B": 43,
@@ -181,22 +181,22 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 3180171,
+      "market_cap_m": 3189757,
       "composite": {
-        "score": 42.2,
+        "score": 42.0,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 7.59,
+            "input": 7.49,
             "unit": "pct",
-            "contribution": 15.2
+            "contribution": 15.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -6.42,
+            "input": -6.7,
             "unit": "pct",
             "contribution": 6.0
           },
@@ -210,7 +210,7 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 63.83,
+            "input": 63.61,
             "unit": "score",
             "contribution": 6.4
           }
@@ -224,7 +224,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -6.87,
+            "value": -6.77,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -256,7 +256,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 7.59,
+            "value": 7.49,
             "unit": "pct",
             "message": "Current price offers weak IRR."
           }
