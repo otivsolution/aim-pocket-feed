@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-05-10T00:21:07",
+  "generated_at": "2026-05-10T00:27:41",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -771,15 +771,15 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 293.32,
-      "fair_value": 231.95,
+      "fair_value": 228.72,
       "p3_price_3y": 280.19,
       "business_score_synt": 89,
-      "investor_score_synt": 78,
-      "market_score_synt": 21,
-      "outlook_score_synt": 75,
-      "return_score_synt": 75,
-      "risk_score_synt": 81,
-      "verdict_synt": "AVOID",
+      "investor_score_synt": 74,
+      "market_score_synt": 30,
+      "outlook_score_synt": 68,
+      "return_score_synt": 68,
+      "risk_score_synt": 82,
+      "verdict_synt": "RISK",
       "net_debt": 43960.0,
       "pe_now": 38.62,
       "analyst_rec": {
@@ -791,7 +791,7 @@
       },
       "market_cap_m": 4325883,
       "composite": {
-        "score": 13.3,
+        "score": 14.7,
         "rating": "Weak risk/reward",
         "components": [
           {
@@ -811,9 +811,9 @@
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 49.0,
+            "input": 56.27,
             "unit": "score",
-            "contribution": 9.8
+            "contribution": 11.3
           },
           {
             "key": "quant",
@@ -825,7 +825,7 @@
         ]
       },
       "market_valuation": {
-        "score": 20.6,
+        "score": 30.0,
         "rating": "BAD",
         "signals": [
           {
@@ -839,26 +839,26 @@
           {
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
-            "status": "BAD",
+            "status": "WARNING",
             "value": 1.38,
             "unit": "ratio",
-            "message": "Current valuation sits well above the company's historical P/E range."
+            "message": "Current valuation sits above the company's historical P/E range."
           },
           {
             "key": "peg_ratio",
             "label": "PEG sanity",
-            "status": "N/A",
-            "value": null,
+            "status": "BAD",
+            "value": 3.67,
             "unit": "ratio",
-            "message": "Not applicable for FINANCE sector."
+            "message": "Valuation appears stretched relative to expected earnings growth."
           },
           {
             "key": "yield_sanity",
             "label": "FCF yield",
-            "status": "WARNING",
+            "status": "OK",
             "value": 2.28,
             "unit": "pct",
-            "message": "Free cash flow yield provides limited valuation support."
+            "message": "Free cash flow yield provides a modest valuation anchor."
           },
           {
             "key": "implied_irr_pct",
@@ -897,22 +897,24 @@
         ]
       },
       "pillar_scores": {
-        "quality": null,
-        "profitability": 84,
-        "capital_allocation": 100,
-        "financial_health": null
+        "quality": 88,
+        "profitability": 95,
+        "capital_allocation": 92,
+        "financial_health": 78
       },
       "why": [
-        "ROE",
-        "ROA",
-        "ROE spread"
+        "ROIC adj",
+        "ROIC spread",
+        "ROIC 5Y avg",
+        "ROIC",
+        "Operating margin stability 5Y"
       ],
       "risks": [
-        "ROE trend 3Y",
-        "ROA stability 5Y",
-        "ROE stability 5Y",
-        "Price / Book",
-        "Dividend Yield"
+        "Growth efficiency",
+        "Working capital / Revenue",
+        "Working capital",
+        "EV / NOPAT",
+        "PEG Ratio"
       ]
     }
   ]
