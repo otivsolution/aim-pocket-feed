@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-05-21T16:21:09",
+  "generated_at": "2026-05-21T16:28:24",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -10,18 +10,18 @@
       "company": "NVIDIA Corporation",
       "currency": "USD",
       "sector": "TECH",
-      "price": 222.78,
+      "price": 219.73,
       "fair_value": 223.13,
       "p3_price_3y": 262.01,
       "business_score_synt": 91,
       "investor_score_synt": 94,
-      "market_score_synt": 58,
+      "market_score_synt": 63,
       "outlook_score_synt": 98,
       "return_score_synt": 98,
       "risk_score_synt": 89,
       "verdict_synt": "BUY",
       "net_debt": -54088.0,
-      "pe_now": 46.02,
+      "pe_now": 45.39,
       "analyst_rec": {
         "SB": 10,
         "B": 48,
@@ -29,50 +29,50 @@
         "S": 1,
         "SS": 0
       },
-      "market_cap_m": 5525835,
+      "market_cap_m": 5450183,
       "composite": {
-        "score": 33.8,
+        "score": 35.1,
         "rating": "Weak risk/reward",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 5.56,
+            "input": 6.04,
             "unit": "pct",
-            "contribution": 11.1
+            "contribution": 12.1
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -11.64,
+            "input": -10.41,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "checklist",
             "label": "Checklist",
-            "input": 77.9,
+            "input": 78.9,
             "unit": "score",
-            "contribution": 15.6
+            "contribution": 15.8
           },
           {
             "key": "quant",
             "label": "Quant",
-            "input": 71.11,
+            "input": 72.08,
             "unit": "score",
-            "contribution": 7.1
+            "contribution": 7.2
           }
         ]
       },
       "market_valuation": {
-        "score": 57.8,
-        "rating": "WARNING",
+        "score": 62.8,
+        "rating": "OK",
         "signals": [
           {
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -35.34,
+            "value": -35.82,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -80,7 +80,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.9,
+            "value": 0.88,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -96,7 +96,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "WARNING",
-            "value": 1.75,
+            "value": 1.77,
             "unit": "pct",
             "message": "Free cash flow yield provides limited valuation support."
           },
@@ -104,9 +104,9 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": 5.56,
+            "value": 6.04,
             "unit": "pct",
-            "message": "Current price offers very low IRR."
+            "message": "Current price offers weak IRR."
           }
         ]
       },
@@ -162,7 +162,7 @@
       "company": "Microsoft Corporation",
       "currency": "USD",
       "sector": "TECH",
-      "price": 417.95,
+      "price": 416.48,
       "fair_value": 449.63,
       "p3_price_3y": 550.82,
       "business_score_synt": 89,
@@ -173,7 +173,7 @@
       "risk_score_synt": 90,
       "verdict_synt": "BUY",
       "net_debt": -31855.0,
-      "pe_now": 30.5,
+      "pe_now": 30.39,
       "analyst_rec": {
         "SB": 11,
         "B": 41,
@@ -181,22 +181,22 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 3105786,
+      "market_cap_m": 3094863,
       "composite": {
-        "score": 51.5,
+        "score": 51.8,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 9.64,
+            "input": 9.77,
             "unit": "pct",
-            "contribution": 19.3
+            "contribution": 19.5
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -0.98,
+            "input": -0.63,
             "unit": "pct",
             "contribution": 10.5
           },
@@ -210,9 +210,9 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 59.39,
+            "input": 59.65,
             "unit": "score",
-            "contribution": 5.9
+            "contribution": 6.0
           }
         ]
       },
@@ -224,7 +224,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -7.7,
+            "value": -7.83,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -232,7 +232,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "OK",
-            "value": 0.87,
+            "value": 0.86,
             "unit": "ratio",
             "message": "Current valuation sits within the company's historical P/E range."
           },
@@ -248,7 +248,7 @@
             "key": "yield_sanity",
             "label": "FCF yield",
             "status": "OK",
-            "value": 2.49,
+            "value": 2.5,
             "unit": "pct",
             "message": "Free cash flow yield provides a modest valuation anchor."
           },
@@ -256,7 +256,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "WARNING",
-            "value": 9.64,
+            "value": 9.77,
             "unit": "pct",
             "message": "Current price offers acceptable IRR."
           }
@@ -314,7 +314,7 @@
       "company": "Meta Platforms, Inc.",
       "currency": "USD",
       "sector": "TECH",
-      "price": 597.47,
+      "price": 597.71,
       "fair_value": 637.12,
       "p3_price_3y": 780.5,
       "business_score_synt": 88,
@@ -325,7 +325,7 @@
       "risk_score_synt": 87,
       "verdict_synt": "BUY",
       "net_debt": 2305.0,
-      "pe_now": 24.95,
+      "pe_now": 24.96,
       "analyst_rec": {
         "SB": 8,
         "B": 48,
@@ -333,22 +333,22 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 1508612,
+      "market_cap_m": 1509218,
       "composite": {
-        "score": 50.6,
+        "score": 50.5,
         "rating": "Neutral",
         "components": [
           {
             "key": "irr",
             "label": "IRR",
-            "input": 9.32,
+            "input": 9.3,
             "unit": "pct",
             "contribution": 18.6
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -1.85,
+            "input": -1.89,
             "unit": "pct",
             "contribution": 10.5
           },
@@ -362,7 +362,7 @@
           {
             "key": "quant",
             "label": "Quant",
-            "input": 59.57,
+            "input": 59.54,
             "unit": "score",
             "contribution": 6.0
           }
@@ -376,7 +376,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "OK",
-            "value": -2.26,
+            "value": -2.25,
             "unit": "pct",
             "message": "Current price reflects growth expectations broadly in line with analyst forecasts."
           },
@@ -408,7 +408,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "WARNING",
-            "value": 9.32,
+            "value": 9.3,
             "unit": "pct",
             "message": "Current price offers acceptable IRR."
           }
@@ -466,7 +466,7 @@
       "company": "Tesla, Inc.",
       "currency": "USD",
       "sector": "INDUSTRIAL",
-      "price": 418.12,
+      "price": 417.69,
       "fair_value": 249.55,
       "p3_price_3y": 338.99,
       "business_score_synt": 63,
@@ -477,7 +477,7 @@
       "risk_score_synt": 33,
       "verdict_synt": "AVOID",
       "net_debt": -35882.0,
-      "pe_now": 388.81,
+      "pe_now": 388.41,
       "analyst_rec": {
         "SB": 5,
         "B": 18,
@@ -485,7 +485,7 @@
         "S": 4,
         "SS": 3
       },
-      "market_cap_m": 1475127,
+      "market_cap_m": 1473610,
       "composite": {
         "score": 13.3,
         "rating": "Weak risk/reward",
@@ -493,14 +493,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -6.75,
+            "input": -6.72,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -39.09,
+            "input": -39.02,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -528,7 +528,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -12.97,
+            "value": -13.02,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -560,7 +560,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -6.75,
+            "value": -6.72,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -618,7 +618,7 @@
       "company": "Advanced Micro Devices, Inc.",
       "currency": "USD",
       "sector": "TECH",
-      "price": 437.0,
+      "price": 436.14,
       "fair_value": 333.53,
       "p3_price_3y": 408.58,
       "business_score_synt": 72,
@@ -629,7 +629,7 @@
       "risk_score_synt": 79,
       "verdict_synt": "RISK",
       "net_debt": -6705.0,
-      "pe_now": 166.86,
+      "pe_now": 166.53,
       "analyst_rec": {
         "SB": 5,
         "B": 36,
@@ -637,7 +637,7 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 712310,
+      "market_cap_m": 710908,
       "composite": {
         "score": 17.1,
         "rating": "Weak risk/reward",
@@ -645,14 +645,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -2.22,
+            "input": -2.15,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -29.75,
+            "input": -29.62,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -680,7 +680,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "GOOD",
-            "value": -24.63,
+            "value": -24.72,
             "unit": "pct",
             "message": "Current price reflects growth expectations well below analyst forecasts."
           },
@@ -688,7 +688,7 @@
             "key": "pe_vs_hist_ratio",
             "label": "P/E regime",
             "status": "BAD",
-            "value": 2.06,
+            "value": 2.05,
             "unit": "ratio",
             "message": "Current valuation sits well above the company's historical P/E range."
           },
@@ -712,7 +712,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -2.22,
+            "value": -2.15,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
@@ -770,7 +770,7 @@
       "company": "Apple Inc.",
       "currency": "USD",
       "sector": "TECH",
-      "price": 301.75,
+      "price": 301.93,
       "fair_value": 236.38,
       "p3_price_3y": 289.57,
       "business_score_synt": 90,
@@ -781,7 +781,7 @@
       "risk_score_synt": 82,
       "verdict_synt": "RISK",
       "net_debt": 43960.0,
-      "pe_now": 39.73,
+      "pe_now": 39.75,
       "analyst_rec": {
         "SB": 7,
         "B": 23,
@@ -789,7 +789,7 @@
         "S": 1,
         "SS": 1
       },
-      "market_cap_m": 4450209,
+      "market_cap_m": 4452864,
       "composite": {
         "score": 15.2,
         "rating": "Weak risk/reward",
@@ -797,14 +797,14 @@
           {
             "key": "irr",
             "label": "IRR",
-            "input": -1.36,
+            "input": -1.38,
             "unit": "pct",
             "contribution": 0.0
           },
           {
             "key": "mos",
             "label": "MOS",
-            "input": -27.9,
+            "input": -27.94,
             "unit": "pct",
             "contribution": 0.0
           },
@@ -832,7 +832,7 @@
             "key": "expectations_gap_pp",
             "label": "Expectations gap",
             "status": "BAD",
-            "value": 14.45,
+            "value": 14.47,
             "unit": "pct",
             "message": "Current price reflects growth expectations above analyst forecasts."
           },
@@ -864,7 +864,7 @@
             "key": "implied_irr_pct",
             "label": "Implied IRR",
             "status": "BAD",
-            "value": -1.36,
+            "value": -1.38,
             "unit": "pct",
             "message": "Current price implies negative IRR."
           }
