@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "feed_tier": "basic",
-  "generated_at": "2026-09-30T20:12:50.186587+00:00",
+  "generated_at": "2026-09-30T22:36:36",
   "model_version": "AIM 2.0",
   "source": "aim_batch_export",
   "tickers": [
@@ -10,7 +10,7 @@
       "company": "NVIDIA Corporation",
       "currency": "USD",
       "sector": "TECH",
-      "price": 224.51,
+      "price": 228.38,
       "fair_value": 258.98,
       "p3_price_3y": 304.1,
       "business_score_synt": 91,
@@ -21,7 +21,7 @@
       "risk_score_synt": 90,
       "verdict_synt": "STRONG",
       "net_debt": -54088.0,
-      "pe_now": 46.38,
+      "pe_now": 47.18,
       "analyst_rec": {
         "SB": 10,
         "B": 48,
@@ -29,9 +29,9 @@
         "S": 1,
         "SS": 0
       },
-      "market_cap_m": 5568746,
-      "peg_ratio": 1.12,
-      "FCF_yield": 1.74,
+      "market_cap_m": 5664738,
+      "peg_ratio": 1.14,
+      "FCF_yield": 1.71,
       "revenue": 215938.0,
       "debt_payback": "net cash",
       "roe": 0.8929,
@@ -48,17 +48,17 @@
         "financial_health": 97
       },
       "why": [
-        "Gross margin",
-        "Operating margin",
         "Revenue CAGR",
-        "Gross Margin",
-        "Oper Margin"
+        "ROIC adj",
+        "ROIC spread",
+        "Gross margin",
+        "Operating margin"
       ],
       "risks": [
         "Revenue volatility",
         "ROIC 5Y std",
         "Operating margin stability",
-        "Oper Margin Stability 5Y",
+        "Operating margin stability 5Y",
         "EV / NOPAT"
       ]
     },
@@ -67,7 +67,7 @@
       "company": "Microsoft Corporation",
       "currency": "USD",
       "sector": "TECH",
-      "price": 497.54,
+      "price": 512.9,
       "fair_value": 467.85,
       "p3_price_3y": 573.13,
       "business_score_synt": 85,
@@ -78,7 +78,7 @@
       "risk_score_synt": 86,
       "verdict_synt": "RISK",
       "net_debt": -36549.0,
-      "pe_now": 27.64,
+      "pe_now": 28.49,
       "analyst_rec": {
         "SB": 14,
         "B": 39,
@@ -86,9 +86,9 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 3696225,
-      "peg_ratio": 1.62,
-      "FCF_yield": 1.81,
+      "market_cap_m": 3810334,
+      "peg_ratio": 1.67,
+      "FCF_yield": 1.76,
       "revenue": 331839.0,
       "debt_payback": "net cash",
       "roe": 34.6333,
@@ -106,16 +106,16 @@
       },
       "why": [
         "Operating margin",
-        "Gross margin",
+        "ROIC adj",
         "ROIC 5Y avg",
-        "Oper Margin",
-        "Oper Margin Stability 5Y"
+        "Operating margin stability 5Y",
+        "Gross margin"
       ],
       "risks": [
-        "Growth Efficiency",
-        "Capex To Revenue",
-        "Capital Turnover",
-        "Cash Flow Cushion",
+        "Growth efficiency",
+        "CAPEX / Revenue",
+        "Capital turnover",
+        "Cash flow cushion",
         "Market Implied Growth"
       ]
     },
@@ -125,8 +125,8 @@
       "currency": "USD",
       "sector": "TECH",
       "price": 777.41,
-      "fair_value": 612.19,
-      "p3_price_3y": 749.95,
+      "fair_value": 602.51,
+      "p3_price_3y": 738.1,
       "business_score_synt": 88,
       "investor_score_synt": 70,
       "market_score_synt": 42,
@@ -137,10 +137,10 @@
       "net_debt": 2305.0,
       "pe_now": 32.47,
       "analyst_rec": {
-        "SB": 8,
-        "B": 46,
-        "H": 7,
-        "S": 1,
+        "SB": 9,
+        "B": 47,
+        "H": 6,
+        "S": 0,
         "SS": 0
       },
       "market_cap_m": 1962960,
@@ -162,15 +162,15 @@
         "financial_health": 89
       },
       "why": [
+        "ROIC 5Y avg",
         "Gross margin",
         "Operating margin",
-        "ROIC 5Y avg",
-        "Gross Margin",
-        "Oper Margin"
+        "Operating margin trend 3Y",
+        "Incremental ROIC"
       ],
       "risks": [
-        "Growth Efficiency",
-        "Capex To Revenue",
+        "Growth efficiency",
+        "CAPEX / Revenue",
         "PEG Ratio",
         "PE Relative",
         "Market Implied Growth"
@@ -182,14 +182,14 @@
       "currency": "USD",
       "sector": "INDUSTRIAL",
       "price": 378.49,
-      "fair_value": 249.19,
-      "p3_price_3y": 331.67,
+      "fair_value": 244.56,
+      "p3_price_3y": 332.22,
       "business_score_synt": 63,
-      "investor_score_synt": 66,
+      "investor_score_synt": 62,
       "market_score_synt": 32,
       "outlook_score_synt": 82,
       "return_score_synt": 82,
-      "risk_score_synt": 43,
+      "risk_score_synt": 33,
       "verdict_synt": "AVOID",
       "net_debt": -35882.0,
       "pe_now": 351.95,
@@ -221,16 +221,16 @@
       "why": [
         "Revenue CAGR",
         "ROIC 5Y avg",
-        "EBIT persistence",
-        "Asset Turnover",
-        "Oper Margin Stability 5Y"
+        "Revenue persistence",
+        "Asset turnover",
+        "Operating margin stability 5Y"
       ],
       "risks": [
-        "EBIT CAGR",
         "ROIC spread",
+        "EBIT CAGR",
         "Revenue/EBIT divergence",
-        "Oper Margin",
-        "Oper Margin Trend 3Y"
+        "Operating margin",
+        "Incremental ROIC"
       ]
     },
     {
@@ -238,9 +238,9 @@
       "company": "Advanced Micro Devices, Inc.",
       "currency": "USD",
       "sector": "TECH",
-      "price": 629.78,
-      "fair_value": 509.78,
-      "p3_price_3y": 624.5,
+      "price": 611.76,
+      "fair_value": 508.96,
+      "p3_price_3y": 623.5,
       "business_score_synt": 72,
       "investor_score_synt": 88,
       "market_score_synt": 38,
@@ -249,7 +249,7 @@
       "risk_score_synt": 72,
       "verdict_synt": "RISK",
       "net_debt": -6705.0,
-      "pe_now": 240.46,
+      "pe_now": 233.58,
       "analyst_rec": {
         "SB": 5,
         "B": 39,
@@ -257,9 +257,9 @@
         "S": 0,
         "SS": 0
       },
-      "market_cap_m": 1026541,
-      "peg_ratio": 2.92,
-      "FCF_yield": 0.65,
+      "market_cap_m": 997169,
+      "peg_ratio": 2.83,
+      "FCF_yield": 0.67,
       "revenue": 34639.0,
       "debt_payback": "net cash",
       "roe": 7.1533,
@@ -278,16 +278,16 @@
       "why": [
         "Revenue CAGR",
         "ROIC 5Y avg",
-        "EBIT persistence",
-        "Oper Margin Trend 3Y",
+        "Gross margin stability",
+        "Operating margin trend 3Y",
         "Incremental ROIC"
       ],
       "risks": [
         "ROIC spread",
         "ROIC 5Y std",
-        "Oper Margin",
-        "Growth Efficiency",
-        "Capital Turnover"
+        "Operating margin",
+        "Growth efficiency",
+        "Capital turnover"
       ]
     },
     {
@@ -333,17 +333,17 @@
         "financial_health": 81
       },
       "why": [
-        "Operating margin",
-        "ROIC 5Y avg",
         "ROIC adj",
+        "ROIC spread",
+        "ROIC 5Y avg",
         "ROIC",
-        "Oper Margin Stability 5Y"
+        "Operating margin stability 5Y"
       ],
       "risks": [
-        "Growth Efficiency",
-        "Working Capital Ratio",
-        "Working Capital",
-        "Debt To Capital",
+        "Growth efficiency",
+        "Working capital / Revenue",
+        "Working capital",
+        "Debt / Capital",
         "FCF Yield"
       ]
     }
